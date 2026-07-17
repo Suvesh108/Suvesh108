@@ -15,24 +15,6 @@ jobs:
       - name: Checkout profile repo
         uses: actions/checkout@v4
 
-      - name: Clone isometric generator tool
-        run: git clone https://github.com/Spectrewolf8/isometric-contributions-embeds.git generator-tool
-
-      - name: Patch generator tool CLI bugs
-        run: |
-          node -e '
-          const fs = require("fs");
-          let content = fs.readFileSync("generator-tool/generate.js", "utf8");
-          content = content.replace("import { writeFileSync } from \"node:fs\";", "import { writeFileSync } from \"node:fs\";\nimport { setTheme } from \"./src/renderer.js\";\nimport { getTheme } from \"./src/theme-config.js\";");
-          content = content.replace("Number.parseInt(args[1], 10)", "(args[1] === \"none\" ? null : Number.parseInt(args[1], 10))");
-          content = content.replace("async function main() {", "async function main() {\n  const themeIndex = args.indexOf(\"--theme\");\n  const themeName = themeIndex >= 0 && args[themeIndex + 1] ? args[themeIndex + 1] : \"github\";\n  setTheme(getTheme(themeName));");
-          if (!content.includes("getTheme") || !content.includes("=== \"none\"") || !content.includes("themeIndex")) {
-            throw new Error("Patch failed to apply successfully!");
-          }
-          fs.writeFileSync("generator-tool/generate.js", content, "utf8");
-          console.log("✓ Patch applied successfully");
-          '
-
       - name: Install system dependencies
         run: |
           sudo apt-get update
@@ -40,7 +22,7 @@ jobs:
 
       - name: Install dependencies
         run: |
-          cd generator-tool
+          cd scripts/isometric-generator
           npm install-scripts approve canvas || true
           npm install
           npm rebuild canvas
@@ -49,8 +31,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          cd generator-tool
-          npm run generate -- ${{ github.repository_owner }} none ../isometric-profile.png --theme light --stats --credit
+          cd scripts/isometric-generator
+          node generate.js ${{ github.repository_owner }} none ../../isometric-profile.png --theme light --stats --credit
 
       - name: Commit and Push
         run: |
