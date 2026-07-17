@@ -122,7 +122,7 @@
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://raw.githubusercontent.com/suvesh108/suvesh108/output/snake.svg" alt="Snake Animation" width="100%"/>
+        <img src="https://raw.githubusercontent.com/suvesh108/suvesh108/output/snake.svg?v=2" alt="Snake Animation" width="100%"/>
       </td>
     </tr>
   </table>
