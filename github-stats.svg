@@ -22,7 +22,7 @@
     <text x="140" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">0</text>
     
     <text x="0" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">📝 Commits (Year):</text>
-    <text x="140" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">42</text>
+    <text x="140" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">43</text>
   </g>
   
   <!-- Row 2: Forks & Pull Requests -->
@@ -40,6 +40,6 @@
     <text x="140" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">0</text>
     
     <text x="0" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">👥 Followers:</text>
-    <text x="140" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">0</text>
+    <text x="140" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">1</text>
   </g>
 </svg>
