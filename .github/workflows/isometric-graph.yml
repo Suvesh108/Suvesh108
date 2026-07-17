@@ -15,11 +15,8 @@ jobs:
       - name: Checkout profile repo
         uses: actions/checkout@v4
 
-      - name: Checkout isometric generator tool
-        uses: actions/checkout@v4
-        with:
-          repository: Spectrewolf8/isometric-contributions-embeds
-          path: generator-tool
+      - name: Clone isometric generator tool
+        run: git clone https://github.com/Spectrewolf8/isometric-contributions-embeds.git generator-tool
 
       - name: Install dependencies
         run: |
