@@ -18,10 +18,17 @@ jobs:
       - name: Clone isometric generator tool
         run: git clone https://github.com/Spectrewolf8/isometric-contributions-embeds.git generator-tool
 
+      - name: Install system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev
+
       - name: Install dependencies
         run: |
           cd generator-tool
+          npm install-scripts approve canvas || true
           npm install
+          npm rebuild canvas
 
       - name: Generate isometric graph
         env:
