@@ -129,14 +129,30 @@ async function main() {
     
     console.log(`Aggregated stats: Stars=${totalStars}, Commits=${commits}, PRs=${prs}, Followers=${followers}`);
     
+    // SVG Glow Filter definition
+    const svgGlowFilter = `
+  <defs>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>`;
+
     // 1. Generate Stats Card SVG
     const statsSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="100%" height="100%">
-  <rect width="100%" height="100%" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1.5" />
+  ${svgGlowFilter}
   
-  <text x="25" y="35" font-family="Segoe UI, -apple-system, sans-serif" font-size="15" font-weight="bold" fill="#ac4d19">📊 GLOBAL METRICS</text>
+  <!-- Outer glowing border and background -->
+  <rect width="476" height="216" x="2" y="2" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1.5" filter="url(#neonGlow)" />
+  <rect width="476" height="216" x="2" y="2" fill="#181816" rx="8" stroke="#040302" stroke-width="1" />
+  
+  <text x="25" y="38" font-family="Segoe UI, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#ac4d19" letter-spacing="1">📊 GLOBAL METRICS</text>
   
   <!-- Row 1: Stars & Commits -->
-  <g transform="translate(25, 60)">
+  <g transform="translate(25, 65)">
     <text x="0" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">⭐ Total Stars:</text>
     <text x="140" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">${totalStars}</text>
     
@@ -145,7 +161,7 @@ async function main() {
   </g>
   
   <!-- Row 2: Forks & Pull Requests -->
-  <g transform="translate(240, 60)">
+  <g transform="translate(240, 65)">
     <text x="0" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">🍴 Total Forks:</text>
     <text x="140" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">${totalForks}</text>
     
@@ -154,7 +170,7 @@ async function main() {
   </g>
   
   <!-- Row 3: Issues & Followers -->
-  <g transform="translate(25, 140)">
+  <g transform="translate(25, 145)">
     <text x="0" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">🪲 Total Issues:</text>
     <text x="140" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">${issues}</text>
     
@@ -166,29 +182,33 @@ async function main() {
     // 2. Generate Top Languages SVG
     let langRows = '';
     sortedLanguages.forEach((lang, i) => {
-      const y = 65 + i * 30;
-      const barWidth = Math.round(Number(lang.percentage) * 1.8); // Scale to fit max width 180px
+      const y = 65 + i * 28;
+      const barWidth = Math.round(Number(lang.percentage) * 2.0); // Scale to fit max width 200px
       langRows += `
   <g transform="translate(25, ${y})">
     <text x="0" y="10" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#b3aca7">${lang.name}</text>
     <text x="170" y="10" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#b3aca7" text-anchor="end">${lang.percentage}%</text>
     
     <!-- Progress Bar -->
-    <rect x="190" y="1" width="220" height="8" fill="#181816" rx="4" stroke="#4d2715" stroke-width="1"/>
-    <rect x="190" y="1" width="${barWidth * 1.2}" height="8" fill="${lang.color}" rx="4" />
+    <rect x="190" y="1" width="220" height="8" fill="#040302" rx="4" />
+    <rect x="190" y="1" width="${barWidth}" height="8" fill="${lang.color}" rx="4" filter="url(#neonGlow)" />
+    <rect x="190" y="1" width="${barWidth}" height="8" fill="${lang.color}" rx="4" />
   </g>`;
     });
 
     const langSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="100%" height="100%">
-  <rect width="100%" height="100%" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1.5" />
+  ${svgGlowFilter}
   
-  <text x="25" y="35" font-family="Segoe UI, -apple-system, sans-serif" font-size="15" font-weight="bold" fill="#ac4d19">🎨 TOP LANGUAGES</text>
+  <!-- Outer glowing border and background -->
+  <rect width="476" height="216" x="2" y="2" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1.5" filter="url(#neonGlow)" />
+  <rect width="476" height="216" x="2" y="2" fill="#181816" rx="8" stroke="#040302" stroke-width="1" />
+  
+  <text x="25" y="38" font-family="Segoe UI, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#ac4d19" letter-spacing="1">🎨 TOP LANGUAGES</text>
   
   ${langRows}
 </svg>`;
 
     // 3. Generate Achievements SVG (Trophy Cabinet replacement)
-    // Dynamic Badges based on achievements
     const badges = [];
     if (commits > 100) badges.push({ emoji: "🚀", title: "Code Specialist", desc: `${commits}+ Commits` });
     else badges.push({ emoji: "🌱", title: "Rising coder", desc: "Building core skills" });
@@ -204,12 +224,13 @@ async function main() {
 
     let badgeBlocks = '';
     badges.forEach((badge, i) => {
-      const x = 20 + i * 240;
+      const x = 20 + i * 238;
       badgeBlocks += `
     <!-- Badge ${i + 1} -->
     <g transform="translate(${x}, 45)">
-      <!-- Pill Container -->
-      <rect width="220" height="60" fill="#0d1117" rx="8" stroke="#ac4d19" stroke-width="1" />
+      <!-- Pill Container with neon glow border -->
+      <rect width="222" height="60" fill="#040302" rx="8" stroke="#ac4d19" stroke-width="1" filter="url(#neonGlow)" />
+      <rect width="222" height="60" fill="#040302" rx="8" stroke="#181816" stroke-width="1" />
       <text x="15" y="38" font-size="24">${badge.emoji}</text>
       <text x="55" y="25" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ac4d19">${badge.title}</text>
       <text x="55" y="43" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#b3aca7">${badge.desc}</text>
@@ -217,9 +238,13 @@ async function main() {
     });
 
     const achievementsSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 130" width="100%" height="100%">
-  <rect width="100%" height="100%" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1.5" />
+  ${svgGlowFilter}
   
-  <text x="20" y="25" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ac4d19">🏆 TROPHY CABINET &amp; ACHIEVEMENTS</text>
+  <!-- Outer glowing border and background -->
+  <rect width="976" height="126" x="2" y="2" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1.5" filter="url(#neonGlow)" />
+  <rect width="976" height="126" x="2" y="2" fill="#181816" rx="8" stroke="#040302" stroke-width="1" />
+  
+  <text x="20" y="25" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ac4d19" letter-spacing="1">🏆 TROPHY CABINET &amp; ACHIEVEMENTS</text>
   
   ${badgeBlocks}
 </svg>`;
@@ -228,7 +253,7 @@ async function main() {
     fs.writeFileSync('top-languages.svg', langSvg, 'utf8');
     fs.writeFileSync('github-achievements.svg', achievementsSvg, 'utf8');
     
-    console.log("✓ Successfully generated github-stats.svg, top-languages.svg, and github-achievements.svg!");
+    console.log("✓ Successfully generated glowing stats, languages, and achievements SVGs!");
     
   } catch (error) {
     console.error("Error generating stats:", error);

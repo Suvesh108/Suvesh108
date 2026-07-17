@@ -138,8 +138,19 @@ async function main() {
     const offsetY = 120;
     
     let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${svgWidth} ${svgHeight}" width="100%" height="100%">
-  <!-- Background -->
-  <rect width="100%" height="100%" fill="#0d1117" rx="12" />
+  <defs>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Outer glowing border and background -->
+  <rect width="${svgWidth - 4}" height="${svgHeight - 4}" x="2" y="2" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1.5" filter="url(#neonGlow)" />
+  <rect width="${svgWidth - 4}" height="${svgHeight - 4}" x="2" y="2" fill="#181816" rx="8" stroke="#040302" stroke-width="1" />
   
   <!-- Header Text -->
   <text x="40" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#ac4d19">${username}'s 3D Contribution Skyline</text>
@@ -185,7 +196,8 @@ async function main() {
     svgContent += `
   <!-- Stats Panel (Top Right Corner) -->
   <g transform="translate(730, 80)">
-    <rect width="280" height="150" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1" />
+    <rect width="280" height="150" fill="#040302" rx="8" stroke="#ac4d19" stroke-width="1" filter="url(#neonGlow)" />
+    <rect width="280" height="150" fill="#040302" rx="8" stroke="#181816" stroke-width="1" />
     <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ac4d19">📊 CONTRIBUTION STATS</text>
     
     <text x="20" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">Total Contributions:</text>
@@ -205,7 +217,8 @@ async function main() {
     svgContent += `
   <!-- Weekday Activity Chart (Bottom Left Corner) -->
   <g transform="translate(40, 410)">
-    <rect width="280" height="180" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1" />
+    <rect width="280" height="180" fill="#040302" rx="8" stroke="#ac4d19" stroke-width="1" filter="url(#neonGlow)" />
+    <rect width="280" height="180" fill="#040302" rx="8" stroke="#181816" stroke-width="1" />
     <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ac4d19">📅 WEEKDAY ACTIVITY</text>`;
     
     weekdayCounts.forEach((count, i) => {
