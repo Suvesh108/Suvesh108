@@ -28,7 +28,9 @@
   <img src="./isometric-profile.svg" alt="3D Isometric Contribution Graph" width="100%"/>
 </div>
 
-<br/><!-- About me and quick config side-by-side -->
+<br/>
+
+<!-- About me and quick config side-by-side -->
 <table>
   <tr>
     <td width="50%" valign="top">
@@ -84,27 +86,27 @@
 <div align="center">
   <table>
     <tr>
-      <td>
-        <a href="https://github.com/suvesh108/awesome-project">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=awesome-project&hide_border=true&bg_color=181816&title_color=ac4d19&text_color=b3aca7&icon_color=ac4d19" width="400" alt="Awesome Project"/>
-        </a>
+      <td width="50%" valign="top">
+        <h4>🎬 <a href="https://github.com/Suvesh108/FilmFlux-AI">FilmFlux-AI</a></h4>
+        <p>An AI-powered cinema platform for discovering, filtering, and generating personalized movie recommendations.</p>
+        <code>Next.js</code> <code>TypeScript</code> <code>Tailwind</code> <code>Gemini AI</code>
       </td>
-      <td>
-        <a href="https://github.com/suvesh108/open-source-tool">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=open-source-tool&hide_border=true&bg_color=181816&title_color=ac4d19&text_color=b3aca7&icon_color=ac4d19" width="400" alt="Open Source Tool"/>
-        </a>
+      <td width="50%" valign="top">
+        <h4>🔍 <a href="https://github.com/Suvesh108/Lumina-Search">Lumina-Search</a></h4>
+        <p>A fast, semantic search engine built for indexing and querying technical documentation with instant response times.</p>
+        <code>Go</code> <code>Rust</code> <code>REST API</code> <code>Markdown</code>
       </td>
     </tr>
     <tr>
-      <td>
-        <a href="https://github.com/suvesh108/portfolio">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=portfolio&hide_border=true&bg_color=181816&title_color=ac4d19&text_color=b3aca7&icon_color=ac4d19" width="400" alt="Portfolio"/>
-        </a>
+      <td width="50%" valign="top">
+        <h4>🧠 <a href="https://github.com/Suvesh108/ai-quiz-generator">AI-Quiz-Generator</a></h4>
+        <p>Interactive web application that automatically generates comprehensive educational quizzes from any text prompt.</p>
+        <code>Python</code> <code>React</code> <code>GraphQL</code> <code>OpenAI</code>
       </td>
-      <td>
-        <a href="https://github.com/suvesh108/learning-notes">
-          <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=learning-notes&hide_border=true&bg_color=181816&title_color=ac4d19&text_color=b3aca7&icon_color=ac4d19" width="400" alt="Learning Notes"/>
-        </a>
+      <td width="50%" valign="top">
+        <h4>🛡️ <a href="https://github.com/Suvesh108/NetPulse">NetPulse</a></h4>
+        <p>A lightweight, native system utility for monitoring active network performance and server ping latency stats.</p>
+        <code>Rust</code> <code>System API</code> <code>Go</code> <code>CLI</code>
       </td>
     </tr>
   </table>
@@ -117,26 +119,16 @@
 <div align="center">
   <table>
     <tr>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api?username=suvesh108&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&bg_color=181816&title_color=ac4d19&icon_color=ac4d19&text_color=b3aca7" width="380" alt="GitHub Stats"/>
+      <td width="50%" align="center">
+        <img src="./github-stats.svg" alt="GitHub Stats" width="100%"/>
       </td>
-      <td>
-        <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suvesh108&hide_border=true&layout=donut&langs_count=8&bg_color=181816&title_color=ac4d19&text_color=b3aca7" width="380" alt="Top Languages"/>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://github-readme-streak-stats.herokuapp.com/?user=suvesh108&hide_border=true&background=181816&ring=ac4d19&fire=ac4d19&currStreakLabel=ac4d19&currStreakVal=b3aca7&sideNums=b3aca7&sideLabels=b3aca7" width="760" alt="GitHub Streak"/>
+      <td width="50%" align="center">
+        <img src="./top-languages.svg" alt="Top Languages" width="100%"/>
       </td>
     </tr>
     <tr>
       <td colspan="2" align="center">
-        <img src="https://github-readme-activity-graph.vercel.app/graph?username=suvesh108&custom_title=Contribution%20Graph&bg_color=181816&color=b3aca7&line=ac4d19&point=b3aca7&area=true&hide_border=true" width="760" alt="Contribution Graph"/>
-      </td>
-    </tr>
-    <tr>
-      <td colspan="2" align="center">
-        <img src="https://raw.githubusercontent.com/suvesh108/suvesh108/output/snake.svg" alt="Snake Animation" width="760"/>
+        <img src="https://raw.githubusercontent.com/suvesh108/suvesh108/output/snake.svg" alt="Snake Animation" width="100%"/>
       </td>
     </tr>
   </table>
@@ -147,7 +139,7 @@
 <!-- Trophy Case -->
 <h3>🏆 Trophy Cabinet</h3>
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=suvesh108&theme=gruvbox&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" width="100%" alt="Trophies"/>
+  <img src="./github-achievements.svg" width="100%" alt="Trophies"/>
 </div>
 
 <br/>

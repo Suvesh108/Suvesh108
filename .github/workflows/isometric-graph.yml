@@ -15,21 +15,22 @@ jobs:
       - name: Checkout profile repo
         uses: actions/checkout@v4
 
-      - name: Generate 3D isometric graph
+      - name: Generate 3D isometric graph and stats
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           node scripts/generate-3d-contrib.js ${{ github.repository_owner }} isometric-profile.svg
+          node scripts/generate-stats.js ${{ github.repository_owner }}
 
       - name: Commit and Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add isometric-profile.svg
+          git add isometric-profile.svg github-stats.svg top-languages.svg github-achievements.svg
           if ! git diff --quiet --cached; then
-            git commit -m "⚡ Generated 3D Isometric Contribution Graph"
+            git commit -m "⚡ Generated 3D Isometric Contribution Graph and Stats Cards"
             git pull --rebase origin main
             git push origin main
           else
-            echo "No changes to the contribution graph. Skipping push."
+            echo "No changes to the contribution graph or stats. Skipping push."
           fi
