@@ -18,6 +18,17 @@ jobs:
       - name: Clone isometric generator tool
         run: git clone https://github.com/Spectrewolf8/isometric-contributions-embeds.git generator-tool
 
+      - name: Patch generator tool CLI bugs
+        run: |
+          node -e '
+          const fs = require("fs");
+          let content = fs.readFileSync("generator-tool/generate.js", "utf8");
+          content = content.replace(/exportToPNG,?\s*} from "\.\/src\/renderer\.js";/, "exportToPNG,\n  setTheme,\n} from \"./src/renderer.js\";\nimport { getTheme } from \"./src/theme-config.js\";");
+          content = content.replace(/const year\s*=\s*args\[1\]\s*&&\s*!args\[1\]\.startsWith\("--"\)\s*\?\s*Number\.parseInt\(args\[1\],\s*10\)\s*:\s*null;/, "const yearVal = args[1] && !args[1].startsWith(\"--\") ? args[1] : null;\nconst year = (yearVal === \"none\" || !yearVal) ? null : Number.parseInt(yearVal, 10);\nconst themeIndex = args.indexOf(\"--theme\");\nconst themeName = themeIndex >= 0 && args[themeIndex + 1] ? args[themeIndex + 1] : \"github\";\nsetTheme(getTheme(themeName));");
+          fs.writeFileSync("generator-tool/generate.js", content, "utf8");
+          console.log("✓ Patch applied successfully");
+          '
+
       - name: Install system dependencies
         run: |
           sudo apt-get update
