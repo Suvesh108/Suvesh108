@@ -1,6 +1,6 @@
 import fs from 'node:fs';
 
-const username = process.argv[2] || 'test-user';
+const username = process.argv[2] || 'Suvesh108';
 const outputFile = process.argv[3] || 'isometric-profile.svg';
 const isMock = process.argv[4] === 'mock';
 
@@ -140,7 +140,7 @@ async function main() {
     let svgContent = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${svgWidth} ${svgHeight}" width="100%" height="100%">
   <defs>
     <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2.5" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -148,23 +148,23 @@ async function main() {
     </filter>
   </defs>
 
-  <!-- Outer glowing border and background -->
-  <rect width="${svgWidth - 4}" height="${svgHeight - 4}" x="2" y="2" fill="#0f172a" rx="8" stroke="#06b6d4" stroke-width="1.5" filter="url(#neonGlow)" />
-  <rect width="${svgWidth - 4}" height="${svgHeight - 4}" x="2" y="2" fill="#0f172a" rx="8" stroke="#0b0f19" stroke-width="1" />
+  <!-- Outer glowing border and background (Emerald Slate Theme) -->
+  <rect width="${svgWidth - 4}" height="${svgHeight - 4}" x="2" y="2" fill="#0b0f19" rx="8" stroke="#10b981" stroke-width="1.2" filter="url(#neonGlow)" />
+  <rect width="${svgWidth - 4}" height="${svgHeight - 4}" x="2" y="2" fill="#0b0f19" rx="8" stroke="#1e293b" stroke-width="1" />
   
   <!-- Header Text -->
-  <text x="40" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#06b6d4">${username}'s 3D Contribution Skyline</text>
+  <text x="40" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#10b981">${username}'s 3D Contribution Skyline</text>
   <text x="40" y="70" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Last 365 days: ${calendar.totalContributions} contributions</text>
   
   <!-- Isometric Grid -->
   <g>`;
     
     function getCubeDetails(count) {
-      if (count === 0) return { height: 4, color: "#1e293b" };
-      if (count <= 3) return { height: 12, color: "#164e63" };
-      if (count <= 6) return { height: 22, color: "#0e7490" };
-      if (count <= 9) return { height: 32, color: "#0891b2" };
-      return { height: 44, color: "#06b6d4" };
+      if (count === 0) return { height: 4, color: "#1e293b" }; // slate
+      if (count <= 3) return { height: 12, color: "#064e3b" }; // dark emerald
+      if (count <= 6) return { height: 22, color: "#047857" }; // emerald 700
+      if (count <= 9) return { height: 32, color: "#059669" }; // emerald 600
+      return { height: 44, color: "#10b981" }; // emerald 500
     }
     
     for (let c = 0; c < 53; c++) {
@@ -173,7 +173,6 @@ async function main() {
         const count = dayData ? dayData.count : 0;
         const { height, color } = getCubeDetails(count);
         
-        // Extended width: horizontal step is 16 pixels per week (increased from 14)
         const cx = offsetX + (c - r) * 16 + 120;
         const cy = offsetY + (c + r) * 8 + 50;
         
@@ -196,9 +195,9 @@ async function main() {
     svgContent += `
   <!-- Stats Panel (Top Right Corner) -->
   <g transform="translate(730, 80)">
-    <rect width="280" height="150" fill="#0b0f19" rx="8" stroke="#06b6d4" stroke-width="1" filter="url(#neonGlow)" />
-    <rect width="280" height="150" fill="#0b0f19" rx="8" stroke="#0f172a" stroke-width="1" />
-    <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#06b6d4">📊 CONTRIBUTION STATS</text>
+    <rect width="280" height="150" fill="#0f172a" rx="8" stroke="#10b981" stroke-width="1" filter="url(#neonGlow)" />
+    <rect width="280" height="150" fill="#0f172a" rx="8" stroke="#1e293b" stroke-width="1" />
+    <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#10b981">📊 CONTRIBUTION STATS</text>
     
     <text x="20" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Total Contributions:</text>
     <text x="200" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">${calendar.totalContributions}</text>
@@ -217,9 +216,9 @@ async function main() {
     svgContent += `
   <!-- Weekday Activity Chart (Bottom Left Corner) -->
   <g transform="translate(40, 410)">
-    <rect width="280" height="180" fill="#0b0f19" rx="8" stroke="#06b6d4" stroke-width="1" filter="url(#neonGlow)" />
-    <rect width="280" height="180" fill="#0b0f19" rx="8" stroke="#0f172a" stroke-width="1" />
-    <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#06b6d4">📅 WEEKDAY ACTIVITY</text>`;
+    <rect width="280" height="180" fill="#0f172a" rx="8" stroke="#10b981" stroke-width="1" filter="url(#neonGlow)" />
+    <rect width="280" height="180" fill="#0f172a" rx="8" stroke="#1e293b" stroke-width="1" />
+    <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#10b981">📅 WEEKDAY ACTIVITY</text>`;
     
     weekdayCounts.forEach((count, i) => {
       const barHeight = Math.round((count / maxWeekdayCount) * 80);
@@ -227,8 +226,8 @@ async function main() {
       const barY = 135 - barHeight;
       svgContent += `
     <!-- Bar for ${weekdayNames[i]} -->
-    <rect x="${barX}" y="${barY}" width="16" height="${barHeight}" fill="#8b5cf6" rx="2" filter="url(#neonGlow)" />
-    <rect x="${barX}" y="${barY}" width="16" height="${barHeight}" fill="#8b5cf6" rx="2" />
+    <rect x="${barX}" y="${barY}" width="16" height="${barHeight}" fill="#0d9488" rx="2" filter="url(#neonGlow)" />
+    <rect x="${barX}" y="${barY}" width="16" height="${barHeight}" fill="#0d9488" rx="2" />
     <text x="${barX + 8}" y="152" font-family="Segoe UI, -apple-system, sans-serif" font-size="10" fill="#cbd5e1" text-anchor="middle">${weekdayNames[i][0]}</text>
     <text x="${barX + 8}" y="${barY - 5}" font-family="Segoe UI, -apple-system, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">${count}</text>`;
     });
@@ -255,37 +254,37 @@ async function main() {
     
     <!-- Level 1 -->
     <g transform="translate(70, -3)">
-      <polygon points="10,0 20,5 10,10 0,5" fill="#164e63" />
-      <polygon points="0,5 10,10 10,18 0,13" fill="#164e63" />
+      <polygon points="10,0 20,5 10,10 0,5" fill="#064e3b" />
+      <polygon points="0,5 10,10 10,18 0,13" fill="#064e3b" />
       <polygon points="0,5 10,10 10,18 0,13" fill="#000000" opacity="0.15" />
-      <polygon points="10,10 20,5 20,13 10,18" fill="#164e63" />
+      <polygon points="10,10 20,5 20,13 10,18" fill="#064e3b" />
       <polygon points="10,10 20,5 20,13 10,18" fill="#000000" opacity="0.30" />
     </g>
 
     <!-- Level 2 -->
     <g transform="translate(100, -13)">
-      <polygon points="10,0 20,5 10,10 0,5" fill="#0e7490" />
-      <polygon points="0,5 10,10 10,28 0,23" fill="#0e7490" />
+      <polygon points="10,0 20,5 10,10 0,5" fill="#047857" />
+      <polygon points="0,5 10,10 10,28 0,23" fill="#047857" />
       <polygon points="0,5 10,10 10,28 0,23" fill="#000000" opacity="0.15" />
-      <polygon points="10,10 20,5 20,23 10,28" fill="#0e7490" />
+      <polygon points="10,10 20,5 20,23 10,28" fill="#047857" />
       <polygon points="10,10 20,5 20,23 10,28" fill="#000000" opacity="0.30" />
     </g>
 
     <!-- Level 3 -->
     <g transform="translate(130, -23)">
-      <polygon points="10,0 20,5 10,10 0,5" fill="#0891b2" />
-      <polygon points="0,5 10,10 10,38 0,33" fill="#0891b2" />
+      <polygon points="10,0 20,5 10,10 0,5" fill="#059669" />
+      <polygon points="0,5 10,10 10,38 0,33" fill="#059669" />
       <polygon points="0,5 10,10 10,38 0,33" fill="#000000" opacity="0.15" />
-      <polygon points="10,10 20,5 20,33 10,38" fill="#0891b2" />
+      <polygon points="10,10 20,5 20,33 10,38" fill="#059669" />
       <polygon points="10,10 20,5 20,33 10,38" fill="#000000" opacity="0.30" />
     </g>
 
     <!-- Level 4 -->
     <g transform="translate(160, -35)">
-      <polygon points="10,0 20,5 10,10 0,5" fill="#06b6d4" />
-      <polygon points="0,5 10,10 10,50 0,45" fill="#06b6d4" />
+      <polygon points="10,0 20,5 10,10 0,5" fill="#10b981" />
+      <polygon points="0,5 10,10 10,50 0,45" fill="#10b981" />
       <polygon points="0,5 10,10 10,50 0,45" fill="#000000" opacity="0.15" />
-      <polygon points="10,10 20,5 20,45 10,50" fill="#06b6d4" />
+      <polygon points="10,10 20,5 20,45 10,50" fill="#10b981" />
       <polygon points="10,10 20,5 20,45 10,50" fill="#000000" opacity="0.30" />
     </g>
     

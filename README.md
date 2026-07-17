@@ -1,24 +1,18 @@
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,50:06b6d4,100:8b5cf6&height=220&section=header&text=Suvesh%20Kumar&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%E2%80%A2%20Cloud%20Enthusiast&descAlignY=60&descSize=16" width="100%"/>
-</div>
-
-<!-- Typing intro -->
-<div align="center">
-  <a href="https://github.com/suvesh108">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=800&color=06b6d4&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Suvesh+Kumar+%F0%9F%91%8B;I+craft+scalable+web+experiences;I+turn+coffee+into+clean+code+%E2%98%95;Always+building.+Always+learning." alt="Typing SVG"/>
-  </a>
-</div>
+<h1 align="center">Suvesh Kumar</h1>
+<p align="center">
+  <b>Senior Full Stack Engineer &amp; Cloud Architect</b><br/>
+  <i>Specializing in cloud-native microservices, high-performance API design, and systems automation.</i>
+</p>
 
 <!-- Social badges -->
-<div align="center">
-  <a href="https://suvesh.io"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=safari&logoColor=06b6d4"/></a>
-  <a href="https://linkedin.com/in/suvesh108"><img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=06b6d4"/></a>
-  <a href="mailto:suvesh108@email.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=06b6d4"/></a>
-  <a href="https://twitter.com/suvesh108"><img src="https://img.shields.io/badge/X-0f172a?style=for-the-badge&logo=x&logoColor=06b6d4"/></a>
-  <a href="https://dev.to/suvesh108"><img src="https://img.shields.io/badge/Dev.to-0f172a?style=for-the-badge&logo=devdotto&logoColor=06b6d4"/></a>
+<p align="center">
+  <a href="https://suvesh.io"><img src="https://img.shields.io/badge/Portfolio-0b0f19?style=for-the-badge&logo=safari&logoColor=10b981"/></a>
+  <a href="https://linkedin.com/in/suvesh108"><img src="https://img.shields.io/badge/LinkedIn-0b0f19?style=for-the-badge&logo=linkedin&logoColor=10b981"/></a>
+  <a href="mailto:suvesh108@email.com"><img src="https://img.shields.io/badge/Email-0b0f19?style=for-the-badge&logo=gmail&logoColor=10b981"/></a>
+  <a href="https://twitter.com/suvesh108"><img src="https://img.shields.io/badge/X-0b0f19?style=for-the-badge&logo=x&logoColor=10b981"/></a>
   <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=suvesh108&label=Profile+Views&color=06b6d4&style=for-the-badge&labelColor=0f172a" alt="Profile Views"/>
-</div>
+  <img src="https://komarev.com/ghpvc/?username=suvesh108&label=Profile+Views&color=10b981&style=flat-square&labelColor=0b0f19" alt="Profile Views"/>
+</p>
 
 <br/>
 
@@ -33,10 +27,10 @@
 <!-- About me and quick config side-by-side -->
 <table>
   <tr>
-    <td width="50%" valign="top">
-      <h3>🚀 About Me</h3>
+    <td width="55%" valign="top">
+      <h3>🚀 Executive Summary</h3>
       <p>
-        I am a passionate <b>Full Stack Developer</b> and <b>Cloud Enthusiast</b> based in India 🇮🇳. With a BTech in Computer Science, I specialize in building high-performance web applications, cloud-native deployments, and server-side automation.
+        I am a software engineer focused on building highly scalable, distributed backends, clean APIs, and cloud-native automations. I prioritize native platform capabilities and clean engineering over heavy frameworks.
       </p>
       <p>
         ⚡ <i>"Ship fast. Learn faster."</i>
@@ -46,12 +40,12 @@
         <b>Fun Fact:</b> I automate everything I do more than twice!
       </p>
     </td>
-    <td width="50%" valign="top">
-      <h3>🛠️ Info & System Config</h3>
+    <td width="45%" valign="top">
+      <h3>🛠️ Core Competencies</h3>
       <ul>
-        <li><b>Role:</b> Full Stack Developer</li>
-        <li><b>Stack Focus:</b> Cloud, System Design, Web Dev</li>
-        <li><b>Core languages:</b> TypeScript, Python, Go, Rust</li>
+        <li><b>Systems &amp; Backend:</b> Go • Node.js • Rust • Python</li>
+        <li><b>Data &amp; Ops:</b> Postgres • Redis • Docker • Kubernetes</li>
+        <li><b>Architecture:</b> Microservices • gRPC • GraphQL</li>
         <li><b>Philosophy:</b> Native features before dependencies</li>
       </ul>
     </td>
@@ -73,7 +67,7 @@
       <td><img src="https://skillicons.dev/icons?i=nodejs,python,go,rust,graphql,postgres,mongodb,redis&theme=dark"/></td>
     </tr>
     <tr>
-      <td align="center"><b>DevOps & Cloud</b></td>
+      <td align="center"><b>DevOps &amp; Cloud</b></td>
       <td><img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,githubactions,linux,git,vscode&theme=dark"/></td>
     </tr>
   </table>
@@ -168,11 +162,9 @@
 
 <!-- Footer quote and badges -->
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=0f172a&quoteColor=cbd5e1&authorColor=06b6d4&symbolColor=06b6d4" alt="Dev Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=0b0f19&quoteColor=cbd5e1&authorColor=10b981&symbolColor=10b981" alt="Dev Quote"/>
   <br/><br/>
   <h3>⭐ Thanks for stopping by!</h3>
-  <img src="https://img.shields.io/github/followers/suvesh108?label=Followers&style=for-the-badge&color=06b6d4&labelColor=0f172a" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/suvesh108?label=Stars&style=for-the-badge&color=06b6d4&labelColor=0f172a" alt="Stars"/>
-  <br/><br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,50:06b6d4,100:8b5cf6&height=120&section=footer&text=Keep%20Building%20%F0%9F%9A%80&fontSize=28&fontColor=fff&animation=fadeIn&fontAlignY=72" width="100%"/>
+  <img src="https://img.shields.io/github/followers/suvesh108?label=Followers&style=flat-square&color=10b981&labelColor=0b0f19" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/suvesh108?label=Stars&style=flat-square&color=10b981&labelColor=0b0f19" alt="Stars"/>
 </div>
