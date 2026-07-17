@@ -26,4 +26,10 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add isometric-profile.svg
-          if git commit -m "⚡ Generated 3D Isometric Contribution Graph"; then git push; fi
+          if ! git diff --quiet --cached; then
+            git commit -m "⚡ Generated 3D Isometric Contribution Graph"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "No changes to the contribution graph. Skipping push."
+          fi
