@@ -31,7 +31,7 @@
 ## 👨‍💻 About Me
 
 ```yaml
-name: Suvesh Pandey
+name: Suvesh Kumar
 located_in: India
 current_role: Full Stack Developer
 education:
