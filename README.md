@@ -25,7 +25,7 @@
 <!-- Featured 3D Isometric contribution graph -->
 <div align="center">
   <h2>📊 3D Isometric Contribution Skyline</h2>
-  <img src="./isometric-profile.png" alt="3D Isometric Contribution Graph" width="100%"/>
+  <img src="./profile-3d-contrib/profile-green-animate.svg" alt="3D Isometric Contribution Graph" width="100%"/>
 </div>
 
 <br/>
