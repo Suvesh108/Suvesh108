@@ -8,11 +8,14 @@ on:
 jobs:
   update:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     steps:
       - uses: actions/checkout@v4
 
       - uses: jamesgeorge007/github-activity-readme@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           COMMIT_MSG: "⚡ Update recent activity"
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           MAX_LINES: 10
