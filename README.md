@@ -22,9 +22,13 @@
 
 <br/>
 
+<!-- Featured 3D Isometric contribution graph -->
+<div align="center">
+  <h2>📊 3D Isometric Contribution Skyline</h2>
+  <img src="./isometric-profile.svg" alt="3D Isometric Contribution Graph" width="100%"/>
+</div>
 
-
-<!-- About me and quick config side-by-side -->
+<br/><!-- About me and quick config side-by-side -->
 <table>
   <tr>
     <td width="50%" valign="top">

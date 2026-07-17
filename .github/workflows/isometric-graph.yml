@@ -1,0 +1,29 @@
+name: Generate 3D Isometric Contribution Graph
+
+on:
+  schedule:
+    - cron: "0 18 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repo
+        uses: actions/checkout@v4
+
+      - name: Generate 3D isometric graph
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node scripts/generate-3d-contrib.js ${{ github.repository_owner }} isometric-profile.svg
+
+      - name: Commit and Push
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add isometric-profile.svg
+          if git commit -m "⚡ Generated 3D Isometric Contribution Graph"; then git push; fi
