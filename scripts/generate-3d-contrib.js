@@ -149,22 +149,22 @@ async function main() {
   </defs>
 
   <!-- Outer glowing border and background -->
-  <rect width="${svgWidth - 4}" height="${svgHeight - 4}" x="2" y="2" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1.5" filter="url(#neonGlow)" />
-  <rect width="${svgWidth - 4}" height="${svgHeight - 4}" x="2" y="2" fill="#181816" rx="8" stroke="#040302" stroke-width="1" />
+  <rect width="${svgWidth - 4}" height="${svgHeight - 4}" x="2" y="2" fill="#0f172a" rx="8" stroke="#06b6d4" stroke-width="1.5" filter="url(#neonGlow)" />
+  <rect width="${svgWidth - 4}" height="${svgHeight - 4}" x="2" y="2" fill="#0f172a" rx="8" stroke="#0b0f19" stroke-width="1" />
   
   <!-- Header Text -->
-  <text x="40" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#ac4d19">${username}'s 3D Contribution Skyline</text>
-  <text x="40" y="70" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" fill="#b3aca7">Last 365 days: ${calendar.totalContributions} contributions</text>
+  <text x="40" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#06b6d4">${username}'s 3D Contribution Skyline</text>
+  <text x="40" y="70" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Last 365 days: ${calendar.totalContributions} contributions</text>
   
   <!-- Isometric Grid -->
   <g>`;
     
     function getCubeDetails(count) {
-      if (count === 0) return { height: 4, color: "#181816" };
-      if (count <= 3) return { height: 12, color: "#4d2715" };
-      if (count <= 6) return { height: 22, color: "#733717" };
-      if (count <= 9) return { height: 32, color: "#944418" };
-      return { height: 44, color: "#ac4d19" };
+      if (count === 0) return { height: 4, color: "#1e293b" };
+      if (count <= 3) return { height: 12, color: "#164e63" };
+      if (count <= 6) return { height: 22, color: "#0e7490" };
+      if (count <= 9) return { height: 32, color: "#0891b2" };
+      return { height: 44, color: "#06b6d4" };
     }
     
     for (let c = 0; c < 53; c++) {
@@ -196,17 +196,17 @@ async function main() {
     svgContent += `
   <!-- Stats Panel (Top Right Corner) -->
   <g transform="translate(730, 80)">
-    <rect width="280" height="150" fill="#040302" rx="8" stroke="#ac4d19" stroke-width="1" filter="url(#neonGlow)" />
-    <rect width="280" height="150" fill="#040302" rx="8" stroke="#181816" stroke-width="1" />
-    <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ac4d19">📊 CONTRIBUTION STATS</text>
+    <rect width="280" height="150" fill="#0b0f19" rx="8" stroke="#06b6d4" stroke-width="1" filter="url(#neonGlow)" />
+    <rect width="280" height="150" fill="#0b0f19" rx="8" stroke="#0f172a" stroke-width="1" />
+    <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#06b6d4">📊 CONTRIBUTION STATS</text>
     
-    <text x="20" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">Total Contributions:</text>
+    <text x="20" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Total Contributions:</text>
     <text x="200" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">${calendar.totalContributions}</text>
     
-    <text x="20" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">Longest Streak:</text>
+    <text x="20" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Longest Streak:</text>
     <text x="200" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">${longestStreak} days</text>
     
-    <text x="20" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">Current Streak:</text>
+    <text x="20" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Current Streak:</text>
     <text x="200" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">${currentStreakCount} days</text>
   </g>`;
     
@@ -217,9 +217,9 @@ async function main() {
     svgContent += `
   <!-- Weekday Activity Chart (Bottom Left Corner) -->
   <g transform="translate(40, 410)">
-    <rect width="280" height="180" fill="#040302" rx="8" stroke="#ac4d19" stroke-width="1" filter="url(#neonGlow)" />
-    <rect width="280" height="180" fill="#040302" rx="8" stroke="#181816" stroke-width="1" />
-    <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ac4d19">📅 WEEKDAY ACTIVITY</text>`;
+    <rect width="280" height="180" fill="#0b0f19" rx="8" stroke="#06b6d4" stroke-width="1" filter="url(#neonGlow)" />
+    <rect width="280" height="180" fill="#0b0f19" rx="8" stroke="#0f172a" stroke-width="1" />
+    <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#06b6d4">📅 WEEKDAY ACTIVITY</text>`;
     
     weekdayCounts.forEach((count, i) => {
       const barHeight = Math.round((count / maxWeekdayCount) * 80);
@@ -227,8 +227,9 @@ async function main() {
       const barY = 135 - barHeight;
       svgContent += `
     <!-- Bar for ${weekdayNames[i]} -->
-    <rect x="${barX}" y="${barY}" width="16" height="${barHeight}" fill="#ac4d19" rx="2" />
-    <text x="${barX + 8}" y="152" font-family="Segoe UI, -apple-system, sans-serif" font-size="10" fill="#b3aca7" text-anchor="middle">${weekdayNames[i][0]}</text>
+    <rect x="${barX}" y="${barY}" width="16" height="${barHeight}" fill="#8b5cf6" rx="2" filter="url(#neonGlow)" />
+    <rect x="${barX}" y="${barY}" width="16" height="${barHeight}" fill="#8b5cf6" rx="2" />
+    <text x="${barX + 8}" y="152" font-family="Segoe UI, -apple-system, sans-serif" font-size="10" fill="#cbd5e1" text-anchor="middle">${weekdayNames[i][0]}</text>
     <text x="${barX + 8}" y="${barY - 5}" font-family="Segoe UI, -apple-system, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">${count}</text>`;
     });
     
@@ -241,58 +242,58 @@ async function main() {
     svgContent += `
   <!-- Legend -->
   <g transform="translate(${legendX}, ${legendY})">
-    <text x="0" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">Less</text>
+    <text x="0" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Less</text>
     
     <!-- Level 0 -->
     <g transform="translate(40, 5)">
-      <polygon points="10,0 20,5 10,10 0,5" fill="#181816" />
-      <polygon points="0,5 10,10 10,14 0,9" fill="#181816" />
+      <polygon points="10,0 20,5 10,10 0,5" fill="#1e293b" />
+      <polygon points="0,5 10,10 10,14 0,9" fill="#1e293b" />
       <polygon points="0,5 10,10 10,14 0,9" fill="#000000" opacity="0.15" />
-      <polygon points="10,10 20,5 20,9 10,14" fill="#181816" />
+      <polygon points="10,10 20,5 20,9 10,14" fill="#1e293b" />
       <polygon points="10,10 20,5 20,9 10,14" fill="#000000" opacity="0.30" />
     </g>
     
     <!-- Level 1 -->
     <g transform="translate(70, -3)">
-      <polygon points="10,0 20,5 10,10 0,5" fill="#4d2715" />
-      <polygon points="0,5 10,10 10,18 0,13" fill="#4d2715" />
+      <polygon points="10,0 20,5 10,10 0,5" fill="#164e63" />
+      <polygon points="0,5 10,10 10,18 0,13" fill="#164e63" />
       <polygon points="0,5 10,10 10,18 0,13" fill="#000000" opacity="0.15" />
-      <polygon points="10,10 20,5 20,13 10,18" fill="#4d2715" />
+      <polygon points="10,10 20,5 20,13 10,18" fill="#164e63" />
       <polygon points="10,10 20,5 20,13 10,18" fill="#000000" opacity="0.30" />
     </g>
 
     <!-- Level 2 -->
     <g transform="translate(100, -13)">
-      <polygon points="10,0 20,5 10,10 0,5" fill="#733717" />
-      <polygon points="0,5 10,10 10,28 0,23" fill="#733717" />
+      <polygon points="10,0 20,5 10,10 0,5" fill="#0e7490" />
+      <polygon points="0,5 10,10 10,28 0,23" fill="#0e7490" />
       <polygon points="0,5 10,10 10,28 0,23" fill="#000000" opacity="0.15" />
-      <polygon points="10,10 20,5 20,23 10,28" fill="#733717" />
+      <polygon points="10,10 20,5 20,23 10,28" fill="#0e7490" />
       <polygon points="10,10 20,5 20,23 10,28" fill="#000000" opacity="0.30" />
     </g>
 
     <!-- Level 3 -->
     <g transform="translate(130, -23)">
-      <polygon points="10,0 20,5 10,10 0,5" fill="#944418" />
-      <polygon points="0,5 10,10 10,38 0,33" fill="#944418" />
+      <polygon points="10,0 20,5 10,10 0,5" fill="#0891b2" />
+      <polygon points="0,5 10,10 10,38 0,33" fill="#0891b2" />
       <polygon points="0,5 10,10 10,38 0,33" fill="#000000" opacity="0.15" />
-      <polygon points="10,10 20,5 20,33 10,38" fill="#944418" />
+      <polygon points="10,10 20,5 20,33 10,38" fill="#0891b2" />
       <polygon points="10,10 20,5 20,33 10,38" fill="#000000" opacity="0.30" />
     </g>
 
     <!-- Level 4 -->
     <g transform="translate(160, -35)">
-      <polygon points="10,0 20,5 10,10 0,5" fill="#ac4d19" />
-      <polygon points="0,5 10,10 10,50 0,45" fill="#ac4d19" />
+      <polygon points="10,0 20,5 10,10 0,5" fill="#06b6d4" />
+      <polygon points="0,5 10,10 10,50 0,45" fill="#06b6d4" />
       <polygon points="0,5 10,10 10,50 0,45" fill="#000000" opacity="0.15" />
-      <polygon points="10,10 20,5 20,45 10,50" fill="#ac4d19" />
+      <polygon points="10,10 20,5 20,45 10,50" fill="#06b6d4" />
       <polygon points="10,10 20,5 20,45 10,50" fill="#000000" opacity="0.30" />
     </g>
     
-    <text x="195" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">More</text>
+    <text x="195" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">More</text>
   </g>
   
   <!-- Credit -->
-  <text x="40" y="615" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#b3aca7">Generated via Custom GitHub Actions Skyline Workflow</text>
+  <text x="40" y="615" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#cbd5e1">Generated via Custom GitHub Actions Skyline Workflow</text>
 </svg>`;
     
     fs.writeFileSync(outputFile, svgContent, "utf8");

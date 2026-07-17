@@ -1,23 +1,23 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:040302,50:ac4d19,100:181816&height=220&section=header&text=Suvesh%20Kumar&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%E2%80%A2%20Cloud%20Enthusiast&descAlignY=60&descSize=16" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,50:06b6d4,100:8b5cf6&height=220&section=header&text=Suvesh%20Kumar&fontSize=70&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%E2%80%A2%20Cloud%20Enthusiast&descAlignY=60&descSize=16" width="100%"/>
 </div>
 
 <!-- Typing intro -->
 <div align="center">
   <a href="https://github.com/suvesh108">
-    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=800&color=ac4d19&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Suvesh+Kumar+%F0%9F%91%8B;I+craft+scalable+web+experiences;I+turn+coffee+into+clean+code+%E2%98%95;Always+building.+Always+learning." alt="Typing SVG"/>
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=24&duration=3000&pause=800&color=06b6d4&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Suvesh+Kumar+%F0%9F%91%8B;I+craft+scalable+web+experiences;I+turn+coffee+into+clean+code+%E2%98%95;Always+building.+Always+learning." alt="Typing SVG"/>
   </a>
 </div>
 
 <!-- Social badges -->
 <div align="center">
-  <a href="https://suvesh.io"><img src="https://img.shields.io/badge/Portfolio-181816?style=for-the-badge&logo=safari&logoColor=ac4d19"/></a>
-  <a href="https://linkedin.com/in/suvesh108"><img src="https://img.shields.io/badge/LinkedIn-181816?style=for-the-badge&logo=linkedin&logoColor=ac4d19"/></a>
-  <a href="mailto:suvesh108@email.com"><img src="https://img.shields.io/badge/Email-181816?style=for-the-badge&logo=gmail&logoColor=ac4d19"/></a>
-  <a href="https://twitter.com/suvesh108"><img src="https://img.shields.io/badge/X-181816?style=for-the-badge&logo=x&logoColor=ac4d19"/></a>
-  <a href="https://dev.to/suvesh108"><img src="https://img.shields.io/badge/Dev.to-181816?style=for-the-badge&logo=devdotto&logoColor=ac4d19"/></a>
+  <a href="https://suvesh.io"><img src="https://img.shields.io/badge/Portfolio-0f172a?style=for-the-badge&logo=safari&logoColor=06b6d4"/></a>
+  <a href="https://linkedin.com/in/suvesh108"><img src="https://img.shields.io/badge/LinkedIn-0f172a?style=for-the-badge&logo=linkedin&logoColor=06b6d4"/></a>
+  <a href="mailto:suvesh108@email.com"><img src="https://img.shields.io/badge/Email-0f172a?style=for-the-badge&logo=gmail&logoColor=06b6d4"/></a>
+  <a href="https://twitter.com/suvesh108"><img src="https://img.shields.io/badge/X-0f172a?style=for-the-badge&logo=x&logoColor=06b6d4"/></a>
+  <a href="https://dev.to/suvesh108"><img src="https://img.shields.io/badge/Dev.to-0f172a?style=for-the-badge&logo=devdotto&logoColor=06b6d4"/></a>
   <br/><br/>
-  <img src="https://komarev.com/ghpvc/?username=suvesh108&label=Profile+Views&color=ac4d19&style=for-the-badge&labelColor=181816" alt="Profile Views"/>
+  <img src="https://komarev.com/ghpvc/?username=suvesh108&label=Profile+Views&color=06b6d4&style=for-the-badge&labelColor=0f172a" alt="Profile Views"/>
 </div>
 
 <br/>
@@ -168,11 +168,11 @@
 
 <!-- Footer quote and badges -->
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=181816&quoteColor=b3aca7&authorColor=ac4d19&symbolColor=ac4d19" alt="Dev Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=0f172a&quoteColor=cbd5e1&authorColor=06b6d4&symbolColor=06b6d4" alt="Dev Quote"/>
   <br/><br/>
   <h3>⭐ Thanks for stopping by!</h3>
-  <img src="https://img.shields.io/github/followers/suvesh108?label=Followers&style=for-the-badge&color=ac4d19&labelColor=181816" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/suvesh108?label=Stars&style=for-the-badge&color=ac4d19&labelColor=181816" alt="Stars"/>
+  <img src="https://img.shields.io/github/followers/suvesh108?label=Followers&style=for-the-badge&color=06b6d4&labelColor=0f172a" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/suvesh108?label=Stars&style=for-the-badge&color=06b6d4&labelColor=0f172a" alt="Stars"/>
   <br/><br/>
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:040302,50:ac4d19,100:181816&height=120&section=footer&text=Keep%20Building%20%F0%9F%9A%80&fontSize=28&fontColor=fff&animation=fadeIn&fontAlignY=72" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0b0f19,50:06b6d4,100:8b5cf6&height=120&section=footer&text=Keep%20Building%20%F0%9F%9A%80&fontSize=28&fontColor=fff&animation=fadeIn&fontAlignY=72" width="100%"/>
 </div>
