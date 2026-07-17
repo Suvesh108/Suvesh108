@@ -35,12 +35,11 @@ async function main() {
         totalContributions: 1420,
         weeks: Array.from({ length: 53 }, (_, c) => ({
           contributionDays: Array.from({ length: 7 }, (_, r) => {
-            // Generate random count: mostly 0, but some highs
             const rand = Math.random();
             let count = 0;
-            if (rand > 0.8) count = Math.floor(Math.random() * 3) + 1; // 1-3
-            else if (rand > 0.92) count = Math.floor(Math.random() * 4) + 4; // 4-7
-            else if (rand > 0.98) count = Math.floor(Math.random() * 5) + 8; // 8-12
+            if (rand > 0.8) count = Math.floor(Math.random() * 3) + 1;
+            else if (rand > 0.92) count = Math.floor(Math.random() * 4) + 4;
+            else if (rand > 0.98) count = Math.floor(Math.random() * 5) + 8;
             
             return {
               contributionCount: count,
@@ -87,6 +86,8 @@ async function main() {
     console.log(`Total contributions: ${calendar.totalContributions}`);
     
     const grid = Array.from({ length: 53 }, () => Array(7).fill(null));
+    const chronologicalDays = [];
+    const weekdayCounts = Array(7).fill(0);
     
     calendar.weeks.forEach((week, c) => {
       if (c >= 53) return;
@@ -96,10 +97,42 @@ async function main() {
           count: day.contributionCount,
           date: day.date
         };
+        chronologicalDays.push({
+          count: day.contributionCount,
+          date: day.date
+        });
+        weekdayCounts[r] += day.contributionCount;
       });
     });
     
-    const svgWidth = 900;
+    // Sort chronological days
+    chronologicalDays.sort((a, b) => new Date(a.date) - new Date(b.date));
+    
+    // Calculate streaks
+    let longestStreak = 0;
+    let tempStreak = 0;
+    chronologicalDays.forEach(day => {
+      if (day.count > 0) {
+        tempStreak++;
+        if (tempStreak > longestStreak) {
+          longestStreak = tempStreak;
+        }
+      } else {
+        tempStreak = 0;
+      }
+    });
+    
+    let currentStreakCount = 0;
+    for (let i = chronologicalDays.length - 1; i >= 0; i--) {
+      if (chronologicalDays[i].count > 0) {
+        currentStreakCount++;
+      } else {
+        break;
+      }
+    }
+    
+    // Grid geometry configurations
+    const svgWidth = 1050;
     const svgHeight = 650;
     const offsetX = 50;
     const offsetY = 120;
@@ -129,26 +162,70 @@ async function main() {
         const count = dayData ? dayData.count : 0;
         const { height, color } = getCubeDetails(count);
         
-        const cx = offsetX + (c - r) * 14 + 100;
+        // Extended width: horizontal step is 16 pixels per week (increased from 14)
+        const cx = offsetX + (c - r) * 16 + 120;
         const cy = offsetY + (c + r) * 8 + 50;
         
         svgContent += `
     <!-- Cube at week ${c}, day ${r} -->
-    <polygon points="${cx},${cy - height} ${cx + 14},${cy + 8 - height} ${cx},${cy + 16 - height} ${cx - 14},${cy + 8 - height}" fill="${color}" />
+    <polygon points="${cx},${cy - height} ${cx + 16},${cy + 8 - height} ${cx},${cy + 16 - height} ${cx - 16},${cy + 8 - height}" fill="${color}" />
     <!-- Left Face -->
-    <polygon points="${cx - 14},${cy + 8 - height} ${cx},${cy + 16 - height} ${cx},${cy + 16} ${cx - 14},${cy + 8}" fill="${color}" />
-    <polygon points="${cx - 14},${cy + 8 - height} ${cx},${cy + 16 - height} ${cx},${cy + 16} ${cx - 14},${cy + 8}" fill="#000000" opacity="0.15" />
+    <polygon points="${cx - 16},${cy + 8 - height} ${cx},${cy + 16 - height} ${cx},${cy + 16} ${cx - 16},${cy + 8}" fill="${color}" />
+    <polygon points="${cx - 16},${cy + 8 - height} ${cx},${cy + 16 - height} ${cx},${cy + 16} ${cx - 16},${cy + 8}" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="${cx},${cy + 16 - height} ${cx + 14},${cy + 8 - height} ${cx + 14},${cy + 8} ${cx},${cy + 16}" fill="${color}" />
-    <polygon points="${cx},${cy + 16 - height} ${cx + 14},${cy + 8 - height} ${cx + 14},${cy + 8} ${cx},${cy + 16}" fill="#000000" opacity="0.30" />`;
+    <polygon points="${cx},${cy + 16 - height} ${cx + 16},${cy + 8 - height} ${cx + 16},${cy + 8} ${cx},${cy + 16}" fill="${color}" />
+    <polygon points="${cx},${cy + 16 - height} ${cx + 16},${cy + 8 - height} ${cx + 16},${cy + 8} ${cx},${cy + 16}" fill="#000000" opacity="0.30" />`;
       }
     }
     
-    const legendX = 640;
-    const legendY = 580;
     svgContent += `
-  </g>
-  
+  </g>`;
+    
+    // Add Stats Card in top-right corner
+    svgContent += `
+  <!-- Stats Panel (Top Right Corner) -->
+  <g transform="translate(730, 80)">
+    <rect width="280" height="150" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1" />
+    <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ac4d19">📊 CONTRIBUTION STATS</text>
+    
+    <text x="20" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">Total Contributions:</text>
+    <text x="200" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">${calendar.totalContributions}</text>
+    
+    <text x="20" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">Longest Streak:</text>
+    <text x="200" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">${longestStreak} days</text>
+    
+    <text x="20" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">Current Streak:</text>
+    <text x="200" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">${currentStreakCount} days</text>
+  </g>`;
+    
+    // Add Weekday Bar Chart in bottom-left corner
+    const maxWeekdayCount = Math.max(...weekdayCounts) || 1;
+    const weekdayNames = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    
+    svgContent += `
+  <!-- Weekday Activity Chart (Bottom Left Corner) -->
+  <g transform="translate(40, 410)">
+    <rect width="280" height="180" fill="#181816" rx="8" stroke="#ac4d19" stroke-width="1" />
+    <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ac4d19">📅 WEEKDAY ACTIVITY</text>`;
+    
+    weekdayCounts.forEach((count, i) => {
+      const barHeight = Math.round((count / maxWeekdayCount) * 80);
+      const barX = 35 + i * 32;
+      const barY = 135 - barHeight;
+      svgContent += `
+    <!-- Bar for ${weekdayNames[i]} -->
+    <rect x="${barX}" y="${barY}" width="16" height="${barHeight}" fill="#ac4d19" rx="2" />
+    <text x="${barX + 8}" y="152" font-family="Segoe UI, -apple-system, sans-serif" font-size="10" fill="#b3aca7" text-anchor="middle">${weekdayNames[i][0]}</text>
+    <text x="${barX + 8}" y="${barY - 5}" font-family="Segoe UI, -apple-system, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">${count}</text>`;
+    });
+    
+    svgContent += `
+  </g>`;
+    
+    // Add Legend in bottom-right corner
+    const legendX = 740;
+    const legendY = 560;
+    svgContent += `
   <!-- Legend -->
   <g transform="translate(${legendX}, ${legendY})">
     <text x="0" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#b3aca7">Less</text>
@@ -202,7 +279,7 @@ async function main() {
   </g>
   
   <!-- Credit -->
-  <text x="40" y="605" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#b3aca7">Generated via Custom GitHub Actions Skyline Workflow</text>
+  <text x="40" y="615" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#b3aca7">Generated via Custom GitHub Actions Skyline Workflow</text>
 </svg>`;
     
     fs.writeFileSync(outputFile, svgContent, "utf8");
