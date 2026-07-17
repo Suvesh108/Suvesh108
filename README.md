@@ -1,132 +1,137 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,4&height=250&section=header&text=Suvesh%20Pandey&fontSize=70&fontAlignY=35&desc=Full%20Stack%20Developer%20|%20Building%20Digital%20Experiences&descAlignY=55&animation=twinkling" width="100%"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=280&section=header&text=Suvesh%20Kumar&fontSize=80&fontColor=fff&animation=fadeIn&fontAlignY=38&desc=Full%20Stack%20Developer%20%E2%80%A2%20Cloud%20Enthusiast%20%E2%80%A2%20Open%20Source&descAlignY=60&descSize=18" width="100%"/>
 </div>
 
-<p align="center">
-  <a href="https://suvesh.io">
-    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=#FF7139" alt="Portfolio"/>
+<!-- Typing intro -->
+<div align="center">
+  <a href="https://github.com/suvesh108">
+    <img src="https://readme-typing-svg.herokuapp.com?font=JetBrains+Mono&weight=600&size=26&duration=3000&pause=800&color=7C3AED&center=true&vCenter=true&width=700&lines=Hi+there%2C+I'm+Suvesh+Kumar+%F0%9F%91%8B;I+craft+scalable+web+experiences;I+turn+coffee+into+clean+code+%E2%98%95;Always+building.+Always+learning." alt="Typing SVG"/>
   </a>
-  <a href="https://linkedin.com/in/suvesh108">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:suvesh108@email.com">
-    <img src="https://img.shields.io/badge/Email-%23D14836.svg?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://twitter.com/suvesh108">
-    <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X"/>
-  </a>
-  <a href="https://dev.to/suvesh108">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to"/>
-  </a>
-</p>
+</div>
 
 <br/>
 
-<p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=500&size=24&pause=1000&color=58A6FF&center=true&vCenter=true&random=false&width=600&lines=Full+Stack+Developer;Open+Source+Enthusiast;Lifelong+Learner;Problem+Solver" alt="Typing SVG"/>
-</p>
+<!-- Social badges -->
+<div align="center">
+  <a href="https://suvesh.io"><img src="https://img.shields.io/badge/Portfolio-0f0c29?style=for-the-badge&logo=safari&logoColor=white"/></a>
+  <a href="https://linkedin.com/in/suvesh108"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="mailto:suvesh108@email.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://twitter.com/suvesh108"><img src="https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white"/></a>
+  <a href="https://dev.to/suvesh108"><img src="https://img.shields.io/badge/Dev.to-0A0A0A?style=for-the-badge&logo=devdotto&logoColor=white"/></a>
+  <a href="https://stackoverflow.com/users/suvesh108"><img src="https://img.shields.io/badge/Stack_Overflow-F58025?style=for-the-badge&logo=stackoverflow&logoColor=white"/></a>
+  <br/><br/>
+  <img src="https://komarev.com/ghpvc/?username=suvesh108&label=Profile+Views&color=7C3AED&style=for-the-badge" alt="Profile Views"/>
+</div>
 
----
+<br/>
 
-## 👨‍💻 About Me
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-```yaml
-name: Suvesh Kumar
-located_in: India
-current_role: Full Stack Developer
-education:
-  - "BTech in Computer Science"
-fields_of_interests:
-  - "Web Development"
-  - "Cloud Computing"
-  - "System Design"
-  - "Open Source"
-technologies:
-  frontend: ["React", "Next.js", "TypeScript", "Tailwind CSS"]
-  backend: ["Node.js", "Python", "Go", "PostgreSQL", "MongoDB"]
-  devops: ["Docker", "Kubernetes", "AWS", "CI/CD"]
-  tools: ["Git", "Linux", "VS Code", "Figma"]
-currently_learning: ["System Design", "Kubernetes", "Rust"]
-fun_fact: "I automate everything I do more than twice"
+## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="35"/> About Me
+
+<img align="right" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" width="320" alt="Coding gif"/>
+
+```typescript
+const suvesh: Developer = {
+  name: "Suvesh Kumar",
+  location: "India 🇮🇳",
+  role: "Full Stack Developer",
+  education: "BTech in Computer Science",
+
+  code: ["TypeScript", "Python", "Go", "Rust"],
+  askMeAbout: ["Web Dev", "Cloud", "System Design", "Open Source"],
+
+  currentlyLearning: ["Kubernetes", "Rust", "System Design"],
+  funFact: "I automate everything I do more than twice ⚡",
+
+  lifePhilosophy: "Ship fast. Learn faster. 🚀",
+};
 ```
 
----
+<br clear="right"/>
 
-## 📊 GitHub Analytics
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=suvesh108&theme=github_dark&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&custom_title=GitHub%20Stats" width="49%" alt="GitHub Stats"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suvesh108&theme=github_dark&show_icons=true&hide_border=true&layout=donut&langs_count=8&custom_title=Most%20Used%20Languages" width="41%" alt="Most Used Languages"/>
-</p>
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="35"/> Tech Arsenal
 
-<p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=suvesh108&theme=github-dark-blue&hide_border=true&fire=EB5454&ring=58A6FF&currStreakLabel=58A6FF" width="69%" alt="GitHub Streak"/>
-</p>
+<div align="center">
 
----
+### 🎨 Frontend
+<img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,tailwind,html,css,figma&theme=dark"/>
 
-## 📈 Contribution Graph
+### ⚙️ Backend
+<img src="https://skillicons.dev/icons?i=nodejs,python,go,rust,graphql,postgres,mongodb,redis&theme=dark"/>
 
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=suvesh108&theme=github-dark&hide_border=true&area=true&custom_title=Contribution%20Graph" width="95%" alt="Contribution Graph"/>
-</p>
+### ☁️ DevOps & Cloud
+<img src="https://skillicons.dev/icons?i=docker,kubernetes,aws,gcp,githubactions,linux,git,vscode&theme=dark"/>
 
-<p align="center">
+</div>
+
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
+
+## <img src="https://media.giphy.com/media/juua9i2c2fA0AIp2iq/giphy.gif" width="35"/> GitHub Analytics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=suvesh108&theme=tokyonight&show_icons=true&hide_border=true&count_private=true&include_all_commits=true&rank_icon=github&bg_color=0d1117&title_color=7C3AED&icon_color=58A6FF" width="49%" alt="GitHub Stats"/>
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=suvesh108&theme=tokyonight&hide_border=true&layout=donut&langs_count=8&bg_color=0d1117&title_color=7C3AED" width="41%" alt="Top Languages"/>
+</div>
+
+<div align="center">
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=suvesh108&theme=tokyonight&hide_border=true&background=0d1117&ring=7C3AED&fire=FF6B6B&currStreakLabel=7C3AED" width="70%" alt="GitHub Streak"/>
+</div>
+
+<br/>
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=suvesh108&custom_title=Contribution%20Graph&bg_color=0d1117&color=7C3AED&line=58A6FF&point=FFFFFF&area=true&hide_border=true" width="95%" alt="Contribution Graph"/>
+</div>
+
+<br/>
+
+<div align="center">
   <img src="https://raw.githubusercontent.com/suvesh108/suvesh108/output/snake.svg" alt="Snake Animation" width="95%"/>
-</p>
+</div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## 🏆 GitHub Trophies
+## <img src="https://media.giphy.com/media/UQDSBzfyiBKvgFcSTw/giphy.gif" width="35"/> Trophy Cabinet
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=suvesh108&theme=onedark&no-frame=true&no-bg=false&margin-w=4&row=2&column=4" width="95%" alt="Trophies"/>
-</p>
+<div align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=suvesh108&theme=discord&no-frame=true&no-bg=true&margin-w=8&row=1&column=7" width="100%" alt="Trophies"/>
+</div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## 🛠️ Tech Stack
+## <img src="https://media.giphy.com/media/W5eoZHPpUx9sapR0eu/giphy.gif" width="35"/> Featured Projects
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=react,nextjs,typescript,javascript,nodejs,python,go,rust,tailwind,css,html,graphql,mongodb,postgres,mysql,redis,docker,kubernetes,aws,gcp,git,linux,vscode,figma,githubactions&perline=13" alt="Tech Stack"/>
-</p>
-
----
-
-## 📌 Pinned Repositories
-
-<p align="center">
+<div align="center">
   <a href="https://github.com/suvesh108/awesome-project">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=awesome-project&theme=github_dark&hide_border=true&show_owner=true" width="45%" alt="Awesome Project"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=awesome-project&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED" width="47%" alt="Awesome Project"/>
   </a>
   <a href="https://github.com/suvesh108/open-source-tool">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=open-source-tool&theme=github_dark&hide_border=true&show_owner=true" width="45%" alt="Open Source Tool"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=open-source-tool&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED" width="47%" alt="Open Source Tool"/>
   </a>
-</p>
+</div>
 
-<p align="center">
+<div align="center">
   <a href="https://github.com/suvesh108/portfolio">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=portfolio&theme=github_dark&hide_border=true&show_owner=true" width="45%" alt="Portfolio"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=portfolio&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED" width="47%" alt="Portfolio"/>
   </a>
   <a href="https://github.com/suvesh108/learning-notes">
-    <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=learning-notes&theme=github_dark&hide_border=true&show_owner=true" width="45%" alt="Learning Notes"/>
+    <img src="https://github-readme-stats.vercel.app/api/pin/?username=suvesh108&repo=learning-notes&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=7C3AED" width="47%" alt="Learning Notes"/>
   </a>
-</p>
+</div>
 
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
-## 📝 Recent Blog Posts
+## <img src="https://media.giphy.com/media/KzJkzjggfGN5Py6nkT/giphy.gif" width="35"/> Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
 <!-- BLOG-POST-LIST:END -->
 
-<p align="center">
-  <i>⚡ Automatically updated with GitHub Actions</i>
-</p>
+<p align="center"><i>⚡ Auto-updated via GitHub Actions</i></p>
 
----
-
-## 🔄 Recent GitHub Activity
+## <img src="https://media.giphy.com/media/mGcNjsfWAjY5AEZNw6/giphy.gif" width="35"/> Recent Activity
 
 <!--RECENT_ACTIVITY:start-->
 <!--RECENT_ACTIVITY:end-->
@@ -135,49 +140,23 @@ fun_fact: "I automate everything I do more than twice"
 * [❌] {MESSAGE}
 <!--RECENT_ACTIVITY_TEMPLATE_END-->
 
-<p align="center">
-  <i>🔄 Automatically updated with GitHub Actions</i>
-</p>
+<p align="center"><i>🔄 Auto-updated via GitHub Actions</i></p>
 
----
-
-## 📫 Let's Connect
-
-<p align="center">
-  <a href="https://suvesh.io">
-    <img src="https://img.shields.io/badge/Portfolio-%23000000.svg?style=for-the-badge&logo=firefox&logoColor=white" alt="Portfolio"/>
-  </a>
-  <a href="https://linkedin.com/in/suvesh108">
-    <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn"/>
-  </a>
-  <a href="mailto:suvesh108@email.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
-  </a>
-  <a href="https://twitter.com/suvesh108">
-    <img src="https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white" alt="X"/>
-  </a>
-  <a href="https://dev.to/suvesh108">
-    <img src="https://img.shields.io/badge/dev.to-0A0A0A?style=for-the-badge&logo=dev.to&logoColor=white" alt="Dev.to"/>
-  </a>
-  <a href="https://stackoverflow.com/users/suvesh108">
-    <img src="https://img.shields.io/badge/Stack%20Overflow-FE7A16?style=for-the-badge&logo=stackoverflow&logoColor=white" alt="Stack Overflow"/>
-  </a>
-</p>
-
-<br/>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=suvesh108&label=Profile%20Views&color=58A6FF&style=flat" alt="Profile Views"/>
-  <img src="https://img.shields.io/github/followers/suvesh108?label=Followers&style=flat&color=58A6FF" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/suvesh108?label=Stars&style=flat&color=58A6FF" alt="Stars"/>
-</p>
-
----
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%"/>
 
 <div align="center">
-  <h3>💡 "Code is like humor. When you have to explain it, it's bad." – Cory House</h3>
-  
-  <br/>
-  
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,3,4&height=150&section=footer&text=Thanks%20for%20visiting!%20🚀&fontSize=30&fontAlignY=65" width="100%"/>
+
+## 💬 Random Dev Quote
+
+<img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight" alt="Dev Quote"/>
+
+<br/><br/>
+
+### ⭐ From [Suvesh Kumar](https://github.com/suvesh108) — Thanks for stopping by!
+
+<img src="https://img.shields.io/github/followers/suvesh108?label=Followers&style=for-the-badge&color=7C3AED" alt="Followers"/>
+<img src="https://img.shields.io/github/stars/suvesh108?label=Stars&style=for-the-badge&color=58A6FF" alt="Stars"/>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f0c29,50:302b63,100:24243e&height=160&section=footer&text=Keep%20Building%20%F0%9F%9A%80&fontSize=32&fontColor=fff&animation=fadeIn&fontAlignY=72" width="100%"/>
+
 </div>
