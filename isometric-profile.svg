@@ -15,7 +15,7 @@
   
   <!-- Header Text -->
   <text x="40" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#10b981">Suvesh108's 3D Contribution Skyline</text>
-  <text x="40" y="70" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Last 365 days: 106 contributions</text>
+  <text x="40" y="70" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Last 365 days: 107 contributions</text>
   
   <!-- Isometric Grid -->
   <g>
@@ -2940,13 +2940,13 @@
     <polygon points="1002,570 1018,562 1018,594 1002,602" fill="#059669" />
     <polygon points="1002,570 1018,562 1018,594 1002,602" fill="#000000" opacity="0.30" />
     <!-- Cube at week 52, day 1 -->
-    <polygon points="986,590 1002,598 986,606 970,598" fill="#1e293b" />
+    <polygon points="986,582 1002,590 986,598 970,590" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="970,598 986,606 986,610 970,602" fill="#1e293b" />
-    <polygon points="970,598 986,606 986,610 970,602" fill="#000000" opacity="0.15" />
+    <polygon points="970,590 986,598 986,610 970,602" fill="#064e3b" />
+    <polygon points="970,590 986,598 986,610 970,602" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="986,606 1002,598 1002,602 986,610" fill="#1e293b" />
-    <polygon points="986,606 1002,598 1002,602 986,610" fill="#000000" opacity="0.30" />
+    <polygon points="986,598 1002,590 1002,602 986,610" fill="#064e3b" />
+    <polygon points="986,598 1002,590 1002,602 986,610" fill="#000000" opacity="0.30" />
     <!-- Cube at week 52, day 2 -->
     <polygon points="970,598 986,606 970,614 954,606" fill="#1e293b" />
     <!-- Left Face -->
@@ -2995,13 +2995,13 @@
     <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#10b981">📊 CONTRIBUTION STATS</text>
     
     <text x="20" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Total Contributions:</text>
-    <text x="200" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">106</text>
+    <text x="200" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">107</text>
     
     <text x="20" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Longest Streak:</text>
-    <text x="200" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">3 days</text>
+    <text x="200" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">4 days</text>
     
     <text x="20" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Current Streak:</text>
-    <text x="200" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">3 days</text>
+    <text x="200" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">4 days</text>
   </g>
   <!-- Weekday Activity Chart (Bottom Left Corner) -->
   <g transform="translate(40, 410)">
@@ -3014,10 +3014,10 @@
     <text x="43" y="152" font-family="Segoe UI, -apple-system, sans-serif" font-size="10" fill="#cbd5e1" text-anchor="middle">S</text>
     <text x="43" y="113" font-family="Segoe UI, -apple-system, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">9</text>
     <!-- Bar for Mon -->
-    <rect x="67" y="103" width="16" height="32" fill="#0d9488" rx="2" filter="url(#neonGlow)" />
-    <rect x="67" y="103" width="16" height="32" fill="#0d9488" rx="2" />
+    <rect x="67" y="101" width="16" height="34" fill="#0d9488" rx="2" filter="url(#neonGlow)" />
+    <rect x="67" y="101" width="16" height="34" fill="#0d9488" rx="2" />
     <text x="75" y="152" font-family="Segoe UI, -apple-system, sans-serif" font-size="10" fill="#cbd5e1" text-anchor="middle">M</text>
-    <text x="75" y="98" font-family="Segoe UI, -apple-system, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">17</text>
+    <text x="75" y="96" font-family="Segoe UI, -apple-system, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">18</text>
     <!-- Bar for Tue -->
     <rect x="99" y="125" width="16" height="10" fill="#0d9488" rx="2" filter="url(#neonGlow)" />
     <rect x="99" y="125" width="16" height="10" fill="#0d9488" rx="2" />
