@@ -22,9 +22,9 @@
       <!-- Pill Container with neon glow border -->
       <rect width="222" height="60" fill="#0f172a" rx="8" stroke="#10b981" stroke-width="1" filter="url(#neonGlow)" />
       <rect width="222" height="60" fill="#0f172a" rx="8" stroke="#1e293b" stroke-width="1" />
-      <text x="15" y="38" font-size="24">🌱</text>
-      <text x="55" y="25" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#10b981">Rising coder</text>
-      <text x="55" y="43" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#cbd5e1">Building core skills</text>
+      <text x="15" y="38" font-size="24">🚀</text>
+      <text x="55" y="25" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#10b981">Code Specialist</text>
+      <text x="55" y="43" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#cbd5e1">111+ Commits</text>
     </g>
     <!-- Badge 2 -->
     <g transform="translate(258, 45)">
@@ -51,6 +51,6 @@
       <rect width="222" height="60" fill="#0f172a" rx="8" stroke="#1e293b" stroke-width="1" />
       <text x="15" y="38" font-size="24">📦</text>
       <text x="55" y="25" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#10b981">Library Manager</text>
-      <text x="55" y="43" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#cbd5e1">17 Repos</text>
+      <text x="55" y="43" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#cbd5e1">18 Repos</text>
     </g>
 </svg>
