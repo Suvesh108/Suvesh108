@@ -3001,7 +3001,7 @@
     <text x="200" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">4 days</text>
     
     <text x="20" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Current Streak:</text>
-    <text x="200" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">4 days</text>
+    <text x="200" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">0 days</text>
   </g>
   <!-- Weekday Activity Chart (Bottom Left Corner) -->
   <g transform="translate(40, 410)">
