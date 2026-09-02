@@ -151,8 +151,8 @@
     <td width="50%" valign="top">
       <h3>⚡ Recent Activity</h3>
       <!--START_SECTION:activity-->
-1. 🚀 Published release [Universal Shared v0.2.2](https://github.com/Suvesh108/Universal-Shared/releases/tag/v0.2.2) in [Suvesh108/Universal-Shared](https://github.com/Suvesh108/Universal-Shared)
-2. 🚀 Published release [Universal Shared v0.2.1](https://github.com/Suvesh108/Universal-Shared/releases/tag/v0.2.1) in [Suvesh108/Universal-Shared](https://github.com/Suvesh108/Universal-Shared)
+1. 🚀 Published release [JobFinder v1.1.7](https://github.com/Suvesh108/jobfinder/releases/tag/v1.1.7) in [Suvesh108/jobfinder](https://github.com/Suvesh108/jobfinder)
+2. 🚀 Published release [JobFinder v1.1.6](https://github.com/Suvesh108/jobfinder/releases/tag/v1.1.6) in [Suvesh108/jobfinder](https://github.com/Suvesh108/jobfinder)
       <!--END_SECTION:activity-->
       <br/>
       <p align="center"><i>🔄 Auto-updated</i></p>
