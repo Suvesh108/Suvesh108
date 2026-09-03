@@ -151,8 +151,8 @@
     <td width="50%" valign="top">
       <h3>⚡ Recent Activity</h3>
       <!--START_SECTION:activity-->
-1. 🚀 Published release [JobFinder v1.1.7](https://github.com/Suvesh108/jobfinder/releases/tag/v1.1.7) in [Suvesh108/jobfinder](https://github.com/Suvesh108/jobfinder)
-2. 🚀 Published release [JobFinder v1.1.6](https://github.com/Suvesh108/jobfinder/releases/tag/v1.1.6) in [Suvesh108/jobfinder](https://github.com/Suvesh108/jobfinder)
+1. 🚀 Published release [v0.4 — 9-Platform Parallel Synchronization & Zero-Mock Guarantee](https://github.com/Suvesh108/jobscrap/releases/tag/v0.4) in [Suvesh108/jobscrap](https://github.com/Suvesh108/jobscrap)
+2. 🚀 Published release [v0.3 — Real-Time On-Demand Scraping & 100% Live URL Guarantee](https://github.com/Suvesh108/jobscrap/releases/tag/v0.3) in [Suvesh108/jobscrap](https://github.com/Suvesh108/jobscrap)
       <!--END_SECTION:activity-->
       <br/>
       <p align="center"><i>🔄 Auto-updated</i></p>
