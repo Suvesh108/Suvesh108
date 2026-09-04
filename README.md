@@ -151,8 +151,8 @@
     <td width="50%" valign="top">
       <h3>⚡ Recent Activity</h3>
       <!--START_SECTION:activity-->
-1. 🚀 Published release [v0.4 — 9-Platform Parallel Synchronization & Zero-Mock Guarantee](https://github.com/Suvesh108/jobscrap/releases/tag/v0.4) in [Suvesh108/jobscrap](https://github.com/Suvesh108/jobscrap)
-2. 🚀 Published release [v0.3 — Real-Time On-Demand Scraping & 100% Live URL Guarantee](https://github.com/Suvesh108/jobscrap/releases/tag/v0.3) in [Suvesh108/jobscrap](https://github.com/Suvesh108/jobscrap)
+1. 🚀 Published release [VortexDownloader v0.5.4](https://github.com/Suvesh108/vortex/releases/tag/v0.5.4) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+2. 🚀 Published release [VortexDownloader v0.5.3](https://github.com/Suvesh108/vortex/releases/tag/v0.5.3) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
       <!--END_SECTION:activity-->
       <br/>
       <p align="center"><i>🔄 Auto-updated</i></p>
