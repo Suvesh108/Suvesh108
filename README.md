@@ -151,8 +151,8 @@
     <td width="50%" valign="top">
       <h3>⚡ Recent Activity</h3>
       <!--START_SECTION:activity-->
-1. 🚀 Published release [VortexDownloader v0.5.4](https://github.com/Suvesh108/vortex/releases/tag/v0.5.4) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-2. 🚀 Published release [VortexDownloader v0.5.3](https://github.com/Suvesh108/vortex/releases/tag/v0.5.3) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+1. 🚀 Published release [VortexDownloader v0.5.9](https://github.com/Suvesh108/vortex/releases/tag/v0.5.9) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+2. 🚀 Published release [VortexDownloader v0.5.8](https://github.com/Suvesh108/vortex/releases/tag/v0.5.8) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
       <!--END_SECTION:activity-->
       <br/>
       <p align="center"><i>🔄 Auto-updated</i></p>
