@@ -151,8 +151,8 @@
     <td width="50%" valign="top">
       <h3>⚡ Recent Activity</h3>
       <!--START_SECTION:activity-->
-1. 🚀 Published release [VortexDownloader v0.6.5](https://github.com/Suvesh108/vortex/releases/tag/v0.6.5) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-2. 🚀 Published release [VortexDownloader v0.6.4](https://github.com/Suvesh108/vortex/releases/tag/v0.6.4) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+1. 🚀 Published release [NetPulse v1.0 - Official Production Release (Android & Windows Desktop)](https://github.com/Suvesh108/NetPulse/releases/tag/v1.0) in [Suvesh108/NetPulse](https://github.com/Suvesh108/NetPulse)
+2. 🚀 Published release [VortexDownloader v0.6.5](https://github.com/Suvesh108/vortex/releases/tag/v0.6.5) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
       <!--END_SECTION:activity-->
       <br/>
       <p align="center"><i>🔄 Auto-updated</i></p>
