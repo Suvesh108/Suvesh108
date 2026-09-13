@@ -15,7 +15,7 @@
   
   <!-- Header Text -->
   <text x="40" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="20" font-weight="bold" fill="#10b981">Suvesh108's 3D Contribution Skyline</text>
-  <text x="40" y="70" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Last 365 days: 260 contributions</text>
+  <text x="40" y="70" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" fill="#cbd5e1">Last 365 days: 261 contributions</text>
   
   <!-- Isometric Grid -->
   <g>
@@ -588,29 +588,29 @@
     <polygon points="330,262 346,254 346,258 330,266" fill="#1e293b" />
     <polygon points="330,262 346,254 346,258 330,266" fill="#000000" opacity="0.30" />
     <!-- Cube at week 10, day 1 -->
-    <polygon points="314,254 330,262 314,270 298,262" fill="#1e293b" />
+    <polygon points="314,214 330,222 314,230 298,222" fill="#10b981" />
     <!-- Left Face -->
-    <polygon points="298,262 314,270 314,274 298,266" fill="#1e293b" />
-    <polygon points="298,262 314,270 314,274 298,266" fill="#000000" opacity="0.15" />
+    <polygon points="298,222 314,230 314,274 298,266" fill="#10b981" />
+    <polygon points="298,222 314,230 314,274 298,266" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="314,270 330,262 330,266 314,274" fill="#1e293b" />
-    <polygon points="314,270 330,262 330,266 314,274" fill="#000000" opacity="0.30" />
+    <polygon points="314,230 330,222 330,266 314,274" fill="#10b981" />
+    <polygon points="314,230 330,222 330,266 314,274" fill="#000000" opacity="0.30" />
     <!-- Cube at week 10, day 2 -->
-    <polygon points="298,262 314,270 298,278 282,270" fill="#1e293b" />
+    <polygon points="298,244 314,252 298,260 282,252" fill="#047857" />
     <!-- Left Face -->
-    <polygon points="282,270 298,278 298,282 282,274" fill="#1e293b" />
-    <polygon points="282,270 298,278 298,282 282,274" fill="#000000" opacity="0.15" />
+    <polygon points="282,252 298,260 298,282 282,274" fill="#047857" />
+    <polygon points="282,252 298,260 298,282 282,274" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="298,278 314,270 314,274 298,282" fill="#1e293b" />
-    <polygon points="298,278 314,270 314,274 298,282" fill="#000000" opacity="0.30" />
+    <polygon points="298,260 314,252 314,274 298,282" fill="#047857" />
+    <polygon points="298,260 314,252 314,274 298,282" fill="#000000" opacity="0.30" />
     <!-- Cube at week 10, day 3 -->
-    <polygon points="282,270 298,278 282,286 266,278" fill="#1e293b" />
+    <polygon points="282,262 298,270 282,278 266,270" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="266,278 282,286 282,290 266,282" fill="#1e293b" />
-    <polygon points="266,278 282,286 282,290 266,282" fill="#000000" opacity="0.15" />
+    <polygon points="266,270 282,278 282,290 266,282" fill="#064e3b" />
+    <polygon points="266,270 282,278 282,290 266,282" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="282,286 298,278 298,282 282,290" fill="#1e293b" />
-    <polygon points="282,286 298,278 298,282 282,290" fill="#000000" opacity="0.30" />
+    <polygon points="282,278 298,270 298,282 282,290" fill="#064e3b" />
+    <polygon points="282,278 298,270 298,282 282,290" fill="#000000" opacity="0.30" />
     <!-- Cube at week 10, day 4 -->
     <polygon points="266,278 282,286 266,294 250,286" fill="#1e293b" />
     <!-- Left Face -->
@@ -644,29 +644,29 @@
     <polygon points="346,270 362,262 362,266 346,274" fill="#1e293b" />
     <polygon points="346,270 362,262 362,266 346,274" fill="#000000" opacity="0.30" />
     <!-- Cube at week 11, day 1 -->
-    <polygon points="330,222 346,230 330,238 314,230" fill="#10b981" />
+    <polygon points="330,262 346,270 330,278 314,270" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="314,230 330,238 330,282 314,274" fill="#10b981" />
-    <polygon points="314,230 330,238 330,282 314,274" fill="#000000" opacity="0.15" />
+    <polygon points="314,270 330,278 330,282 314,274" fill="#1e293b" />
+    <polygon points="314,270 330,278 330,282 314,274" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="330,238 346,230 346,274 330,282" fill="#10b981" />
-    <polygon points="330,238 346,230 346,274 330,282" fill="#000000" opacity="0.30" />
+    <polygon points="330,278 346,270 346,274 330,282" fill="#1e293b" />
+    <polygon points="330,278 346,270 346,274 330,282" fill="#000000" opacity="0.30" />
     <!-- Cube at week 11, day 2 -->
-    <polygon points="314,252 330,260 314,268 298,260" fill="#047857" />
+    <polygon points="314,270 330,278 314,286 298,278" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="298,260 314,268 314,290 298,282" fill="#047857" />
-    <polygon points="298,260 314,268 314,290 298,282" fill="#000000" opacity="0.15" />
+    <polygon points="298,278 314,286 314,290 298,282" fill="#1e293b" />
+    <polygon points="298,278 314,286 314,290 298,282" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="314,268 330,260 330,282 314,290" fill="#047857" />
-    <polygon points="314,268 330,260 330,282 314,290" fill="#000000" opacity="0.30" />
+    <polygon points="314,286 330,278 330,282 314,290" fill="#1e293b" />
+    <polygon points="314,286 330,278 330,282 314,290" fill="#000000" opacity="0.30" />
     <!-- Cube at week 11, day 3 -->
-    <polygon points="298,270 314,278 298,286 282,278" fill="#064e3b" />
+    <polygon points="298,278 314,286 298,294 282,286" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="282,278 298,286 298,298 282,290" fill="#064e3b" />
-    <polygon points="282,278 298,286 298,298 282,290" fill="#000000" opacity="0.15" />
+    <polygon points="282,286 298,294 298,298 282,290" fill="#1e293b" />
+    <polygon points="282,286 298,294 298,298 282,290" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="298,286 314,278 314,290 298,298" fill="#064e3b" />
-    <polygon points="298,286 314,278 314,290 298,298" fill="#000000" opacity="0.30" />
+    <polygon points="298,294 314,286 314,290 298,298" fill="#1e293b" />
+    <polygon points="298,294 314,286 314,290 298,298" fill="#000000" opacity="0.30" />
     <!-- Cube at week 11, day 4 -->
     <polygon points="282,286 298,294 282,302 266,294" fill="#1e293b" />
     <!-- Left Face -->
@@ -716,29 +716,29 @@
     <polygon points="330,294 346,286 346,290 330,298" fill="#1e293b" />
     <polygon points="330,294 346,286 346,290 330,298" fill="#000000" opacity="0.30" />
     <!-- Cube at week 12, day 3 -->
-    <polygon points="314,286 330,294 314,302 298,294" fill="#1e293b" />
+    <polygon points="314,268 330,276 314,284 298,276" fill="#047857" />
     <!-- Left Face -->
-    <polygon points="298,294 314,302 314,306 298,298" fill="#1e293b" />
-    <polygon points="298,294 314,302 314,306 298,298" fill="#000000" opacity="0.15" />
+    <polygon points="298,276 314,284 314,306 298,298" fill="#047857" />
+    <polygon points="298,276 314,284 314,306 298,298" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="314,302 330,294 330,298 314,306" fill="#1e293b" />
-    <polygon points="314,302 330,294 330,298 314,306" fill="#000000" opacity="0.30" />
+    <polygon points="314,284 330,276 330,298 314,306" fill="#047857" />
+    <polygon points="314,284 330,276 330,298 314,306" fill="#000000" opacity="0.30" />
     <!-- Cube at week 12, day 4 -->
-    <polygon points="298,294 314,302 298,310 282,302" fill="#1e293b" />
+    <polygon points="298,276 314,284 298,292 282,284" fill="#047857" />
     <!-- Left Face -->
-    <polygon points="282,302 298,310 298,314 282,306" fill="#1e293b" />
-    <polygon points="282,302 298,310 298,314 282,306" fill="#000000" opacity="0.15" />
+    <polygon points="282,284 298,292 298,314 282,306" fill="#047857" />
+    <polygon points="282,284 298,292 298,314 282,306" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="298,310 314,302 314,306 298,314" fill="#1e293b" />
-    <polygon points="298,310 314,302 314,306 298,314" fill="#000000" opacity="0.30" />
+    <polygon points="298,292 314,284 314,306 298,314" fill="#047857" />
+    <polygon points="298,292 314,284 314,306 298,314" fill="#000000" opacity="0.30" />
     <!-- Cube at week 12, day 5 -->
-    <polygon points="282,302 298,310 282,318 266,310" fill="#1e293b" />
+    <polygon points="282,262 298,270 282,278 266,270" fill="#10b981" />
     <!-- Left Face -->
-    <polygon points="266,310 282,318 282,322 266,314" fill="#1e293b" />
-    <polygon points="266,310 282,318 282,322 266,314" fill="#000000" opacity="0.15" />
+    <polygon points="266,270 282,278 282,322 266,314" fill="#10b981" />
+    <polygon points="266,270 282,278 282,322 266,314" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="282,318 298,310 298,314 282,322" fill="#1e293b" />
-    <polygon points="282,318 298,310 298,314 282,322" fill="#000000" opacity="0.30" />
+    <polygon points="282,278 298,270 298,314 282,322" fill="#10b981" />
+    <polygon points="282,278 298,270 298,314 282,322" fill="#000000" opacity="0.30" />
     <!-- Cube at week 12, day 6 -->
     <polygon points="266,310 282,318 266,326 250,318" fill="#1e293b" />
     <!-- Left Face -->
@@ -772,29 +772,29 @@
     <polygon points="346,302 362,294 362,298 346,306" fill="#1e293b" />
     <polygon points="346,302 362,294 362,298 346,306" fill="#000000" opacity="0.30" />
     <!-- Cube at week 13, day 3 -->
-    <polygon points="330,276 346,284 330,292 314,284" fill="#047857" />
+    <polygon points="330,294 346,302 330,310 314,302" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="314,284 330,292 330,314 314,306" fill="#047857" />
-    <polygon points="314,284 330,292 330,314 314,306" fill="#000000" opacity="0.15" />
+    <polygon points="314,302 330,310 330,314 314,306" fill="#1e293b" />
+    <polygon points="314,302 330,310 330,314 314,306" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="330,292 346,284 346,306 330,314" fill="#047857" />
-    <polygon points="330,292 346,284 346,306 330,314" fill="#000000" opacity="0.30" />
+    <polygon points="330,310 346,302 346,306 330,314" fill="#1e293b" />
+    <polygon points="330,310 346,302 346,306 330,314" fill="#000000" opacity="0.30" />
     <!-- Cube at week 13, day 4 -->
-    <polygon points="314,284 330,292 314,300 298,292" fill="#047857" />
+    <polygon points="314,302 330,310 314,318 298,310" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="298,292 314,300 314,322 298,314" fill="#047857" />
-    <polygon points="298,292 314,300 314,322 298,314" fill="#000000" opacity="0.15" />
+    <polygon points="298,310 314,318 314,322 298,314" fill="#1e293b" />
+    <polygon points="298,310 314,318 314,322 298,314" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="314,300 330,292 330,314 314,322" fill="#047857" />
-    <polygon points="314,300 330,292 330,314 314,322" fill="#000000" opacity="0.30" />
+    <polygon points="314,318 330,310 330,314 314,322" fill="#1e293b" />
+    <polygon points="314,318 330,310 330,314 314,322" fill="#000000" opacity="0.30" />
     <!-- Cube at week 13, day 5 -->
-    <polygon points="298,270 314,278 298,286 282,278" fill="#10b981" />
+    <polygon points="298,310 314,318 298,326 282,318" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="282,278 298,286 298,330 282,322" fill="#10b981" />
-    <polygon points="282,278 298,286 298,330 282,322" fill="#000000" opacity="0.15" />
+    <polygon points="282,318 298,326 298,330 282,322" fill="#1e293b" />
+    <polygon points="282,318 298,326 298,330 282,322" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="298,286 314,278 314,322 298,330" fill="#10b981" />
-    <polygon points="298,286 314,278 314,322 298,330" fill="#000000" opacity="0.30" />
+    <polygon points="298,326 314,318 314,322 298,330" fill="#1e293b" />
+    <polygon points="298,326 314,318 314,322 298,330" fill="#000000" opacity="0.30" />
     <!-- Cube at week 13, day 6 -->
     <polygon points="282,318 298,326 282,334 266,326" fill="#1e293b" />
     <!-- Left Face -->
@@ -1348,13 +1348,13 @@
     <polygon points="474,398 490,390 490,394 474,402" fill="#1e293b" />
     <polygon points="474,398 490,390 490,394 474,402" fill="#000000" opacity="0.30" />
     <!-- Cube at week 23, day 5 -->
-    <polygon points="458,390 474,398 458,406 442,398" fill="#1e293b" />
+    <polygon points="458,382 474,390 458,398 442,390" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="442,398 458,406 458,410 442,402" fill="#1e293b" />
-    <polygon points="442,398 458,406 458,410 442,402" fill="#000000" opacity="0.15" />
+    <polygon points="442,390 458,398 458,410 442,402" fill="#064e3b" />
+    <polygon points="442,390 458,398 458,410 442,402" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="458,406 474,398 474,402 458,410" fill="#1e293b" />
-    <polygon points="458,406 474,398 474,402 458,410" fill="#000000" opacity="0.30" />
+    <polygon points="458,398 474,390 474,402 458,410" fill="#064e3b" />
+    <polygon points="458,398 474,390 474,402 458,410" fill="#000000" opacity="0.30" />
     <!-- Cube at week 23, day 6 -->
     <polygon points="442,398 458,406 442,414 426,406" fill="#1e293b" />
     <!-- Left Face -->
@@ -1404,13 +1404,13 @@
     <polygon points="490,406 506,398 506,402 490,410" fill="#1e293b" />
     <polygon points="490,406 506,398 506,402 490,410" fill="#000000" opacity="0.30" />
     <!-- Cube at week 24, day 5 -->
-    <polygon points="474,390 490,398 474,406 458,398" fill="#064e3b" />
+    <polygon points="474,398 490,406 474,414 458,406" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="458,398 474,406 474,418 458,410" fill="#064e3b" />
-    <polygon points="458,398 474,406 474,418 458,410" fill="#000000" opacity="0.15" />
+    <polygon points="458,406 474,414 474,418 458,410" fill="#1e293b" />
+    <polygon points="458,406 474,414 474,418 458,410" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="474,406 490,398 490,410 474,418" fill="#064e3b" />
-    <polygon points="474,406 490,398 490,410 474,418" fill="#000000" opacity="0.30" />
+    <polygon points="474,414 490,406 490,410 474,418" fill="#1e293b" />
+    <polygon points="474,414 490,406 490,410 474,418" fill="#000000" opacity="0.30" />
     <!-- Cube at week 24, day 6 -->
     <polygon points="458,406 474,414 458,422 442,414" fill="#1e293b" />
     <!-- Left Face -->
@@ -1540,13 +1540,13 @@
     <polygon points="602,398 618,390 618,394 602,402" fill="#1e293b" />
     <polygon points="602,398 618,390 618,394 602,402" fill="#000000" opacity="0.30" />
     <!-- Cube at week 27, day 1 -->
-    <polygon points="586,390 602,398 586,406 570,398" fill="#1e293b" />
+    <polygon points="586,382 602,390 586,398 570,390" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="570,398 586,406 586,410 570,402" fill="#1e293b" />
-    <polygon points="570,398 586,406 586,410 570,402" fill="#000000" opacity="0.15" />
+    <polygon points="570,390 586,398 586,410 570,402" fill="#064e3b" />
+    <polygon points="570,390 586,398 586,410 570,402" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="586,406 602,398 602,402 586,410" fill="#1e293b" />
-    <polygon points="586,406 602,398 602,402 586,410" fill="#000000" opacity="0.30" />
+    <polygon points="586,398 602,390 602,402 586,410" fill="#064e3b" />
+    <polygon points="586,398 602,390 602,402 586,410" fill="#000000" opacity="0.30" />
     <!-- Cube at week 27, day 2 -->
     <polygon points="570,398 586,406 570,414 554,406" fill="#1e293b" />
     <!-- Left Face -->
@@ -1596,13 +1596,13 @@
     <polygon points="618,406 634,398 634,402 618,410" fill="#1e293b" />
     <polygon points="618,406 634,398 634,402 618,410" fill="#000000" opacity="0.30" />
     <!-- Cube at week 28, day 1 -->
-    <polygon points="602,390 618,398 602,406 586,398" fill="#064e3b" />
+    <polygon points="602,398 618,406 602,414 586,406" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="586,398 602,406 602,418 586,410" fill="#064e3b" />
-    <polygon points="586,398 602,406 602,418 586,410" fill="#000000" opacity="0.15" />
+    <polygon points="586,406 602,414 602,418 586,410" fill="#1e293b" />
+    <polygon points="586,406 602,414 602,418 586,410" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="602,406 618,398 618,410 602,418" fill="#064e3b" />
-    <polygon points="602,406 618,398 618,410 602,418" fill="#000000" opacity="0.30" />
+    <polygon points="602,414 618,406 618,410 602,418" fill="#1e293b" />
+    <polygon points="602,414 618,406 618,410 602,418" fill="#000000" opacity="0.30" />
     <!-- Cube at week 28, day 2 -->
     <polygon points="586,406 602,414 586,422 570,414" fill="#1e293b" />
     <!-- Left Face -->
@@ -2012,13 +2012,13 @@
     <polygon points="682,486 698,478 698,482 682,490" fill="#1e293b" />
     <polygon points="682,486 698,478 698,482 682,490" fill="#000000" opacity="0.30" />
     <!-- Cube at week 35, day 4 -->
-    <polygon points="666,478 682,486 666,494 650,486" fill="#1e293b" />
+    <polygon points="666,470 682,478 666,486 650,478" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="650,486 666,494 666,498 650,490" fill="#1e293b" />
-    <polygon points="650,486 666,494 666,498 650,490" fill="#000000" opacity="0.15" />
+    <polygon points="650,478 666,486 666,498 650,490" fill="#064e3b" />
+    <polygon points="650,478 666,486 666,498 650,490" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="666,494 682,486 682,490 666,498" fill="#1e293b" />
-    <polygon points="666,494 682,486 682,490 666,498" fill="#000000" opacity="0.30" />
+    <polygon points="666,486 682,478 682,490 666,498" fill="#064e3b" />
+    <polygon points="666,486 682,478 682,490 666,498" fill="#000000" opacity="0.30" />
     <!-- Cube at week 35, day 5 -->
     <polygon points="650,486 666,494 650,502 634,494" fill="#1e293b" />
     <!-- Left Face -->
@@ -2060,21 +2060,21 @@
     <polygon points="714,486 730,478 730,482 714,490" fill="#1e293b" />
     <polygon points="714,486 730,478 730,482 714,490" fill="#000000" opacity="0.30" />
     <!-- Cube at week 36, day 3 -->
-    <polygon points="698,478 714,486 698,494 682,486" fill="#1e293b" />
+    <polygon points="698,470 714,478 698,486 682,478" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="682,486 698,494 698,498 682,490" fill="#1e293b" />
-    <polygon points="682,486 698,494 698,498 682,490" fill="#000000" opacity="0.15" />
+    <polygon points="682,478 698,486 698,498 682,490" fill="#064e3b" />
+    <polygon points="682,478 698,486 698,498 682,490" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="698,494 714,486 714,490 698,498" fill="#1e293b" />
-    <polygon points="698,494 714,486 714,490 698,498" fill="#000000" opacity="0.30" />
+    <polygon points="698,486 714,478 714,490 698,498" fill="#064e3b" />
+    <polygon points="698,486 714,478 714,490 698,498" fill="#000000" opacity="0.30" />
     <!-- Cube at week 36, day 4 -->
-    <polygon points="682,478 698,486 682,494 666,486" fill="#064e3b" />
+    <polygon points="682,486 698,494 682,502 666,494" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="666,486 682,494 682,506 666,498" fill="#064e3b" />
-    <polygon points="666,486 682,494 682,506 666,498" fill="#000000" opacity="0.15" />
+    <polygon points="666,494 682,502 682,506 666,498" fill="#1e293b" />
+    <polygon points="666,494 682,502 682,506 666,498" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="682,494 698,486 698,498 682,506" fill="#064e3b" />
-    <polygon points="682,494 698,486 698,498 682,506" fill="#000000" opacity="0.30" />
+    <polygon points="682,502 698,494 698,498 682,506" fill="#1e293b" />
+    <polygon points="682,502 698,494 698,498 682,506" fill="#000000" opacity="0.30" />
     <!-- Cube at week 36, day 5 -->
     <polygon points="666,494 682,502 666,510 650,502" fill="#1e293b" />
     <!-- Left Face -->
@@ -2116,13 +2116,13 @@
     <polygon points="730,494 746,486 746,490 730,498" fill="#1e293b" />
     <polygon points="730,494 746,486 746,490 730,498" fill="#000000" opacity="0.30" />
     <!-- Cube at week 37, day 3 -->
-    <polygon points="714,478 730,486 714,494 698,486" fill="#064e3b" />
+    <polygon points="714,486 730,494 714,502 698,494" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="698,486 714,494 714,506 698,498" fill="#064e3b" />
-    <polygon points="698,486 714,494 714,506 698,498" fill="#000000" opacity="0.15" />
+    <polygon points="698,494 714,502 714,506 698,498" fill="#1e293b" />
+    <polygon points="698,494 714,502 714,506 698,498" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="714,494 730,486 730,498 714,506" fill="#064e3b" />
-    <polygon points="714,494 730,486 730,498 714,506" fill="#000000" opacity="0.30" />
+    <polygon points="714,502 730,494 730,498 714,506" fill="#1e293b" />
+    <polygon points="714,502 730,494 730,498 714,506" fill="#000000" opacity="0.30" />
     <!-- Cube at week 37, day 4 -->
     <polygon points="698,494 714,502 698,510 682,502" fill="#1e293b" />
     <!-- Left Face -->
@@ -2196,21 +2196,21 @@
     <polygon points="698,526 714,518 714,522 698,530" fill="#1e293b" />
     <polygon points="698,526 714,518 714,522 698,530" fill="#000000" opacity="0.30" />
     <!-- Cube at week 38, day 6 -->
-    <polygon points="682,518 698,526 682,534 666,526" fill="#1e293b" />
+    <polygon points="682,510 698,518 682,526 666,518" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="666,526 682,534 682,538 666,530" fill="#1e293b" />
-    <polygon points="666,526 682,534 682,538 666,530" fill="#000000" opacity="0.15" />
+    <polygon points="666,518 682,526 682,538 666,530" fill="#064e3b" />
+    <polygon points="666,518 682,526 682,538 666,530" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="682,534 698,526 698,530 682,538" fill="#1e293b" />
-    <polygon points="682,534 698,526 698,530 682,538" fill="#000000" opacity="0.30" />
+    <polygon points="682,526 698,518 698,530 682,538" fill="#064e3b" />
+    <polygon points="682,526 698,518 698,530 682,538" fill="#000000" opacity="0.30" />
     <!-- Cube at week 39, day 0 -->
-    <polygon points="794,478 810,486 794,494 778,486" fill="#1e293b" />
+    <polygon points="794,470 810,478 794,486 778,478" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="778,486 794,494 794,498 778,490" fill="#1e293b" />
-    <polygon points="778,486 794,494 794,498 778,490" fill="#000000" opacity="0.15" />
+    <polygon points="778,478 794,486 794,498 778,490" fill="#064e3b" />
+    <polygon points="778,478 794,486 794,498 778,490" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="794,494 810,486 810,490 794,498" fill="#1e293b" />
-    <polygon points="794,494 810,486 810,490 794,498" fill="#000000" opacity="0.30" />
+    <polygon points="794,486 810,478 810,490 794,498" fill="#064e3b" />
+    <polygon points="794,486 810,478 810,490 794,498" fill="#000000" opacity="0.30" />
     <!-- Cube at week 39, day 1 -->
     <polygon points="778,486 794,494 778,502 762,494" fill="#1e293b" />
     <!-- Left Face -->
@@ -2228,21 +2228,21 @@
     <polygon points="762,510 778,502 778,506 762,514" fill="#1e293b" />
     <polygon points="762,510 778,502 778,506 762,514" fill="#000000" opacity="0.30" />
     <!-- Cube at week 39, day 3 -->
-    <polygon points="746,502 762,510 746,518 730,510" fill="#1e293b" />
+    <polygon points="746,494 762,502 746,510 730,502" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="730,510 746,518 746,522 730,514" fill="#1e293b" />
-    <polygon points="730,510 746,518 746,522 730,514" fill="#000000" opacity="0.15" />
+    <polygon points="730,502 746,510 746,522 730,514" fill="#064e3b" />
+    <polygon points="730,502 746,510 746,522 730,514" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="746,518 762,510 762,514 746,522" fill="#1e293b" />
-    <polygon points="746,518 762,510 762,514 746,522" fill="#000000" opacity="0.30" />
+    <polygon points="746,510 762,502 762,514 746,522" fill="#064e3b" />
+    <polygon points="746,510 762,502 762,514 746,522" fill="#000000" opacity="0.30" />
     <!-- Cube at week 39, day 4 -->
-    <polygon points="730,510 746,518 730,526 714,518" fill="#1e293b" />
+    <polygon points="730,502 746,510 730,518 714,510" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="714,518 730,526 730,530 714,522" fill="#1e293b" />
-    <polygon points="714,518 730,526 730,530 714,522" fill="#000000" opacity="0.15" />
+    <polygon points="714,510 730,518 730,530 714,522" fill="#064e3b" />
+    <polygon points="714,510 730,518 730,530 714,522" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="730,526 746,518 746,522 730,530" fill="#1e293b" />
-    <polygon points="730,526 746,518 746,522 730,530" fill="#000000" opacity="0.30" />
+    <polygon points="730,518 746,510 746,522 730,530" fill="#064e3b" />
+    <polygon points="730,518 746,510 746,522 730,530" fill="#000000" opacity="0.30" />
     <!-- Cube at week 39, day 5 -->
     <polygon points="714,518 730,526 714,534 698,526" fill="#1e293b" />
     <!-- Left Face -->
@@ -2260,13 +2260,13 @@
     <polygon points="698,534 714,526 714,538 698,546" fill="#064e3b" />
     <polygon points="698,534 714,526 714,538 698,546" fill="#000000" opacity="0.30" />
     <!-- Cube at week 40, day 0 -->
-    <polygon points="810,478 826,486 810,494 794,486" fill="#064e3b" />
+    <polygon points="810,486 826,494 810,502 794,494" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="794,486 810,494 810,506 794,498" fill="#064e3b" />
-    <polygon points="794,486 810,494 810,506 794,498" fill="#000000" opacity="0.15" />
+    <polygon points="794,494 810,502 810,506 794,498" fill="#1e293b" />
+    <polygon points="794,494 810,502 810,506 794,498" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="810,494 826,486 826,498 810,506" fill="#064e3b" />
-    <polygon points="810,494 826,486 826,498 810,506" fill="#000000" opacity="0.30" />
+    <polygon points="810,502 826,494 826,498 810,506" fill="#1e293b" />
+    <polygon points="810,502 826,494 826,498 810,506" fill="#000000" opacity="0.30" />
     <!-- Cube at week 40, day 1 -->
     <polygon points="794,494 810,502 794,510 778,502" fill="#1e293b" />
     <!-- Left Face -->
@@ -2284,21 +2284,21 @@
     <polygon points="778,518 794,510 794,514 778,522" fill="#1e293b" />
     <polygon points="778,518 794,510 794,514 778,522" fill="#000000" opacity="0.30" />
     <!-- Cube at week 40, day 3 -->
-    <polygon points="762,502 778,510 762,518 746,510" fill="#064e3b" />
+    <polygon points="762,510 778,518 762,526 746,518" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="746,510 762,518 762,530 746,522" fill="#064e3b" />
-    <polygon points="746,510 762,518 762,530 746,522" fill="#000000" opacity="0.15" />
+    <polygon points="746,518 762,526 762,530 746,522" fill="#1e293b" />
+    <polygon points="746,518 762,526 762,530 746,522" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="762,518 778,510 778,522 762,530" fill="#064e3b" />
-    <polygon points="762,518 778,510 778,522 762,530" fill="#000000" opacity="0.30" />
+    <polygon points="762,526 778,518 778,522 762,530" fill="#1e293b" />
+    <polygon points="762,526 778,518 778,522 762,530" fill="#000000" opacity="0.30" />
     <!-- Cube at week 40, day 4 -->
-    <polygon points="746,510 762,518 746,526 730,518" fill="#064e3b" />
+    <polygon points="746,518 762,526 746,534 730,526" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="730,518 746,526 746,538 730,530" fill="#064e3b" />
-    <polygon points="730,518 746,526 746,538 730,530" fill="#000000" opacity="0.15" />
+    <polygon points="730,526 746,534 746,538 730,530" fill="#1e293b" />
+    <polygon points="730,526 746,534 746,538 730,530" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="746,526 762,518 762,530 746,538" fill="#064e3b" />
-    <polygon points="746,526 762,518 762,530 746,538" fill="#000000" opacity="0.30" />
+    <polygon points="746,534 762,526 762,530 746,538" fill="#1e293b" />
+    <polygon points="746,534 762,526 762,530 746,538" fill="#000000" opacity="0.30" />
     <!-- Cube at week 40, day 5 -->
     <polygon points="730,526 746,534 730,542 714,534" fill="#1e293b" />
     <!-- Left Face -->
@@ -2308,13 +2308,13 @@
     <polygon points="730,542 746,534 746,538 730,546" fill="#1e293b" />
     <polygon points="730,542 746,534 746,538 730,546" fill="#000000" opacity="0.30" />
     <!-- Cube at week 40, day 6 -->
-    <polygon points="714,526 730,534 714,542 698,534" fill="#064e3b" />
+    <polygon points="714,534 730,542 714,550 698,542" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="698,534 714,542 714,554 698,546" fill="#064e3b" />
-    <polygon points="698,534 714,542 714,554 698,546" fill="#000000" opacity="0.15" />
+    <polygon points="698,542 714,550 714,554 698,546" fill="#1e293b" />
+    <polygon points="698,542 714,550 714,554 698,546" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="714,542 730,534 730,546 714,554" fill="#064e3b" />
-    <polygon points="714,542 730,534 730,546 714,554" fill="#000000" opacity="0.30" />
+    <polygon points="714,550 730,542 730,546 714,554" fill="#1e293b" />
+    <polygon points="714,550 730,542 730,546 714,554" fill="#000000" opacity="0.30" />
     <!-- Cube at week 41, day 0 -->
     <polygon points="826,494 842,502 826,510 810,502" fill="#1e293b" />
     <!-- Left Face -->
@@ -2452,13 +2452,13 @@
     <polygon points="826,542 842,534 842,538 826,546" fill="#1e293b" />
     <polygon points="826,542 842,534 842,538 826,546" fill="#000000" opacity="0.30" />
     <!-- Cube at week 43, day 3 -->
-    <polygon points="810,534 826,542 810,550 794,542" fill="#1e293b" />
+    <polygon points="810,526 826,534 810,542 794,534" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="794,542 810,550 810,554 794,546" fill="#1e293b" />
-    <polygon points="794,542 810,550 810,554 794,546" fill="#000000" opacity="0.15" />
+    <polygon points="794,534 810,542 810,554 794,546" fill="#064e3b" />
+    <polygon points="794,534 810,542 810,554 794,546" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="810,550 826,542 826,546 810,554" fill="#1e293b" />
-    <polygon points="810,550 826,542 826,546 810,554" fill="#000000" opacity="0.30" />
+    <polygon points="810,542 826,534 826,546 810,554" fill="#064e3b" />
+    <polygon points="810,542 826,534 826,546 810,554" fill="#000000" opacity="0.30" />
     <!-- Cube at week 43, day 4 -->
     <polygon points="794,542 810,550 794,558 778,550" fill="#1e293b" />
     <!-- Left Face -->
@@ -2468,37 +2468,37 @@
     <polygon points="794,558 810,550 810,554 794,562" fill="#1e293b" />
     <polygon points="794,558 810,550 810,554 794,562" fill="#000000" opacity="0.30" />
     <!-- Cube at week 43, day 5 -->
-    <polygon points="778,550 794,558 778,566 762,558" fill="#1e293b" />
+    <polygon points="778,542 794,550 778,558 762,550" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="762,558 778,566 778,570 762,562" fill="#1e293b" />
-    <polygon points="762,558 778,566 778,570 762,562" fill="#000000" opacity="0.15" />
+    <polygon points="762,550 778,558 778,570 762,562" fill="#064e3b" />
+    <polygon points="762,550 778,558 778,570 762,562" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="778,566 794,558 794,562 778,570" fill="#1e293b" />
-    <polygon points="778,566 794,558 794,562 778,570" fill="#000000" opacity="0.30" />
+    <polygon points="778,558 794,550 794,562 778,570" fill="#064e3b" />
+    <polygon points="778,558 794,550 794,562 778,570" fill="#000000" opacity="0.30" />
     <!-- Cube at week 43, day 6 -->
-    <polygon points="762,558 778,566 762,574 746,566" fill="#1e293b" />
+    <polygon points="762,518 778,526 762,534 746,526" fill="#10b981" />
     <!-- Left Face -->
-    <polygon points="746,566 762,574 762,578 746,570" fill="#1e293b" />
-    <polygon points="746,566 762,574 762,578 746,570" fill="#000000" opacity="0.15" />
+    <polygon points="746,526 762,534 762,578 746,570" fill="#10b981" />
+    <polygon points="746,526 762,534 762,578 746,570" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="762,574 778,566 778,570 762,578" fill="#1e293b" />
-    <polygon points="762,574 778,566 778,570 762,578" fill="#000000" opacity="0.30" />
+    <polygon points="762,534 778,526 778,570 762,578" fill="#10b981" />
+    <polygon points="762,534 778,526 778,570 762,578" fill="#000000" opacity="0.30" />
     <!-- Cube at week 44, day 0 -->
-    <polygon points="874,518 890,526 874,534 858,526" fill="#1e293b" />
+    <polygon points="874,490 890,498 874,506 858,498" fill="#059669" />
     <!-- Left Face -->
-    <polygon points="858,526 874,534 874,538 858,530" fill="#1e293b" />
-    <polygon points="858,526 874,534 874,538 858,530" fill="#000000" opacity="0.15" />
+    <polygon points="858,498 874,506 874,538 858,530" fill="#059669" />
+    <polygon points="858,498 874,506 874,538 858,530" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="874,534 890,526 890,530 874,538" fill="#1e293b" />
-    <polygon points="874,534 890,526 890,530 874,538" fill="#000000" opacity="0.30" />
+    <polygon points="874,506 890,498 890,530 874,538" fill="#059669" />
+    <polygon points="874,506 890,498 890,530 874,538" fill="#000000" opacity="0.30" />
     <!-- Cube at week 44, day 1 -->
-    <polygon points="858,526 874,534 858,542 842,534" fill="#1e293b" />
+    <polygon points="858,518 874,526 858,534 842,526" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="842,534 858,542 858,546 842,538" fill="#1e293b" />
-    <polygon points="842,534 858,542 858,546 842,538" fill="#000000" opacity="0.15" />
+    <polygon points="842,526 858,534 858,546 842,538" fill="#064e3b" />
+    <polygon points="842,526 858,534 858,546 842,538" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="858,542 874,534 874,538 858,546" fill="#1e293b" />
-    <polygon points="858,542 874,534 874,538 858,546" fill="#000000" opacity="0.30" />
+    <polygon points="858,534 874,526 874,538 858,546" fill="#064e3b" />
+    <polygon points="858,534 874,526 874,538 858,546" fill="#000000" opacity="0.30" />
     <!-- Cube at week 44, day 2 -->
     <polygon points="842,534 858,542 842,550 826,542" fill="#1e293b" />
     <!-- Left Face -->
@@ -2508,53 +2508,53 @@
     <polygon points="842,550 858,542 858,546 842,554" fill="#1e293b" />
     <polygon points="842,550 858,542 858,546 842,554" fill="#000000" opacity="0.30" />
     <!-- Cube at week 44, day 3 -->
-    <polygon points="826,534 842,542 826,550 810,542" fill="#064e3b" />
+    <polygon points="826,542 842,550 826,558 810,550" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="810,542 826,550 826,562 810,554" fill="#064e3b" />
-    <polygon points="810,542 826,550 826,562 810,554" fill="#000000" opacity="0.15" />
+    <polygon points="810,550 826,558 826,562 810,554" fill="#1e293b" />
+    <polygon points="810,550 826,558 826,562 810,554" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="826,550 842,542 842,554 826,562" fill="#064e3b" />
-    <polygon points="826,550 842,542 842,554 826,562" fill="#000000" opacity="0.30" />
+    <polygon points="826,558 842,550 842,554 826,562" fill="#1e293b" />
+    <polygon points="826,558 842,550 842,554 826,562" fill="#000000" opacity="0.30" />
     <!-- Cube at week 44, day 4 -->
-    <polygon points="810,550 826,558 810,566 794,558" fill="#1e293b" />
+    <polygon points="810,510 826,518 810,526 794,518" fill="#10b981" />
     <!-- Left Face -->
-    <polygon points="794,558 810,566 810,570 794,562" fill="#1e293b" />
-    <polygon points="794,558 810,566 810,570 794,562" fill="#000000" opacity="0.15" />
+    <polygon points="794,518 810,526 810,570 794,562" fill="#10b981" />
+    <polygon points="794,518 810,526 810,570 794,562" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="810,566 826,558 826,562 810,570" fill="#1e293b" />
-    <polygon points="810,566 826,558 826,562 810,570" fill="#000000" opacity="0.30" />
+    <polygon points="810,526 826,518 826,562 810,570" fill="#10b981" />
+    <polygon points="810,526 826,518 826,562 810,570" fill="#000000" opacity="0.30" />
     <!-- Cube at week 44, day 5 -->
-    <polygon points="794,550 810,558 794,566 778,558" fill="#064e3b" />
+    <polygon points="794,540 810,548 794,556 778,548" fill="#047857" />
     <!-- Left Face -->
-    <polygon points="778,558 794,566 794,578 778,570" fill="#064e3b" />
-    <polygon points="778,558 794,566 794,578 778,570" fill="#000000" opacity="0.15" />
+    <polygon points="778,548 794,556 794,578 778,570" fill="#047857" />
+    <polygon points="778,548 794,556 794,578 778,570" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="794,566 810,558 810,570 794,578" fill="#064e3b" />
-    <polygon points="794,566 810,558 810,570 794,578" fill="#000000" opacity="0.30" />
+    <polygon points="794,556 810,548 810,570 794,578" fill="#047857" />
+    <polygon points="794,556 810,548 810,570 794,578" fill="#000000" opacity="0.30" />
     <!-- Cube at week 44, day 6 -->
-    <polygon points="778,526 794,534 778,542 762,534" fill="#10b981" />
+    <polygon points="778,566 794,574 778,582 762,574" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="762,534 778,542 778,586 762,578" fill="#10b981" />
-    <polygon points="762,534 778,542 778,586 762,578" fill="#000000" opacity="0.15" />
+    <polygon points="762,574 778,582 778,586 762,578" fill="#1e293b" />
+    <polygon points="762,574 778,582 778,586 762,578" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="778,542 794,534 794,578 778,586" fill="#10b981" />
-    <polygon points="778,542 794,534 794,578 778,586" fill="#000000" opacity="0.30" />
+    <polygon points="778,582 794,574 794,578 778,586" fill="#1e293b" />
+    <polygon points="778,582 794,574 794,578 778,586" fill="#000000" opacity="0.30" />
     <!-- Cube at week 45, day 0 -->
-    <polygon points="890,498 906,506 890,514 874,506" fill="#059669" />
+    <polygon points="890,526 906,534 890,542 874,534" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="874,506 890,514 890,546 874,538" fill="#059669" />
-    <polygon points="874,506 890,514 890,546 874,538" fill="#000000" opacity="0.15" />
+    <polygon points="874,534 890,542 890,546 874,538" fill="#1e293b" />
+    <polygon points="874,534 890,542 890,546 874,538" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="890,514 906,506 906,538 890,546" fill="#059669" />
-    <polygon points="890,514 906,506 906,538 890,546" fill="#000000" opacity="0.30" />
+    <polygon points="890,542 906,534 906,538 890,546" fill="#1e293b" />
+    <polygon points="890,542 906,534 906,538 890,546" fill="#000000" opacity="0.30" />
     <!-- Cube at week 45, day 1 -->
-    <polygon points="874,526 890,534 874,542 858,534" fill="#064e3b" />
+    <polygon points="874,534 890,542 874,550 858,542" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="858,534 874,542 874,554 858,546" fill="#064e3b" />
-    <polygon points="858,534 874,542 874,554 858,546" fill="#000000" opacity="0.15" />
+    <polygon points="858,542 874,550 874,554 858,546" fill="#1e293b" />
+    <polygon points="858,542 874,550 874,554 858,546" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="874,542 890,534 890,546 874,554" fill="#064e3b" />
-    <polygon points="874,542 890,534 890,546 874,554" fill="#000000" opacity="0.30" />
+    <polygon points="874,550 890,542 890,546 874,554" fill="#1e293b" />
+    <polygon points="874,550 890,542 890,546 874,554" fill="#000000" opacity="0.30" />
     <!-- Cube at week 45, day 2 -->
     <polygon points="858,542 874,550 858,558 842,550" fill="#1e293b" />
     <!-- Left Face -->
@@ -2572,21 +2572,21 @@
     <polygon points="842,566 858,558 858,562 842,570" fill="#1e293b" />
     <polygon points="842,566 858,558 858,562 842,570" fill="#000000" opacity="0.30" />
     <!-- Cube at week 45, day 4 -->
-    <polygon points="826,518 842,526 826,534 810,526" fill="#10b981" />
+    <polygon points="826,558 842,566 826,574 810,566" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="810,526 826,534 826,578 810,570" fill="#10b981" />
-    <polygon points="810,526 826,534 826,578 810,570" fill="#000000" opacity="0.15" />
+    <polygon points="810,566 826,574 826,578 810,570" fill="#1e293b" />
+    <polygon points="810,566 826,574 826,578 810,570" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="826,534 842,526 842,570 826,578" fill="#10b981" />
-    <polygon points="826,534 842,526 842,570 826,578" fill="#000000" opacity="0.30" />
+    <polygon points="826,574 842,566 842,570 826,578" fill="#1e293b" />
+    <polygon points="826,574 842,566 842,570 826,578" fill="#000000" opacity="0.30" />
     <!-- Cube at week 45, day 5 -->
-    <polygon points="810,548 826,556 810,564 794,556" fill="#047857" />
+    <polygon points="810,566 826,574 810,582 794,574" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="794,556 810,564 810,586 794,578" fill="#047857" />
-    <polygon points="794,556 810,564 810,586 794,578" fill="#000000" opacity="0.15" />
+    <polygon points="794,574 810,582 810,586 794,578" fill="#1e293b" />
+    <polygon points="794,574 810,582 810,586 794,578" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="810,564 826,556 826,578 810,586" fill="#047857" />
-    <polygon points="810,564 826,556 826,578 810,586" fill="#000000" opacity="0.30" />
+    <polygon points="810,582 826,574 826,578 810,586" fill="#1e293b" />
+    <polygon points="810,582 826,574 826,578 810,586" fill="#000000" opacity="0.30" />
     <!-- Cube at week 45, day 6 -->
     <polygon points="794,574 810,582 794,590 778,582" fill="#1e293b" />
     <!-- Left Face -->
@@ -2684,13 +2684,13 @@
     <polygon points="874,582 890,574 890,578 874,586" fill="#1e293b" />
     <polygon points="874,582 890,574 890,578 874,586" fill="#000000" opacity="0.30" />
     <!-- Cube at week 47, day 4 -->
-    <polygon points="858,574 874,582 858,590 842,582" fill="#1e293b" />
+    <polygon points="858,534 874,542 858,550 842,542" fill="#10b981" />
     <!-- Left Face -->
-    <polygon points="842,582 858,590 858,594 842,586" fill="#1e293b" />
-    <polygon points="842,582 858,590 858,594 842,586" fill="#000000" opacity="0.15" />
+    <polygon points="842,542 858,550 858,594 842,586" fill="#10b981" />
+    <polygon points="842,542 858,550 858,594 842,586" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="858,590 874,582 874,586 858,594" fill="#1e293b" />
-    <polygon points="858,590 874,582 874,586 858,594" fill="#000000" opacity="0.30" />
+    <polygon points="858,550 874,542 874,586 858,594" fill="#10b981" />
+    <polygon points="858,550 874,542 874,586 858,594" fill="#000000" opacity="0.30" />
     <!-- Cube at week 47, day 5 -->
     <polygon points="842,582 858,590 842,598 826,590" fill="#1e293b" />
     <!-- Left Face -->
@@ -2700,37 +2700,37 @@
     <polygon points="842,598 858,590 858,594 842,602" fill="#1e293b" />
     <polygon points="842,598 858,590 858,594 842,602" fill="#000000" opacity="0.30" />
     <!-- Cube at week 47, day 6 -->
-    <polygon points="826,590 842,598 826,606 810,598" fill="#1e293b" />
+    <polygon points="826,582 842,590 826,598 810,590" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="810,598 826,606 826,610 810,602" fill="#1e293b" />
-    <polygon points="810,598 826,606 826,610 810,602" fill="#000000" opacity="0.15" />
+    <polygon points="810,590 826,598 826,610 810,602" fill="#064e3b" />
+    <polygon points="810,590 826,598 826,610 810,602" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="826,606 842,598 842,602 826,610" fill="#1e293b" />
-    <polygon points="826,606 842,598 842,602 826,610" fill="#000000" opacity="0.30" />
+    <polygon points="826,598 842,590 842,602 826,610" fill="#064e3b" />
+    <polygon points="826,598 842,590 842,602 826,610" fill="#000000" opacity="0.30" />
     <!-- Cube at week 48, day 0 -->
-    <polygon points="938,550 954,558 938,566 922,558" fill="#1e293b" />
+    <polygon points="938,532 954,540 938,548 922,540" fill="#047857" />
     <!-- Left Face -->
-    <polygon points="922,558 938,566 938,570 922,562" fill="#1e293b" />
-    <polygon points="922,558 938,566 938,570 922,562" fill="#000000" opacity="0.15" />
+    <polygon points="922,540 938,548 938,570 922,562" fill="#047857" />
+    <polygon points="922,540 938,548 938,570 922,562" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="938,566 954,558 954,562 938,570" fill="#1e293b" />
-    <polygon points="938,566 954,558 954,562 938,570" fill="#000000" opacity="0.30" />
+    <polygon points="938,548 954,540 954,562 938,570" fill="#047857" />
+    <polygon points="938,548 954,540 954,562 938,570" fill="#000000" opacity="0.30" />
     <!-- Cube at week 48, day 1 -->
-    <polygon points="922,558 938,566 922,574 906,566" fill="#1e293b" />
+    <polygon points="922,530 938,538 922,546 906,538" fill="#059669" />
     <!-- Left Face -->
-    <polygon points="906,566 922,574 922,578 906,570" fill="#1e293b" />
-    <polygon points="906,566 922,574 922,578 906,570" fill="#000000" opacity="0.15" />
+    <polygon points="906,538 922,546 922,578 906,570" fill="#059669" />
+    <polygon points="906,538 922,546 922,578 906,570" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="922,574 938,566 938,570 922,578" fill="#1e293b" />
-    <polygon points="922,574 938,566 938,570 922,578" fill="#000000" opacity="0.30" />
+    <polygon points="922,546 938,538 938,570 922,578" fill="#059669" />
+    <polygon points="922,546 938,538 938,570 922,578" fill="#000000" opacity="0.30" />
     <!-- Cube at week 48, day 2 -->
-    <polygon points="906,566 922,574 906,582 890,574" fill="#1e293b" />
+    <polygon points="906,558 922,566 906,574 890,566" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="890,574 906,582 906,586 890,578" fill="#1e293b" />
-    <polygon points="890,574 906,582 906,586 890,578" fill="#000000" opacity="0.15" />
+    <polygon points="890,566 906,574 906,586 890,578" fill="#064e3b" />
+    <polygon points="890,566 906,574 906,586 890,578" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="906,582 922,574 922,578 906,586" fill="#1e293b" />
-    <polygon points="906,582 922,574 922,578 906,586" fill="#000000" opacity="0.30" />
+    <polygon points="906,574 922,566 922,578 906,586" fill="#064e3b" />
+    <polygon points="906,574 922,566 922,578 906,586" fill="#000000" opacity="0.30" />
     <!-- Cube at week 48, day 3 -->
     <polygon points="890,574 906,582 890,590 874,582" fill="#1e293b" />
     <!-- Left Face -->
@@ -2740,13 +2740,13 @@
     <polygon points="890,590 906,582 906,586 890,594" fill="#1e293b" />
     <polygon points="890,590 906,582 906,586 890,594" fill="#000000" opacity="0.30" />
     <!-- Cube at week 48, day 4 -->
-    <polygon points="874,542 890,550 874,558 858,550" fill="#10b981" />
+    <polygon points="874,582 890,590 874,598 858,590" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="858,550 874,558 874,602 858,594" fill="#10b981" />
-    <polygon points="858,550 874,558 874,602 858,594" fill="#000000" opacity="0.15" />
+    <polygon points="858,590 874,598 874,602 858,594" fill="#1e293b" />
+    <polygon points="858,590 874,598 874,602 858,594" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="874,558 890,550 890,594 874,602" fill="#10b981" />
-    <polygon points="874,558 890,550 890,594 874,602" fill="#000000" opacity="0.30" />
+    <polygon points="874,598 890,590 890,594 874,602" fill="#1e293b" />
+    <polygon points="874,598 890,590 890,594 874,602" fill="#000000" opacity="0.30" />
     <!-- Cube at week 48, day 5 -->
     <polygon points="858,590 874,598 858,606 842,598" fill="#1e293b" />
     <!-- Left Face -->
@@ -2756,37 +2756,37 @@
     <polygon points="858,606 874,598 874,602 858,610" fill="#1e293b" />
     <polygon points="858,606 874,598 874,602 858,610" fill="#000000" opacity="0.30" />
     <!-- Cube at week 48, day 6 -->
-    <polygon points="842,590 858,598 842,606 826,598" fill="#064e3b" />
+    <polygon points="842,598 858,606 842,614 826,606" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="826,598 842,606 842,618 826,610" fill="#064e3b" />
-    <polygon points="826,598 842,606 842,618 826,610" fill="#000000" opacity="0.15" />
+    <polygon points="826,606 842,614 842,618 826,610" fill="#1e293b" />
+    <polygon points="826,606 842,614 842,618 826,610" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="842,606 858,598 858,610 842,618" fill="#064e3b" />
-    <polygon points="842,606 858,598 858,610 842,618" fill="#000000" opacity="0.30" />
+    <polygon points="842,614 858,606 858,610 842,618" fill="#1e293b" />
+    <polygon points="842,614 858,606 858,610 842,618" fill="#000000" opacity="0.30" />
     <!-- Cube at week 49, day 0 -->
-    <polygon points="954,540 970,548 954,556 938,548" fill="#047857" />
+    <polygon points="954,558 970,566 954,574 938,566" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="938,548 954,556 954,578 938,570" fill="#047857" />
-    <polygon points="938,548 954,556 954,578 938,570" fill="#000000" opacity="0.15" />
+    <polygon points="938,566 954,574 954,578 938,570" fill="#1e293b" />
+    <polygon points="938,566 954,574 954,578 938,570" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="954,556 970,548 970,570 954,578" fill="#047857" />
-    <polygon points="954,556 970,548 970,570 954,578" fill="#000000" opacity="0.30" />
+    <polygon points="954,574 970,566 970,570 954,578" fill="#1e293b" />
+    <polygon points="954,574 970,566 970,570 954,578" fill="#000000" opacity="0.30" />
     <!-- Cube at week 49, day 1 -->
-    <polygon points="938,538 954,546 938,554 922,546" fill="#059669" />
+    <polygon points="938,566 954,574 938,582 922,574" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="922,546 938,554 938,586 922,578" fill="#059669" />
-    <polygon points="922,546 938,554 938,586 922,578" fill="#000000" opacity="0.15" />
+    <polygon points="922,574 938,582 938,586 922,578" fill="#1e293b" />
+    <polygon points="922,574 938,582 938,586 922,578" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="938,554 954,546 954,578 938,586" fill="#059669" />
-    <polygon points="938,554 954,546 954,578 938,586" fill="#000000" opacity="0.30" />
+    <polygon points="938,582 954,574 954,578 938,586" fill="#1e293b" />
+    <polygon points="938,582 954,574 954,578 938,586" fill="#000000" opacity="0.30" />
     <!-- Cube at week 49, day 2 -->
-    <polygon points="922,566 938,574 922,582 906,574" fill="#064e3b" />
+    <polygon points="922,574 938,582 922,590 906,582" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="906,574 922,582 922,594 906,586" fill="#064e3b" />
-    <polygon points="906,574 922,582 922,594 906,586" fill="#000000" opacity="0.15" />
+    <polygon points="906,582 922,590 922,594 906,586" fill="#1e293b" />
+    <polygon points="906,582 922,590 922,594 906,586" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="922,582 938,574 938,586 922,594" fill="#064e3b" />
-    <polygon points="922,582 938,574 938,586 922,594" fill="#000000" opacity="0.30" />
+    <polygon points="922,590 938,582 938,586 922,594" fill="#1e293b" />
+    <polygon points="922,590 938,582 938,586 922,594" fill="#000000" opacity="0.30" />
     <!-- Cube at week 49, day 3 -->
     <polygon points="906,582 922,590 906,598 890,590" fill="#1e293b" />
     <!-- Left Face -->
@@ -2828,13 +2828,13 @@
     <polygon points="970,582 986,574 986,578 970,586" fill="#1e293b" />
     <polygon points="970,582 986,574 986,578 970,586" fill="#000000" opacity="0.30" />
     <!-- Cube at week 50, day 1 -->
-    <polygon points="954,574 970,582 954,590 938,582" fill="#1e293b" />
+    <polygon points="954,534 970,542 954,550 938,542" fill="#10b981" />
     <!-- Left Face -->
-    <polygon points="938,582 954,590 954,594 938,586" fill="#1e293b" />
-    <polygon points="938,582 954,590 954,594 938,586" fill="#000000" opacity="0.15" />
+    <polygon points="938,542 954,550 954,594 938,586" fill="#10b981" />
+    <polygon points="938,542 954,550 954,594 938,586" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="954,590 970,582 970,586 954,594" fill="#1e293b" />
-    <polygon points="954,590 970,582 970,586 954,594" fill="#000000" opacity="0.30" />
+    <polygon points="954,550 970,542 970,586 954,594" fill="#10b981" />
+    <polygon points="954,550 970,542 970,586 954,594" fill="#000000" opacity="0.30" />
     <!-- Cube at week 50, day 2 -->
     <polygon points="938,582 954,590 938,598 922,590" fill="#1e293b" />
     <!-- Left Face -->
@@ -2852,13 +2852,13 @@
     <polygon points="922,606 938,598 938,602 922,610" fill="#1e293b" />
     <polygon points="922,606 938,598 938,602 922,610" fill="#000000" opacity="0.30" />
     <!-- Cube at week 50, day 4 -->
-    <polygon points="906,598 922,606 906,614 890,606" fill="#1e293b" />
+    <polygon points="906,558 922,566 906,574 890,566" fill="#10b981" />
     <!-- Left Face -->
-    <polygon points="890,606 906,614 906,618 890,610" fill="#1e293b" />
-    <polygon points="890,606 906,614 906,618 890,610" fill="#000000" opacity="0.15" />
+    <polygon points="890,566 906,574 906,618 890,610" fill="#10b981" />
+    <polygon points="890,566 906,574 906,618 890,610" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="906,614 922,606 922,610 906,618" fill="#1e293b" />
-    <polygon points="906,614 922,606 922,610 906,618" fill="#000000" opacity="0.30" />
+    <polygon points="906,574 922,566 922,610 906,618" fill="#10b981" />
+    <polygon points="906,574 922,566 922,610 906,618" fill="#000000" opacity="0.30" />
     <!-- Cube at week 50, day 5 -->
     <polygon points="890,606 906,614 890,622 874,614" fill="#1e293b" />
     <!-- Left Face -->
@@ -2876,45 +2876,45 @@
     <polygon points="874,630 890,622 890,626 874,634" fill="#1e293b" />
     <polygon points="874,630 890,622 890,626 874,634" fill="#000000" opacity="0.30" />
     <!-- Cube at week 51, day 0 -->
-    <polygon points="986,574 1002,582 986,590 970,582" fill="#1e293b" />
+    <polygon points="986,556 1002,564 986,572 970,564" fill="#047857" />
     <!-- Left Face -->
-    <polygon points="970,582 986,590 986,594 970,586" fill="#1e293b" />
-    <polygon points="970,582 986,590 986,594 970,586" fill="#000000" opacity="0.15" />
+    <polygon points="970,564 986,572 986,594 970,586" fill="#047857" />
+    <polygon points="970,564 986,572 986,594 970,586" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="986,590 1002,582 1002,586 986,594" fill="#1e293b" />
-    <polygon points="986,590 1002,582 1002,586 986,594" fill="#000000" opacity="0.30" />
+    <polygon points="986,572 1002,564 1002,586 986,594" fill="#047857" />
+    <polygon points="986,572 1002,564 1002,586 986,594" fill="#000000" opacity="0.30" />
     <!-- Cube at week 51, day 1 -->
-    <polygon points="970,542 986,550 970,558 954,550" fill="#10b981" />
+    <polygon points="970,564 986,572 970,580 954,572" fill="#047857" />
     <!-- Left Face -->
-    <polygon points="954,550 970,558 970,602 954,594" fill="#10b981" />
-    <polygon points="954,550 970,558 970,602 954,594" fill="#000000" opacity="0.15" />
+    <polygon points="954,572 970,580 970,602 954,594" fill="#047857" />
+    <polygon points="954,572 970,580 970,602 954,594" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="970,558 986,550 986,594 970,602" fill="#10b981" />
-    <polygon points="970,558 986,550 986,594 970,602" fill="#000000" opacity="0.30" />
+    <polygon points="970,580 986,572 986,594 970,602" fill="#047857" />
+    <polygon points="970,580 986,572 986,594 970,602" fill="#000000" opacity="0.30" />
     <!-- Cube at week 51, day 2 -->
-    <polygon points="954,590 970,598 954,606 938,598" fill="#1e293b" />
+    <polygon points="954,582 970,590 954,598 938,590" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="938,598 954,606 954,610 938,602" fill="#1e293b" />
-    <polygon points="938,598 954,606 954,610 938,602" fill="#000000" opacity="0.15" />
+    <polygon points="938,590 954,598 954,610 938,602" fill="#064e3b" />
+    <polygon points="938,590 954,598 954,610 938,602" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="954,606 970,598 970,602 954,610" fill="#1e293b" />
-    <polygon points="954,606 970,598 970,602 954,610" fill="#000000" opacity="0.30" />
+    <polygon points="954,598 970,590 970,602 954,610" fill="#064e3b" />
+    <polygon points="954,598 970,590 970,602 954,610" fill="#000000" opacity="0.30" />
     <!-- Cube at week 51, day 3 -->
-    <polygon points="938,598 954,606 938,614 922,606" fill="#1e293b" />
+    <polygon points="938,570 954,578 938,586 922,578" fill="#059669" />
     <!-- Left Face -->
-    <polygon points="922,606 938,614 938,618 922,610" fill="#1e293b" />
-    <polygon points="922,606 938,614 938,618 922,610" fill="#000000" opacity="0.15" />
+    <polygon points="922,578 938,586 938,618 922,610" fill="#059669" />
+    <polygon points="922,578 938,586 938,618 922,610" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="938,614 954,606 954,610 938,618" fill="#1e293b" />
-    <polygon points="938,614 954,606 954,610 938,618" fill="#000000" opacity="0.30" />
+    <polygon points="938,586 954,578 954,610 938,618" fill="#059669" />
+    <polygon points="938,586 954,578 954,610 938,618" fill="#000000" opacity="0.30" />
     <!-- Cube at week 51, day 4 -->
-    <polygon points="922,566 938,574 922,582 906,574" fill="#10b981" />
+    <polygon points="922,606 938,614 922,622 906,614" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="906,574 922,582 922,626 906,618" fill="#10b981" />
-    <polygon points="906,574 922,582 922,626 906,618" fill="#000000" opacity="0.15" />
+    <polygon points="906,614 922,622 922,626 906,618" fill="#1e293b" />
+    <polygon points="906,614 922,622 922,626 906,618" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="922,582 938,574 938,618 922,626" fill="#10b981" />
-    <polygon points="922,582 938,574 938,618 922,626" fill="#000000" opacity="0.30" />
+    <polygon points="922,622 938,614 938,618 922,626" fill="#1e293b" />
+    <polygon points="922,622 938,614 938,618 922,626" fill="#000000" opacity="0.30" />
     <!-- Cube at week 51, day 5 -->
     <polygon points="906,614 922,622 906,630 890,622" fill="#1e293b" />
     <!-- Left Face -->
@@ -2932,37 +2932,37 @@
     <polygon points="890,638 906,630 906,634 890,642" fill="#1e293b" />
     <polygon points="890,638 906,630 906,634 890,642" fill="#000000" opacity="0.30" />
     <!-- Cube at week 52, day 0 -->
-    <polygon points="1002,564 1018,572 1002,580 986,572" fill="#047857" />
+    <polygon points="1002,574 1018,582 1002,590 986,582" fill="#064e3b" />
     <!-- Left Face -->
-    <polygon points="986,572 1002,580 1002,602 986,594" fill="#047857" />
-    <polygon points="986,572 1002,580 1002,602 986,594" fill="#000000" opacity="0.15" />
+    <polygon points="986,582 1002,590 1002,602 986,594" fill="#064e3b" />
+    <polygon points="986,582 1002,590 1002,602 986,594" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="1002,580 1018,572 1018,594 1002,602" fill="#047857" />
-    <polygon points="1002,580 1018,572 1018,594 1002,602" fill="#000000" opacity="0.30" />
+    <polygon points="1002,590 1018,582 1018,594 1002,602" fill="#064e3b" />
+    <polygon points="1002,590 1018,582 1018,594 1002,602" fill="#000000" opacity="0.30" />
     <!-- Cube at week 52, day 1 -->
-    <polygon points="986,572 1002,580 986,588 970,580" fill="#047857" />
+    <polygon points="986,590 1002,598 986,606 970,598" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="970,580 986,588 986,610 970,602" fill="#047857" />
-    <polygon points="970,580 986,588 986,610 970,602" fill="#000000" opacity="0.15" />
+    <polygon points="970,598 986,606 986,610 970,602" fill="#1e293b" />
+    <polygon points="970,598 986,606 986,610 970,602" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="986,588 1002,580 1002,602 986,610" fill="#047857" />
-    <polygon points="986,588 1002,580 1002,602 986,610" fill="#000000" opacity="0.30" />
+    <polygon points="986,606 1002,598 1002,602 986,610" fill="#1e293b" />
+    <polygon points="986,606 1002,598 1002,602 986,610" fill="#000000" opacity="0.30" />
     <!-- Cube at week 52, day 2 -->
-    <polygon points="970,590 986,598 970,606 954,598" fill="#064e3b" />
+    <polygon points="970,598 986,606 970,614 954,606" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="954,598 970,606 970,618 954,610" fill="#064e3b" />
-    <polygon points="954,598 970,606 970,618 954,610" fill="#000000" opacity="0.15" />
+    <polygon points="954,606 970,614 970,618 954,610" fill="#1e293b" />
+    <polygon points="954,606 970,614 970,618 954,610" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="970,606 986,598 986,610 970,618" fill="#064e3b" />
-    <polygon points="970,606 986,598 986,610 970,618" fill="#000000" opacity="0.30" />
+    <polygon points="970,614 986,606 986,610 970,618" fill="#1e293b" />
+    <polygon points="970,614 986,606 986,610 970,618" fill="#000000" opacity="0.30" />
     <!-- Cube at week 52, day 3 -->
-    <polygon points="954,578 970,586 954,594 938,586" fill="#059669" />
+    <polygon points="954,606 970,614 954,622 938,614" fill="#1e293b" />
     <!-- Left Face -->
-    <polygon points="938,586 954,594 954,626 938,618" fill="#059669" />
-    <polygon points="938,586 954,594 954,626 938,618" fill="#000000" opacity="0.15" />
+    <polygon points="938,614 954,622 954,626 938,618" fill="#1e293b" />
+    <polygon points="938,614 954,622 954,626 938,618" fill="#000000" opacity="0.15" />
     <!-- Right Face -->
-    <polygon points="954,594 970,586 970,618 954,626" fill="#059669" />
-    <polygon points="954,594 970,586 970,618 954,626" fill="#000000" opacity="0.30" />
+    <polygon points="954,622 970,614 970,618 954,626" fill="#1e293b" />
+    <polygon points="954,622 970,614 970,618 954,626" fill="#000000" opacity="0.30" />
     <!-- Cube at week 52, day 4 -->
     <polygon points="938,614 954,622 938,630 922,622" fill="#1e293b" />
     <!-- Left Face -->
@@ -2995,13 +2995,13 @@
     <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#10b981">📊 CONTRIBUTION STATS</text>
     
     <text x="20" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Total Contributions:</text>
-    <text x="200" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">260</text>
+    <text x="200" y="65" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">261</text>
     
     <text x="20" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Longest Streak:</text>
     <text x="200" y="95" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">4 days</text>
     
     <text x="20" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">Current Streak:</text>
-    <text x="200" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">0 days</text>
+    <text x="200" y="125" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#ffffff" text-anchor="start">1 days</text>
   </g>
   <!-- Weekday Activity Chart (Bottom Left Corner) -->
   <g transform="translate(40, 410)">
@@ -3009,10 +3009,10 @@
     <rect width="280" height="180" fill="#0f172a" rx="8" stroke="#1e293b" stroke-width="1" />
     <text x="20" y="30" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#10b981">📅 WEEKDAY ACTIVITY</text>
     <!-- Bar for Sun -->
-    <rect x="35" y="116" width="16" height="19" fill="#0d9488" rx="2" filter="url(#neonGlow)" />
-    <rect x="35" y="116" width="16" height="19" fill="#0d9488" rx="2" />
+    <rect x="35" y="115" width="16" height="20" fill="#0d9488" rx="2" filter="url(#neonGlow)" />
+    <rect x="35" y="115" width="16" height="20" fill="#0d9488" rx="2" />
     <text x="43" y="152" font-family="Segoe UI, -apple-system, sans-serif" font-size="10" fill="#cbd5e1" text-anchor="middle">S</text>
-    <text x="43" y="111" font-family="Segoe UI, -apple-system, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">20</text>
+    <text x="43" y="110" font-family="Segoe UI, -apple-system, sans-serif" font-size="9" fill="#ffffff" text-anchor="middle">21</text>
     <!-- Bar for Mon -->
     <rect x="67" y="55" width="16" height="80" fill="#0d9488" rx="2" filter="url(#neonGlow)" />
     <rect x="67" y="55" width="16" height="80" fill="#0d9488" rx="2" />
