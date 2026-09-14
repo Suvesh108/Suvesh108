@@ -100,12 +100,18 @@ async function main() {
       }
     });
 
-    child.on('exit', (code) => {
+    child.on('exit', async (code) => {
       console.log(`yoshi-3d generator exited with code ${code}`);
       server.close();
       if (code !== 0) {
         process.exit(code || 1);
       } else {
+        try {
+          const { theme3dSvg } = await import('./theme-3d-svg.js');
+          theme3dSvg(path.join(__dirname, '..', 'profile-3d-contrib', 'profile-night-view.svg'));
+        } catch (e) {
+          console.warn('Could not run theme3dSvg:', e);
+        }
         console.log('✓ Successfully generated official 3D Isometric Contribution SVGs in ./profile-3d-contrib/ !');
       }
     });

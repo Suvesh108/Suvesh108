@@ -21,6 +21,10 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           USERNAME: ${{ github.repository_owner }}
 
+      - name: Theme 3D Skyline (Obsidian & Champagne Gold)
+        run: |
+          node scripts/theme-3d-svg.js profile-3d-contrib/profile-night-view.svg
+
       - name: Generate GitHub Stats Cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
