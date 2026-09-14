@@ -80,7 +80,7 @@
 </p>
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/suvesh108/suvesh108/output/snake.svg?v=4" width="100%" alt="Snake Animation"/>
+  <img src="./snake.svg" width="100%" alt="Snake Animation"/>
 </p>
 
 <div align="center">

@@ -17,8 +17,27 @@ jobs:
         with:
           github_user_name: ${{ github.repository_owner }}
           outputs: |
-            dist/snake.svg?color_snake=#D4AF37&color_dots=#141721,#2E2715,#594B1F,#947B2C,#D4AF37
-            dist/snake.gif?color_snake=#D4AF37&color_dots=#141721,#2E2715,#594B1F,#947B2C,#D4AF37&color_background=#090A0F
+            dist/snake.svg?color_snake=%23D4AF37&color_dots=%23131722,%2359441B,%238E6D22,%23C99E2A,%23F9DF7B
+            snake.svg?color_snake=%23D4AF37&color_dots=%23131722,%2359441B,%238E6D22,%23C99E2A,%23F9DF7B
+
+      - name: Apply snake glow and styling
+        run: |
+          node -e "
+          let s = fs.readFileSync('snake.svg', 'utf8');
+          s = s.replace('fill:var(--cs);', 'fill:var(--cs);filter:drop-shadow(0 0 3px rgba(212,175,55,0.7));');
+          fs.writeFileSync('snake.svg', s);
+          "
+
+      - name: Commit and Push to main
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add snake.svg
+          if ! git diff --quiet --cached; then
+            git commit -m "⚡ Update snake animation (Obsidian & Champagne Gold)"
+            git pull --rebase origin main
+            git push origin main
+          fi
 
       - uses: crazy-max/ghaction-github-pages@v4
         with:
