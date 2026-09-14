@@ -52,25 +52,25 @@
 
 ### 📂 Featured Implementations
 
-#### 🎬 [FilmFlux-AI](https://github.com/Suvesh108/FilmFlux-AI)
-> AI-powered cinema intelligence platform with semantic movie filtering, contextual vector recommendations, and responsive UI.
+#### ⚡ [jobscrap](https://github.com/Suvesh108/jobscrap)
+> High-performance multi-threaded job scraper & aggregator with TLS fingerprint bypassing, automated deduplication, and parsing across Naukri, LinkedIn, Indeed, Glassdoor, and Internshala.
 >
-> `Next.js` · `TypeScript` · `TailwindCSS` · `Gemini AI` · `REST API`
+> `Python` · `AsyncIO` · `TLS Bypass` · `Data Aggregation` · `REST API`
 
-#### 🔍 [Lumina-Search](https://github.com/Suvesh108/Lumina-Search)
-> Sub-millisecond semantic search engine engineered for indexing technical documentation with in-memory caching and inverted indexes.
+#### 🌐 [NetPulse](https://github.com/Suvesh108/NetPulse)
+> Premium real-time edge network diagnostic and telemetry platform powered by Cloudflare Speedtest engine with zero-CORS latency tracking and jitter analytics.
 >
-> `Go` · `Rust` · `In-Memory Index` · `RESTful Service`
+> `React` · `TypeScript` · `Cloudflare Edge` · `Telemetry` · `TailwindCSS`
 
-#### 🧠 [AI-Quiz-Generator](https://github.com/Suvesh108/ai-quiz-generator)
-> Dynamic evaluation platform converting heterogeneous inputs (text, PDFs, URLs) into structured, graded assessment suites.
+#### 📥 [vortex](https://github.com/Suvesh108/vortex)
+> High-bitrate multi-threaded media extraction utility featuring parallel stream downloading, lossless audio-video muxing, and custom format pipelines.
 >
-> `Python` · `React` · `FastAPI` · `GraphQL` · `OpenAI API`
+> `TypeScript` · `Node.js` · `Streaming Architecture` · `FFmpeg` · `CLI`
 
-#### 🛡️ [NetPulse](https://github.com/Suvesh108/NetPulse)
-> Lightweight system daemon monitoring real-time network telemetry, server ping jitter, and packet loss metrics across interfaces.
+#### 🔗 [BlockVerify](https://github.com/Suvesh108/BlockVerify)
+> Decentralized product authentication and supply chain tracking protocol using cryptographic IDs, instant NFC/QR verification, and transparent provenance records.
 >
-> `Rust` · `Go` · `System Telemetry` · `CLI` · `Prometheus`
+> `JavaScript` · `Blockchain` · `Supply Chain Security` · `NFC / QR` · `Smart Contracts`
 
 ---
 

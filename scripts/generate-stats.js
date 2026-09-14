@@ -50,10 +50,10 @@ async function main() {
         followers: { totalCount: 15 },
         repositories: {
           nodes: [
-            { name: "ai-quiz-generator", stargazerCount: 4, forkCount: 1, languages: { edges: [{ size: 50000, node: { name: "TypeScript", color: "#3178c6" } }, { size: 10000, node: { name: "HTML", color: "#e34c26" } }] } },
-            { name: "Lumina-Search", stargazerCount: 6, forkCount: 2, languages: { edges: [{ size: 40000, node: { name: "Go", color: "#00ADD8" } }, { size: 5000, node: { name: "CSS", color: "#563d7c" } }] } },
-            { name: "TaskFlow", stargazerCount: 3, forkCount: 0, languages: { edges: [{ size: 30000, node: { name: "Python", color: "#3572A5" } }] } },
-            { name: "Portfolio", stargazerCount: 5, forkCount: 1, languages: { edges: [{ size: 45000, node: { name: "JavaScript", color: "#f1e05a" } }, { size: 15000, node: { name: "CSS", color: "#563d7c" } }] } }
+            { name: "jobscrap", stargazerCount: 12, forkCount: 3, languages: { edges: [{ size: 60000, node: { name: "Python", color: "#3572A5" } }] } },
+            { name: "NetPulse", stargazerCount: 15, forkCount: 4, languages: { edges: [{ size: 55000, node: { name: "TypeScript", color: "#3178c6" } }, { size: 10000, node: { name: "CSS", color: "#563d7c" } }] } },
+            { name: "vortex", stargazerCount: 8, forkCount: 2, languages: { edges: [{ size: 45000, node: { name: "TypeScript", color: "#3178c6" } }] } },
+            { name: "BlockVerify", stargazerCount: 10, forkCount: 2, languages: { edges: [{ size: 40000, node: { name: "JavaScript", color: "#f1e05a" } }] } }
           ]
         },
         contributionsCollection: {
