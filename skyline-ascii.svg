@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 472" width="100%" height="100%">
+  <defs>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Terminal Window Background -->
+  <rect width="636" height="468" x="2" y="2" fill="#090A0F" rx="8" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.5" filter="url(#goldGlow)" />
+  <rect width="636" height="468" x="2" y="2" fill="#090A0F" rx="8" stroke="#1F2433" stroke-width="1" />
+
+  <!-- Terminal Controls -->
+  <circle cx="22" cy="22" r="5" fill="#EF4444" opacity="0.8" />
+  <circle cx="38" cy="22" r="5" fill="#F59E0B" opacity="0.8" />
+  <circle cx="54" cy="22" r="5" fill="#10B981" opacity="0.8" />
+  <text x="320" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, monospace" font-size="11" fill="#94A3B8" text-anchor="middle">github-skyline --art-only</text>
+
+  <!-- ASCII Art Body -->
+  <g font-family="Courier New, Consolas, Monaco, monospace" font-size="13" xml:space="preserve">
+    <text x="30" y="50" fill="#D4AF37" font-weight="bold">           ____ _ _   _   _       _     </text>
+    <text x="30" y="68" fill="#D4AF37" font-weight="bold">          / ___(_) |_| | | |_   _| |__  </text>
+    <text x="30" y="86" fill="#D4AF37" font-weight="bold">         | |  _| | __| |_| | | | | '_ \ </text>
+    <text x="30" y="104" fill="#D4AF37" font-weight="bold">         | |_| | | |_|  _  | |_| | |_) |</text>
+    <text x="30" y="122" fill="#D4AF37" font-weight="bold">          \____|_|\__|_| |_|\__,_|_.__/ </text>
+    <text x="30" y="140" fill="#D4AF37" font-weight="bold"></text>
+    <text x="30" y="158" fill="#D4AF37" font-weight="bold">          ____  _          _ _            </text>
+    <text x="30" y="176" fill="#D4AF37" font-weight="bold">         / ___|| | ___   _| (_)_ __   ___ </text>
+    <text x="30" y="194" fill="#D4AF37" font-weight="bold">         \___ \| |/ / | | | | | '_ \ / _ \</text>
+    <text x="30" y="212" fill="#D4AF37" font-weight="bold">          ___) |   &lt;| |_| | | | | | | __/</text>
+    <text x="30" y="230" fill="#D4AF37" font-weight="bold">         |____/|_|\_\\__, |_|_|_| |_|\___|</text>
+    <text x="30" y="248" fill="#D4AF37" font-weight="bold">                    |___/</text>
+    <text x="30" y="266" fill="#E2E8F0" font-weight="normal"></text>
+    <text x="30" y="284" fill="#E2E8F0" font-weight="normal">                                                     </text>
+    <text x="30" y="302" fill="#E2E8F0" font-weight="normal">                                                     </text>
+    <text x="30" y="320" fill="#E2E8F0" font-weight="normal">                                                     </text>
+    <text x="30" y="338" fill="#E2E8F0" font-weight="normal">                                                     </text>
+    <text x="30" y="356" fill="#E2E8F0" font-weight="normal">              ┃                                      </text>
+    <text x="30" y="374" fill="#E2E8F0" font-weight="normal">      ┃╻      ▓       ╻ ┃   ╻      ╻╽      ┃      ╻╻ </text>
+    <text x="30" y="392" fill="#E2E8F0" font-weight="normal">     ░▒▒ ▓ ░ ░▒ ▒     ░ ░  ░░▒ ░   ░▓▓ ▓░  ░      ░▓ </text>
+    <text x="30" y="410" fill="#E2E8F0" font-weight="normal"></text>
+    <text x="30" y="428" fill="#D4AF37" font-weight="bold">                      SUVESH108                      </text>
+    <text x="30" y="446" fill="#D4AF37" font-weight="bold">                        2026                         </text>
+    <text x="30" y="464" fill="#D4AF37" font-weight="bold"></text>
+  </g>
+</svg>

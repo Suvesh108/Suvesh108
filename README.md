@@ -17,10 +17,12 @@
 
 ---
 
-### 📊 3D Isometric Contribution Skyline
+### 🏙️ GitHub Skyline (ASCII Art)
 
 <div align="center">
-  <img src="./isometric-profile.svg" alt="3D Isometric Contribution Skyline" width="100%"/>
+  <a href="https://github.com/github/gh-skyline">
+    <img src="./skyline-ascii.svg" alt="GitHub Skyline ASCII Art" width="100%"/>
+  </a>
 </div>
 
 ---
