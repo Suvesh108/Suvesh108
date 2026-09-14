@@ -1,4 +1,4 @@
-name: Generate GitHub Skyline ASCII and Stats
+name: Generate 3D Isometric Skyline and Stats Cards
 
 on:
   schedule:
@@ -15,22 +15,27 @@ jobs:
       - name: Checkout profile repo
         uses: actions/checkout@v4
 
-      - name: Generate GitHub Skyline ASCII and Stats
+      - name: Generate 3D Profile Contrib
+        uses: yoshi389111/github-profile-3d-contrib@0.7.2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          USERNAME: ${{ github.repository_owner }}
+
+      - name: Generate GitHub Stats Cards
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
-          node scripts/generate-skyline-ascii.js ${{ github.repository_owner }}
           node scripts/generate-stats.js ${{ github.repository_owner }}
 
       - name: Commit and Push
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add skyline-ascii.svg skyline-ascii.txt github-stats.svg top-languages.svg github-achievements.svg
+          git add profile-3d-contrib/ github-stats.svg top-languages.svg github-achievements.svg
           if ! git diff --quiet --cached; then
-            git commit -m "⚡ Generated GitHub Skyline ASCII and Stats Cards"
+            git commit -m "⚡ Generated 3D Isometric Skyline and Stats Cards"
             git pull --rebase origin main
             git push origin main
           else
-            echo "No changes to skyline ASCII or stats. Skipping push."
+            echo "No changes to skyline or stats. Skipping push."
           fi
