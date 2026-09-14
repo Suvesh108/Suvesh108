@@ -129,11 +129,11 @@ async function main() {
     
     console.log(`Aggregated stats: Stars=${totalStars}, Commits=${commits}, PRs=${prs}, Followers=${followers}`);
     
-    // SVG Glow Filter definition
+    // Minimalist Refined Metallic Glow
     const svgGlowFilter = `
   <defs>
-    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+    <filter id="goldGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -141,41 +141,41 @@ async function main() {
     </filter>
   </defs>`;
 
-    // 1. Generate Stats Card SVG
+    // 1. Generate Stats Card SVG (Obsidian & Champagne Gold)
     const statsSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="100%" height="100%">
   ${svgGlowFilter}
   
-  <!-- Outer glowing border and background (Emerald Slate) -->
-  <rect width="476" height="216" x="2" y="2" fill="#0b0f19" rx="8" stroke="#10b981" stroke-width="1.2" filter="url(#neonGlow)" />
-  <rect width="476" height="216" x="2" y="2" fill="#0b0f19" rx="8" stroke="#1e293b" stroke-width="1" />
+  <!-- Outer metallic border and obsidian background -->
+  <rect width="476" height="216" x="2" y="2" fill="#090A0F" rx="8" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.6" filter="url(#goldGlow)" />
+  <rect width="476" height="216" x="2" y="2" fill="#090A0F" rx="8" stroke="#1F2433" stroke-width="1" />
   
-  <text x="25" y="38" font-family="Segoe UI, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#10b981" letter-spacing="1">📊 GLOBAL METRICS</text>
+  <text x="25" y="38" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#D4AF37" letter-spacing="1.5">GLOBAL METRICS</text>
   
   <!-- Row 1: Stars & Commits -->
   <g transform="translate(25, 65)">
-    <text x="0" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">⭐ Total Stars:</text>
-    <text x="140" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">${totalStars}</text>
+    <text x="0" y="15" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#94A3B8">Total Stars</text>
+    <text x="140" y="15" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">${totalStars}</text>
     
-    <text x="0" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">📝 Commits (Year):</text>
-    <text x="140" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">${commits}</text>
+    <text x="0" y="45" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#94A3B8">Commits (Year)</text>
+    <text x="140" y="45" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">${commits}</text>
   </g>
   
   <!-- Row 2: Forks & Pull Requests -->
   <g transform="translate(240, 65)">
-    <text x="0" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">🍴 Total Forks:</text>
-    <text x="140" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">${totalForks}</text>
+    <text x="0" y="15" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#94A3B8">Total Forks</text>
+    <text x="140" y="15" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">${totalForks}</text>
     
-    <text x="0" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">🔀 Pull Requests:</text>
-    <text x="140" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">${prs}</text>
+    <text x="0" y="45" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#94A3B8">Pull Requests</text>
+    <text x="140" y="45" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">${prs}</text>
   </g>
   
   <!-- Row 3: Issues & Followers -->
   <g transform="translate(25, 145)">
-    <text x="0" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">🪲 Total Issues:</text>
-    <text x="140" y="15" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">${issues}</text>
+    <text x="0" y="15" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#94A3B8">Total Issues</text>
+    <text x="140" y="15" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">${issues}</text>
     
-    <text x="0" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" fill="#cbd5e1">👥 Followers:</text>
-    <text x="140" y="45" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#ffffff">${followers}</text>
+    <text x="0" y="45" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" fill="#94A3B8">Followers</text>
+    <text x="140" y="45" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="600" fill="#F8FAFC">${followers}</text>
   </g>
 </svg>`;
 
@@ -183,44 +183,43 @@ async function main() {
     let langRows = '';
     sortedLanguages.forEach((lang, i) => {
       const y = 65 + i * 28;
-      const barWidth = Math.round(Number(lang.percentage) * 2.0); // Scale to fit max width 200px
+      const barWidth = Math.round(Number(lang.percentage) * 2.0);
       langRows += `
   <g transform="translate(25, ${y})">
-    <text x="0" y="10" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="600" fill="#cbd5e1">${lang.name}</text>
-    <text x="170" y="10" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#cbd5e1" text-anchor="end">${lang.percentage}%</text>
+    <text x="0" y="10" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="500" fill="#E2E8F0">${lang.name}</text>
+    <text x="170" y="10" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" fill="#94A3B8" text-anchor="end">${lang.percentage}%</text>
     
     <!-- Progress Bar -->
-    <rect x="190" y="1" width="220" height="8" fill="#1e293b" rx="4" />
-    <rect x="190" y="1" width="${barWidth}" height="8" fill="${lang.color}" rx="4" filter="url(#neonGlow)" />
-    <rect x="190" y="1" width="${barWidth}" height="8" fill="${lang.color}" rx="4" />
+    <rect x="190" y="1" width="220" height="8" fill="#141721" rx="4" stroke="#1F2433" stroke-width="0.5" />
+    <rect x="190" y="1" width="${barWidth}" height="8" fill="${lang.color}" rx="4" opacity="0.9" />
   </g>`;
     });
 
     const langSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 220" width="100%" height="100%">
   ${svgGlowFilter}
   
-  <!-- Outer glowing border and background -->
-  <rect width="476" height="216" x="2" y="2" fill="#0b0f19" rx="8" stroke="#10b981" stroke-width="1.2" filter="url(#neonGlow)" />
-  <rect width="476" height="216" x="2" y="2" fill="#0b0f19" rx="8" stroke="#1e293b" stroke-width="1" />
+  <!-- Outer metallic border and obsidian background -->
+  <rect width="476" height="216" x="2" y="2" fill="#090A0F" rx="8" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.6" filter="url(#goldGlow)" />
+  <rect width="476" height="216" x="2" y="2" fill="#090A0F" rx="8" stroke="#1F2433" stroke-width="1" />
   
-  <text x="25" y="38" font-family="Segoe UI, -apple-system, sans-serif" font-size="14" font-weight="bold" fill="#10b981" letter-spacing="1">🎨 TOP LANGUAGES</text>
+  <text x="25" y="38" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#D4AF37" letter-spacing="1.5">TOP LANGUAGES</text>
   
   ${langRows}
 </svg>`;
 
     // 3. Generate Achievements SVG (Trophy Cabinet replacement)
     const badges = [];
-    if (commits > 100) badges.push({ emoji: "🚀", title: "Code Specialist", desc: `${commits}+ Commits` });
-    else badges.push({ emoji: "🌱", title: "Rising coder", desc: "Building core skills" });
+    if (commits > 100) badges.push({ emoji: "✦", title: "Code Specialist", desc: `${commits}+ Commits` });
+    else badges.push({ emoji: "✦", title: "Rising Architect", desc: "Core Craft" });
     
-    if (totalStars > 0) badges.push({ emoji: "⭐", title: "Star Collector", desc: `${totalStars} Stars` });
-    else badges.push({ emoji: "🛠️", title: "Active Builder", desc: "Shipping projects" });
+    if (totalStars > 0) badges.push({ emoji: "★", title: "Star Collector", desc: `${totalStars} Stars` });
+    else badges.push({ emoji: "★", title: "Active Builder", desc: "Shipping Systems" });
     
-    if (followers > 5) badges.push({ emoji: "🤝", title: "Community Leader", desc: `${followers} Followers` });
-    else badges.push({ emoji: "📣", title: "Networker", desc: "Growing connection" });
+    if (followers > 5) badges.push({ emoji: "◈", title: "Community Leader", desc: `${followers} Followers` });
+    else badges.push({ emoji: "◈", title: "Networker", desc: "Growing Reach" });
     
-    if (data.repositories.nodes.length > 5) badges.push({ emoji: "📦", title: "Library Manager", desc: `${data.repositories.nodes.length} Repos` });
-    else badges.push({ emoji: "💻", title: "Creator", desc: "Deploying code" });
+    if (data.repositories.nodes.length > 5) badges.push({ emoji: "⬡", title: "Systems Manager", desc: `${data.repositories.nodes.length} Repositories` });
+    else badges.push({ emoji: "⬡", title: "Creator", desc: "Deploying Code" });
 
     let badgeBlocks = '';
     badges.forEach((badge, i) => {
@@ -228,23 +227,23 @@ async function main() {
       badgeBlocks += `
     <!-- Badge ${i + 1} -->
     <g transform="translate(${x}, 45)">
-      <!-- Pill Container with neon glow border -->
-      <rect width="222" height="60" fill="#0f172a" rx="8" stroke="#10b981" stroke-width="1" filter="url(#neonGlow)" />
-      <rect width="222" height="60" fill="#0f172a" rx="8" stroke="#1e293b" stroke-width="1" />
-      <text x="15" y="38" font-size="24">${badge.emoji}</text>
-      <text x="55" y="25" font-family="Segoe UI, -apple-system, sans-serif" font-size="12" font-weight="bold" fill="#10b981">${badge.title}</text>
-      <text x="55" y="43" font-family="Segoe UI, -apple-system, sans-serif" font-size="11" fill="#cbd5e1">${badge.desc}</text>
+      <!-- Pill Container with luxury metallic border -->
+      <rect width="222" height="60" fill="#141721" rx="8" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.5" filter="url(#goldGlow)" />
+      <rect width="222" height="60" fill="#141721" rx="8" stroke="#23283B" stroke-width="1" />
+      <text x="18" y="38" font-size="18" fill="#D4AF37">${badge.emoji}</text>
+      <text x="45" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="600" fill="#F8FAFC">${badge.title}</text>
+      <text x="45" y="44" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" fill="#94A3B8">${badge.desc}</text>
     </g>`;
     });
 
     const achievementsSvg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 980 130" width="100%" height="100%">
   ${svgGlowFilter}
   
-  <!-- Outer glowing border and background -->
-  <rect width="976" height="126" x="2" y="2" fill="#0b0f19" rx="8" stroke="#10b981" stroke-width="1.2" filter="url(#neonGlow)" />
-  <rect width="976" height="126" x="2" y="2" fill="#0b0f19" rx="8" stroke="#1e293b" stroke-width="1" />
+  <!-- Outer metallic border and obsidian background -->
+  <rect width="976" height="126" x="2" y="2" fill="#090A0F" rx="8" stroke="#D4AF37" stroke-width="1" stroke-opacity="0.6" filter="url(#goldGlow)" />
+  <rect width="976" height="126" x="2" y="2" fill="#090A0F" rx="8" stroke="#1F2433" stroke-width="1" />
   
-  <text x="20" y="25" font-family="Segoe UI, -apple-system, sans-serif" font-size="13" font-weight="bold" fill="#10b981" letter-spacing="1">🏆 TROPHY CABINET &amp; ACHIEVEMENTS</text>
+  <text x="20" y="26" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#D4AF37" letter-spacing="1.5">HONORS &amp; ACHIEVEMENTS</text>
   
   ${badgeBlocks}
 </svg>`;
@@ -253,7 +252,7 @@ async function main() {
     fs.writeFileSync('top-languages.svg', langSvg, 'utf8');
     fs.writeFileSync('github-achievements.svg', achievementsSvg, 'utf8');
     
-    console.log("✓ Successfully generated Emerald Slate stats, languages, and achievements SVGs!");
+    console.log("✓ Successfully generated Minimalist Luxury stats, languages, and achievements SVGs!");
     
   } catch (error) {
     console.error("Error generating stats:", error);
