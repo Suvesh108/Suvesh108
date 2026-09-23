@@ -97,16 +97,16 @@
 
 #### Recent Activity
 <!--START_SECTION:activity-->
-1. 🚀 Published release [NetPulse v1.0 - Official Production Release (Android & Windows Desktop)](https://github.com/Suvesh108/NetPulse/releases/tag/v1.0) in [Suvesh108/NetPulse](https://github.com/Suvesh108/NetPulse)
-2. 🚀 Published release [VortexDownloader v0.6.5](https://github.com/Suvesh108/vortex/releases/tag/v0.6.5) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-3. 🚀 Published release [VortexDownloader v0.6.4](https://github.com/Suvesh108/vortex/releases/tag/v0.6.4) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-4. 🚀 Published release [VortexDownloader v0.6.3](https://github.com/Suvesh108/vortex/releases/tag/v0.6.3) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-5. 🚀 Published release [VortexDownloader v0.6.2](https://github.com/Suvesh108/vortex/releases/tag/v0.6.2) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-6. 🚀 Published release [VortexDownloader v0.6.1](https://github.com/Suvesh108/vortex/releases/tag/v0.6.1) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-7. 🚀 Published release [VortexDownloader v0.5.9](https://github.com/Suvesh108/vortex/releases/tag/v0.5.9) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-8. 🚀 Published release [VortexDownloader v0.5.8](https://github.com/Suvesh108/vortex/releases/tag/v0.5.8) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-9. 🚀 Published release [VortexDownloader v0.5.7](https://github.com/Suvesh108/vortex/releases/tag/v0.5.7) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-10. 🚀 Published release [VortexDownloader v0.5.6](https://github.com/Suvesh108/vortex/releases/tag/v0.5.6) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+1. 🚀 Published release [VortexDownloader v0.6.7](https://github.com/Suvesh108/vortex/releases/tag/v0.6.7) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+2. 🚀 Published release [VortexDownloader v0.6.6](https://github.com/Suvesh108/vortex/releases/tag/v0.6.6) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+3. 🚀 Published release [NetPulse v1.0 - Official Production Release (Android & Windows Desktop)](https://github.com/Suvesh108/NetPulse/releases/tag/v1.0) in [Suvesh108/NetPulse](https://github.com/Suvesh108/NetPulse)
+4. 🚀 Published release [VortexDownloader v0.6.5](https://github.com/Suvesh108/vortex/releases/tag/v0.6.5) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+5. 🚀 Published release [VortexDownloader v0.6.4](https://github.com/Suvesh108/vortex/releases/tag/v0.6.4) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+6. 🚀 Published release [VortexDownloader v0.6.3](https://github.com/Suvesh108/vortex/releases/tag/v0.6.3) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+7. 🚀 Published release [VortexDownloader v0.6.2](https://github.com/Suvesh108/vortex/releases/tag/v0.6.2) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+8. 🚀 Published release [VortexDownloader v0.6.1](https://github.com/Suvesh108/vortex/releases/tag/v0.6.1) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+9. 🚀 Published release [VortexDownloader v0.5.9](https://github.com/Suvesh108/vortex/releases/tag/v0.5.9) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+10. 🚀 Published release [VortexDownloader v0.5.8](https://github.com/Suvesh108/vortex/releases/tag/v0.5.8) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
 <!--END_SECTION:activity-->
 
 ---
