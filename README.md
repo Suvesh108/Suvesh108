@@ -97,13 +97,13 @@
 
 #### Recent Activity
 <!--START_SECTION:activity-->
-1. 🚀 Published release [Universal Shared v2.3 (v0.2.3)](https://github.com/Suvesh108/Universal-Shared/releases/tag/v2.3) in [Suvesh108/Universal-Shared](https://github.com/Suvesh108/Universal-Shared)
-2. 🚀 Published release [Universal Shared v0.2.3](https://github.com/Suvesh108/Universal-Shared/releases/tag/v0.2.3) in [Suvesh108/Universal-Shared](https://github.com/Suvesh108/Universal-Shared)
-3. 🚀 Published release [Release v0.6.8 - Universal Core Parity & Android APK](https://github.com/Suvesh108/vortex/releases/tag/v0.6.8) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-4. 🚀 Published release [VortexDownloader v0.6.7](https://github.com/Suvesh108/vortex/releases/tag/v0.6.7) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-5. 🚀 Published release [VortexDownloader v0.6.6](https://github.com/Suvesh108/vortex/releases/tag/v0.6.6) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
-6. 🚀 Published release [NetPulse v1.0 - Official Production Release (Android & Windows Desktop)](https://github.com/Suvesh108/NetPulse/releases/tag/v1.0) in [Suvesh108/NetPulse](https://github.com/Suvesh108/NetPulse)
-7. 🚀 Published release [VortexDownloader v0.6.5](https://github.com/Suvesh108/vortex/releases/tag/v0.6.5) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+1. 🚀 Published release [UnitWise v0.0.2 — Modern UI Overhaul & Zero-Overflow Release](https://github.com/Suvesh108/UnitWise/releases/tag/v0.0.2) in [Suvesh108/UnitWise](https://github.com/Suvesh108/UnitWise)
+2. 🚀 Published release [v0.0.1 - UnitWise Prototype Release](https://github.com/Suvesh108/UnitWise/releases/tag/v0.0.1) in [Suvesh108/UnitWise](https://github.com/Suvesh108/UnitWise)
+3. 🚀 Published release [Universal Shared v2.3 (v0.2.3)](https://github.com/Suvesh108/Universal-Shared/releases/tag/v2.3) in [Suvesh108/Universal-Shared](https://github.com/Suvesh108/Universal-Shared)
+4. 🚀 Published release [Universal Shared v0.2.3](https://github.com/Suvesh108/Universal-Shared/releases/tag/v0.2.3) in [Suvesh108/Universal-Shared](https://github.com/Suvesh108/Universal-Shared)
+5. 🚀 Published release [Release v0.6.8 - Universal Core Parity & Android APK](https://github.com/Suvesh108/vortex/releases/tag/v0.6.8) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+6. 🚀 Published release [VortexDownloader v0.6.7](https://github.com/Suvesh108/vortex/releases/tag/v0.6.7) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
+7. 🚀 Published release [VortexDownloader v0.6.6](https://github.com/Suvesh108/vortex/releases/tag/v0.6.6) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
 8. 🚀 Published release [VortexDownloader v0.6.4](https://github.com/Suvesh108/vortex/releases/tag/v0.6.4) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
 9. 🚀 Published release [VortexDownloader v0.6.3](https://github.com/Suvesh108/vortex/releases/tag/v0.6.3) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
 10. 🚀 Published release [VortexDownloader v0.6.2](https://github.com/Suvesh108/vortex/releases/tag/v0.6.2) in [Suvesh108/vortex](https://github.com/Suvesh108/vortex)
