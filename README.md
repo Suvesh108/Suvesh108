@@ -98,10 +98,10 @@
 #### Recent Activity
 <!--START_SECTION:activity-->
 1. 🚀 Published release [EDM v0.0.1 — Edge Download Manager](https://github.com/Suvesh108/EDM/releases/tag/v0.0.1) in [Suvesh108/EDM](https://github.com/Suvesh108/EDM)
-2. 🚀 Published release [Universal Shared v0.2.4](https://github.com/Suvesh108/Universal-Shared/releases/tag/v0.2.4) in [Suvesh108/Universal-Shared](https://github.com/Suvesh108/Universal-Shared)
-3. 🚀 Published release [UnitWise v0.0.8 — Dual-Mode Wi-Fi & Bluetooth LE Live Signal Auto-Discovery](https://github.com/Suvesh108/UnitWise/releases/tag/v0.0.8) in [Suvesh108/UnitWise](https://github.com/Suvesh108/UnitWise)
-4. 🚀 Published release [UnitWise v0.0.7 — Sense-Grade Vampire Load Disaggregation & Live Dynamic Particle Energy Flow](https://github.com/Suvesh108/UnitWise/releases/tag/v0.0.7) in [Suvesh108/UnitWise](https://github.com/Suvesh108/UnitWise)
-5. 🚀 Published release [HailUninstaller v0.0.1](https://github.com/Suvesh108/HailUninstaller/releases/tag/v0.0.1) in [Suvesh108/HailUninstaller](https://github.com/Suvesh108/HailUninstaller)
+2. 🚀 Published release [EDM v0.0.1 — Edge Download Manager](https://github.com/Suvesh108/EDM/releases/tag/v0.0.1) in [Suvesh108/EDM](https://github.com/Suvesh108/EDM)
+3. 🚀 Published release [Universal Shared v0.2.4](https://github.com/Suvesh108/Universal-Shared/releases/tag/v0.2.4) in [Suvesh108/Universal-Shared](https://github.com/Suvesh108/Universal-Shared)
+4. 🚀 Published release [UnitWise v0.0.8 — Dual-Mode Wi-Fi & Bluetooth LE Live Signal Auto-Discovery](https://github.com/Suvesh108/UnitWise/releases/tag/v0.0.8) in [Suvesh108/UnitWise](https://github.com/Suvesh108/UnitWise)
+5. 🚀 Published release [UnitWise v0.0.7 — Sense-Grade Vampire Load Disaggregation & Live Dynamic Particle Energy Flow](https://github.com/Suvesh108/UnitWise/releases/tag/v0.0.7) in [Suvesh108/UnitWise](https://github.com/Suvesh108/UnitWise)
 6. 🚀 Published release [UnitWise v0.0.6 — Real IoT Discovery & Fluid Motion](https://github.com/Suvesh108/UnitWise/releases/tag/v0.0.6) in [Suvesh108/UnitWise](https://github.com/Suvesh108/UnitWise)
 7. 🚀 Published release [UnitWise v0.0.5 — Multi-Property Management & Dynamic Live OTA](https://github.com/Suvesh108/UnitWise/releases/tag/v0.0.5) in [Suvesh108/UnitWise](https://github.com/Suvesh108/UnitWise)
 8. 🚀 Published release [UnitWise v0.0.4 — Minimalist UI/UX Overhaul & Interactive Donut Graph](https://github.com/Suvesh108/UnitWise/releases/tag/v0.0.4) in [Suvesh108/UnitWise](https://github.com/Suvesh108/UnitWise)
