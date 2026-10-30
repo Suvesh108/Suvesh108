@@ -1,39 +1,34 @@
 <div align="center">
   <h1>Suvesh Kumar</h1>
-  <p><b>Senior Full Stack Engineer &amp; Distributed Systems Architect</b></p>
+  <p><b>Senior Full Stack &amp; Systems Engineer</b></p>
   <p>
-    <img src="https://img.shields.io/badge/Status-Building%20Cloud%20Systems-D4AF37?style=flat-square&labelColor=090A0F" alt="Status"/>
-    <img src="https://img.shields.io/badge/Focus-Go%20%7C%20Rust%20%7C%20TypeScript-D4AF37?style=flat-square&labelColor=090A0F" alt="Focus"/>
-    <img src="https://komarev.com/ghpvc/?username=suvesh108&label=Profile+Views&color=D4AF37&style=flat-square&labelColor=090A0F" alt="Views"/>
+    <img src="https://img.shields.io/badge/Status-Building%20Cloud%20Systems-F59E0B?style=flat-square&labelColor=09090B" alt="Status"/>
+    <img src="https://img.shields.io/badge/Focus-Go%20%7C%20Rust%20%7C%20TypeScript-F59E0B?style=flat-square&labelColor=09090B" alt="Focus"/>
+    <img src="https://komarev.com/ghpvc/?username=suvesh108&label=Profile+Views&color=F59E0B&style=flat-square&labelColor=09090B" alt="Views"/>
   </p>
   <p>
-    <a href="https://suvesh.io"><img src="https://img.shields.io/badge/Portfolio-090A0F?style=for-the-badge&logo=safari&logoColor=D4AF37"/></a>
-    <a href="https://linkedin.com/in/suvesh108"><img src="https://img.shields.io/badge/LinkedIn-090A0F?style=for-the-badge&logo=linkedin&logoColor=D4AF37"/></a>
-    <a href="mailto:suvesh108@email.com"><img src="https://img.shields.io/badge/Email-090A0F?style=for-the-badge&logo=gmail&logoColor=D4AF37"/></a>
-    <a href="https://twitter.com/suvesh108"><img src="https://img.shields.io/badge/X-090A0F?style=for-the-badge&logo=x&logoColor=D4AF37"/></a>
+    <a href="https://suvesh.io"><img src="https://img.shields.io/badge/Portfolio-09090B?style=for-the-badge&logo=safari&logoColor=F59E0B"/></a>
+    <a href="https://linkedin.com/in/suvesh108"><img src="https://img.shields.io/badge/LinkedIn-09090B?style=for-the-badge&logo=linkedin&logoColor=F59E0B"/></a>
+    <a href="mailto:suvesh108@email.com"><img src="https://img.shields.io/badge/Email-09090B?style=for-the-badge&logo=gmail&logoColor=F59E0B"/></a>
+    <a href="https://twitter.com/suvesh108"><img src="https://img.shields.io/badge/X-09090B?style=for-the-badge&logo=x&logoColor=F59E0B"/></a>
   </p>
-  <p><i>Architecting resilient cloud-native infrastructure, low-latency backends, and intelligent distributed automation.</i></p>
 </div>
 
 ---
 
-### 📊 3D Isometric Contribution Skyline
+### 📊 Contribution Skyline
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="3D Isometric Contribution Skyline" width="100%"/>
+  <img src="./profile-3d-contrib/profile-night-view.svg" alt="Contribution Skyline" width="100%"/>
 </div>
 
----
-
-### ⚡ Engineering Focus & Invariants
-
-* **Core Philosophy:** Platform primitives, clean architecture, and low-latency throughput over heavy framework bloat.
-* **Active Pursuits:** Distributed consensus systems, concurrent streams in Go & Rust, and custom Kubernetes controllers.
-* **Production Invariant:** Zero-trust defensive schemas, parameterized queries, and strict end-to-end type safety.
+<p align="center">
+  <img src="./snake.svg" width="100%" alt="Snake Animation"/>
+</p>
 
 ---
 
-### 🛠️ Core Tech Arsenal
+### 🛠️ My Core Tech
 
 <div align="center">
   <p>
@@ -48,48 +43,31 @@
 
 ---
 
-### 📂 Featured Implementations
+### 📂 My Projects
 
 #### ⚡ [jobscrap](https://github.com/Suvesh108/jobscrap)
-> High-performance multi-threaded job scraper & aggregator with TLS fingerprint bypassing, automated deduplication, and parsing across Naukri, LinkedIn, Indeed, Glassdoor, and Internshala.
+> Fast, automated job search tool that collects and cleans listings across LinkedIn, Indeed, Naukri, Glassdoor, and Internshala into one dashboard.
 >
 > `Python` · `AsyncIO` · `TLS Bypass` · `Data Aggregation` · `REST API`
 
 #### 🌐 [NetPulse](https://github.com/Suvesh108/NetPulse)
-> Premium real-time edge network diagnostic and telemetry platform powered by Cloudflare Speedtest engine with zero-CORS latency tracking and jitter analytics.
+> Real-time network speed and latency tester powered by Cloudflare Edge with instant ping and jitter tracking.
 >
 > `React` · `TypeScript` · `Cloudflare Edge` · `Telemetry` · `TailwindCSS`
 
 #### 📥 [vortex](https://github.com/Suvesh108/vortex)
-> High-bitrate multi-threaded media extraction utility featuring parallel stream downloading, lossless audio-video muxing, and custom format pipelines.
+> High-speed media downloader that downloads parallel chunks and cleanly combines video and audio files.
 >
 > `TypeScript` · `Node.js` · `Streaming Architecture` · `FFmpeg` · `CLI`
 
 #### 🔗 [BlockVerify](https://github.com/Suvesh108/BlockVerify)
-> Decentralized product authentication and supply chain tracking protocol using cryptographic IDs, instant NFC/QR verification, and transparent provenance records.
+> Product verification app using secure NFC & QR tags to prevent counterfeits and trace product origin.
 >
 > `JavaScript` · `Blockchain` · `Supply Chain Security` · `NFC / QR` · `Smart Contracts`
 
 ---
 
-### 📈 GitHub Analytics & Velocity
-
-<p align="center">
-  <img src="./github-stats.svg" width="49%" alt="GitHub Stats"/>
-  <img src="./top-languages.svg" width="49%" alt="Top Languages"/>
-</p>
-
-<p align="center">
-  <img src="./snake.svg" width="100%" alt="Snake Animation"/>
-</p>
-
-<div align="center">
-  <img src="./github-achievements.svg" width="100%" alt="Honors & Achievements"/>
-</div>
-
----
-
-### 📰 Engineering Activity & Logs
+### 📰 Logs
 
 #### Technical Writing
 <!-- BLOG-POST-LIST:START -->
@@ -112,8 +90,8 @@
 ---
 
 <div align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=090A0F&quoteColor=CBD5E1&authorColor=D4AF37&symbolColor=D4AF37" alt="Engineering Quote"/>
+  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&backgroundColor=09090B&quoteColor=CBD5E1&authorColor=F59E0B&symbolColor=F59E0B" alt="Engineering Quote"/>
   <br/><br/>
-  <img src="https://img.shields.io/github/followers/suvesh108?label=Followers&style=flat-square&color=D4AF37&labelColor=090A0F" alt="Followers"/>
-  <img src="https://img.shields.io/github/stars/suvesh108?label=Stars&style=flat-square&color=D4AF37&labelColor=090A0F" alt="Stars"/>
+  <img src="https://img.shields.io/github/followers/suvesh108?label=Followers&style=flat-square&color=F59E0B&labelColor=09090B" alt="Followers"/>
+  <img src="https://img.shields.io/github/stars/suvesh108?label=Stars&style=flat-square&color=F59E0B&labelColor=09090B" alt="Stars"/>
 </div>
