@@ -1,206 +1,207 @@
 <div align="center">
 
-# Suvesh Kumar
+<img src="https://capsule-render.vercel.app/api?type=waving&color=f59e0b&height=120&section=header&text=Suvesh%20Kumar&fontSize=42&fontColor=ffffff&fontAlignY=65&animation=fadeIn" width="100%"/>
 
-### <span>Senior Full Stack & Systems Engineer</span>
+### Senior Full Stack & Systems Engineer
 
-<br/>
-
-![Edge Infrastructure](https://img.shields.io/badge/Edge%20Infrastructure-f59e0b?style=flat-square&labelColor=09090b&color=f59e0b)
-![Stack](https://img.shields.io/badge/Go%20·%20Rust%20·%20TypeScript%20·%20Python-09090b?style=flat-square&labelColor=09090b&color=27272a)
-![Repos](https://img.shields.io/badge/29%20Public%20Repositories-09090b?style=flat-square&labelColor=09090b&color=27272a)
-![Quality](https://img.shields.io/badge/Quality-Tested%20%26%20Secure-f59e0b?style=flat-square&labelColor=09090b&color=f59e0b)
+*Edge Infrastructure · Go · Rust · TypeScript · Python*
 
 <br/>
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-suvesh.io-f59e0b?style=flat-square&logo=safari&logoColor=f59e0b&labelColor=09090b)](https://suvesh.io)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-suvesh108-0A66C2?style=flat-square&logo=linkedin&logoColor=0A66C2&labelColor=09090b)](https://linkedin.com/in/suvesh108)
-[![Email](https://img.shields.io/badge/Email-suvesh108%40email.com-EA4335?style=flat-square&logo=gmail&logoColor=EA4335&labelColor=09090b)](mailto:suvesh108@email.com)
-[![X / Twitter](https://img.shields.io/badge/X-suvesh108-ffffff?style=flat-square&logo=x&logoColor=ffffff&labelColor=09090b)](https://x.com/suvesh108)
+[![Portfolio](https://img.shields.io/badge/Portfolio-suvesh.io-f59e0b?style=for-the-badge&logo=safari&logoColor=white&labelColor=18181b)](https://suvesh.io)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=18181b)](https://linkedin.com/in/suvesh108)
+[![Email](https://img.shields.io/badge/Email-Say%20Hi-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=18181b)](mailto:suvesh108@email.com)
+[![X](https://img.shields.io/badge/X-Follow-ffffff?style=for-the-badge&logo=x&logoColor=white&labelColor=18181b)](https://x.com/suvesh108)
+
+<br/>
+
+![Profile Views](https://komarev.com/ghpvc/?username=Suvesh108&style=flat-square&color=f59e0b&label=Profile+Views)
+&nbsp;
+![Repos](https://img.shields.io/badge/29_Public_Repos-18181b?style=flat-square&logo=github&logoColor=f59e0b)
+&nbsp;
+![Focus](https://img.shields.io/badge/Edge_Infrastructure-18181b?style=flat-square&logo=cloudflare&logoColor=f59e0b)
+&nbsp;
+![Quality](https://img.shields.io/badge/Tested_%26_Secure-18181b?style=flat-square&logo=checkmarx&logoColor=22c55e)
+
+</div>
+
+<br/>
+
+---
+
+## About
+
+Building resilient, high-performance software at the intersection of distributed infrastructure and modern full-stack development. I ship clean, production-grade code across **29+ public repositories** — from IoT telemetry platforms to blockchain provenance systems.
+
+- 🔭 **Currently:** [UnitWise](https://github.com/Suvesh108/UnitWise) — IoT multi-property management with Wi-Fi & BLE live signal analysis
+- ⚡ **Expertise:** Edge infrastructure, async/concurrent pipelines, multi-threaded systems
+- 🔐 **Standards:** Tested, secure, zero-compromise code quality
+
+---
+
+## Stats
+
+<div align="center">
+
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=Suvesh108&show_icons=true&count_private=true&include_all_commits=true&theme=github_dark&bg_color=0d1117&title_color=f59e0b&icon_color=f59e0b&text_color=a1a1aa&border_color=30363d&border_radius=10&rank_icon=github&hide_border=false"/>
+&nbsp;&nbsp;
+<img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Suvesh108&layout=compact&theme=github_dark&bg_color=0d1117&title_color=f59e0b&text_color=a1a1aa&border_color=30363d&border_radius=10&langs_count=8&hide_border=false"/>
+
+</div>
+
+<div align="center">
+
+<img width="70%" src="https://streak-stats.demolab.com?user=Suvesh108&theme=github-dark-blue&background=0d1117&ring=f59e0b&fire=f59e0b&currStreakLabel=f59e0b&sideLabels=a1a1aa&currStreakNum=fafafa&sideNums=fafafa&dates=6e7681&border=30363d&border_radius=10"/>
 
 </div>
 
 ---
 
+## Activity
+
 <div align="center">
 
-## 📊 Git Analytics
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-
-**Commit Activity**
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Suvesh108&show_icons=true&theme=dark&bg_color=09090b&title_color=f59e0b&icon_color=f59e0b&text_color=a1a1aa&border_color=27272a&hide_border=false&custom_title=486%20Commits%20%2812m%29&rank_icon=github)
-
-![Commits Badge](https://img.shields.io/badge/Commits%20(12m)-486-f59e0b?style=flat-square&labelColor=09090b)
-![Growth](https://img.shields.io/badge/%E2%86%97%2024.8%25%20More-22c55e?style=flat-square&labelColor=09090b)
-
-</td>
-<td width="50%" valign="top" align="center">
-
-**Daily Coding Habits**
-
-![Streak](https://streak-stats.demolab.com?user=Suvesh108&theme=dark&background=09090b&ring=f59e0b&fire=f59e0b&currStreakLabel=f59e0b&sideLabels=a1a1aa&currStreakNum=ffffff&sideNums=ffffff&dates=71717a&border=27272a)
-
-![PRs](https://img.shields.io/badge/Pull%20Requests%20Merged-32-f59e0b?style=flat-square&labelColor=09090b)
-![Builder](https://img.shields.io/badge/Active%20Builder-Clean%20Merge%20History-22c55e?style=flat-square&labelColor=09090b)
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-
-**Top Repositories**
-
-| Repository | Share |
-|---|---|
-| NetPulse | ![34%](https://img.shields.io/badge/34%25-f59e0b?style=flat-square&labelColor=09090b) |
-| jobscrap | ![26%](https://img.shields.io/badge/26%25-f97316?style=flat-square&labelColor=09090b) |
-| vortex | ![18%](https://img.shields.io/badge/18%25-eab308?style=flat-square&labelColor=09090b) |
-| BlockVerify | ![14%](https://img.shields.io/badge/14%25-84cc16?style=flat-square&labelColor=09090b) |
-| EDM Core | ![8%](https://img.shields.io/badge/8%25-22c55e?style=flat-square&labelColor=09090b) |
-
-</td>
-<td width="50%" valign="top" align="center">
-
-**Languages & Skills**
-
-![TypeScript](https://img.shields.io/badge/TypeScript-37.9%25-3178C6?style=flat-square&labelColor=09090b&logo=typescript&logoColor=3178C6)
-![JavaScript](https://img.shields.io/badge/JavaScript-24.1%25-F7DF1E?style=flat-square&labelColor=09090b&logo=javascript&logoColor=F7DF1E)
-![Python](https://img.shields.io/badge/Python-10.3%25-3776AB?style=flat-square&labelColor=09090b&logo=python&logoColor=3776AB)
-![Rust](https://img.shields.io/badge/Rust-6.9%25-CE422B?style=flat-square&labelColor=09090b&logo=rust&logoColor=CE422B)
-![Go & Kotlin](https://img.shields.io/badge/Go%20%26%20Kotlin-7.0%25-00ADD8?style=flat-square&labelColor=09090b&logo=go&logoColor=00ADD8)
-![Other](https://img.shields.io/badge/Other-13.8%25-71717a?style=flat-square&labelColor=09090b)
-
-![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=Suvesh108&layout=compact&theme=dark&bg_color=09090b&title_color=f59e0b&text_color=a1a1aa&border_color=27272a&langs_count=6)
-
-</td>
-</tr>
-</table>
+<img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=Suvesh108&theme=github-compact&bg_color=0d1117&color=a1a1aa&line=f59e0b&point=f59e0b&area=true&area_color=f59e0b&hide_border=false&border_color=30363d&radius=8"/>
 
 </div>
 
 ---
 
+## Contribution Skyline
+
 <div align="center">
 
-## 🏔️ Contribution Skyline
+<img width="95%" src="./profile-3d-contrib/profile-night-green.svg"/>
 
-![Contribution Skyline](./profile-3d-contrib/profile-night-green.svg)
+</div>
+
+<div align="center">
+
+<img width="95%" src="./snake.svg"/>
 
 </div>
 
 ---
 
+## Tech Stack
+
 <div align="center">
 
-## 🐍 GitHub Snake
+**Languages**
 
-![Snake animation](./snake.svg)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=0d1117)
+![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white&labelColor=0d1117)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=0d1117)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=0d1117)
+![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white&labelColor=0d1117)
+![Solidity](https://img.shields.io/badge/Solidity-94A3B8?style=flat-square&logo=solidity&logoColor=white&labelColor=0d1117)
+
+**Frontend & APIs**
+
+![React](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=0d1117)
+![Next.js](https://img.shields.io/badge/Next.js-ffffff?style=flat-square&logo=nextdotjs&logoColor=black&labelColor=0d1117)
+![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=0d1117)
+![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white&labelColor=0d1117)
+![REST](https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=0d1117)
+
+**Storage & Infrastructure**
+
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=0d1117)
+![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white&labelColor=0d1117)
+![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white&labelColor=0d1117)
+![Kafka](https://img.shields.io/badge/Kafka-ffffff?style=flat-square&logo=apachekafka&logoColor=black&labelColor=0d1117)
+
+**Cloud & Edge**
+
+![Cloudflare](https://img.shields.io/badge/Cloudflare_Edge-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=0d1117)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=0d1117)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=0d1117)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white&labelColor=0d1117)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=0d1117)
 
 </div>
 
 ---
 
-<div align="center">
-
-## ⚡ My Core Tech
-
-### Languages
-
-![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=09090b)
-![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white&labelColor=09090b)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=09090b)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=09090b)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=000000&labelColor=09090b)
-![Kotlin](https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white&labelColor=09090b)
-![Solidity](https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=09090b)
-
-### Frontend & APIs
-
-![React 19](https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&logo=react&logoColor=000000&labelColor=09090b)
-![Next.js](https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=nextdotjs&logoColor=white&labelColor=09090b)
-![Node.js](https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=09090b)
-![REST API](https://img.shields.io/badge/REST%20API-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=09090b)
-![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white&labelColor=09090b)
-
-### Storage & Infra
-
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=09090b)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white&labelColor=09090b)
-![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white&labelColor=09090b)
-![Kafka](https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white&labelColor=09090b)
-
-### Cloud & Edge
-
-![Cloudflare Edge](https://img.shields.io/badge/Cloudflare%20Edge-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=09090b)
-![AWS](https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=09090b)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=09090b)
-![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white&labelColor=09090b)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=000000&labelColor=09090b)
-
-</div>
-
----
-
-<div align="center">
-
-## 🚀 My Projects
-
-</div>
+## Projects
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### [jobscrap](https://github.com/Suvesh108/jobscrap) · `Python · AsyncIO`
+**[jobscrap](https://github.com/Suvesh108/jobscrap)**&ensp;`Python · AsyncIO`
 
-Fast, automated job search tool that collects and cleans listings across LinkedIn, Indeed, Naukri, Glassdoor, and Internshala into one dashboard.
+Fast, automated multi-source job aggregator. Scrapes LinkedIn, Indeed, Naukri, Glassdoor & Internshala into one unified dashboard with TLS camouflage.
 
-![Python 3.12](https://img.shields.io/badge/Python%203.12-3776AB?style=flat-square&labelColor=09090b&logo=python&logoColor=3776AB)
-![AsyncIO](https://img.shields.io/badge/AsyncIO-f59e0b?style=flat-square&labelColor=09090b)
-![TLS Camouflage](https://img.shields.io/badge/TLS%20Camouflage-27272a?style=flat-square&labelColor=09090b)
-![REST API](https://img.shields.io/badge/REST%20API-009688?style=flat-square&labelColor=09090b)
+![Python 3.12](https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=0d1117)
+![AsyncIO](https://img.shields.io/badge/AsyncIO-f59e0b?style=flat-square&labelColor=0d1117)
+![TLS Camouflage](https://img.shields.io/badge/TLS_Camouflage-30363d?style=flat-square&labelColor=0d1117)
+![REST API](https://img.shields.io/badge/REST_API-009688?style=flat-square&labelColor=0d1117)
 
 </td>
 <td width="50%" valign="top">
 
-### [NetPulse](https://github.com/Suvesh108/NetPulse) · `TypeScript · Edge`
+**[NetPulse](https://github.com/Suvesh108/NetPulse)**&ensp;`TypeScript · Edge`
 
-Real-time network speed and latency tester powered by Cloudflare Edge with instant ping and jitter tracking.
+Real-time network speed and latency tester powered by Cloudflare Edge workers with sub-5ms ping and jitter tracking.
 
-![React 19](https://img.shields.io/badge/React%2019-61DAFB?style=flat-square&labelColor=09090b&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&labelColor=09090b&logo=typescript&logoColor=3178C6)
-![Cloudflare Edge](https://img.shields.io/badge/Cloudflare%20Edge-F38020?style=flat-square&labelColor=09090b&logo=cloudflare&logoColor=F38020)
-![Sub-5ms Telemetry](https://img.shields.io/badge/Sub--5ms%20Telemetry-f59e0b?style=flat-square&labelColor=09090b)
+![React 19](https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=0d1117)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=0d1117)
+![Cloudflare Edge](https://img.shields.io/badge/Cloudflare_Edge-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=0d1117)
+![Sub-5ms](https://img.shields.io/badge/Sub--5ms_Telemetry-f59e0b?style=flat-square&labelColor=0d1117)
 
 </td>
 </tr>
 <tr>
 <td width="50%" valign="top">
 
-### [vortex](https://github.com/Suvesh108/vortex) · `Node.js · CLI`
+**[UnitWise](https://github.com/Suvesh108/UnitWise)**&ensp;`Go · IoT`
 
-High-speed media downloader that downloads parallel chunks and cleanly combines video and audio files.
+Sense-grade IoT platform for multi-property management with Wi-Fi & BLE auto-discovery, vampire load disaggregation, and live OTA updates.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&labelColor=09090b&logo=typescript&logoColor=3178C6)
-![Stream Pipes](https://img.shields.io/badge/Stream%20Pipes-27272a?style=flat-square&labelColor=09090b)
-![FFmpeg Bindings](https://img.shields.io/badge/FFmpeg%20Bindings-007808?style=flat-square&labelColor=09090b)
-![Chunk Muxer](https://img.shields.io/badge/Chunk%20Muxer-f59e0b?style=flat-square&labelColor=09090b)
+![Go](https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=0d1117)
+![Bluetooth LE](https://img.shields.io/badge/Bluetooth_LE-0082FC?style=flat-square&logo=bluetooth&logoColor=white&labelColor=0d1117)
+![Wi-Fi Discovery](https://img.shields.io/badge/Wi--Fi_Discovery-30363d?style=flat-square&labelColor=0d1117)
+![OTA](https://img.shields.io/badge/Live_OTA-22c55e?style=flat-square&labelColor=0d1117)
 
 </td>
 <td width="50%" valign="top">
 
-### [BlockVerify](https://github.com/Suvesh108/BlockVerify) · `Smart Contracts`
+**[vortex](https://github.com/Suvesh108/vortex)**&ensp;`Node.js · CLI`
 
-Product verification app using secure NFC & QR tags to prevent counterfeits and trace product origin.
+High-speed media downloader with parallel chunk fetching, stream pipes, and FFmpeg muxing — built for throughput at scale.
 
-![JavaScript/Sol](https://img.shields.io/badge/JavaScript%2FSolidity-F7DF1E?style=flat-square&labelColor=09090b&logo=solidity&logoColor=F7DF1E)
-![NFC Telemetry](https://img.shields.io/badge/NFC%20Telemetry-27272a?style=flat-square&labelColor=09090b)
-![Cryptographic Proofs](https://img.shields.io/badge/Cryptographic%20Proofs-f59e0b?style=flat-square&labelColor=09090b)
-![Merkle Tree](https://img.shields.io/badge/Merkle%20Tree-22c55e?style=flat-square&labelColor=09090b)
+![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=0d1117)
+![Stream Pipes](https://img.shields.io/badge/Stream_Pipes-30363d?style=flat-square&labelColor=0d1117)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white&labelColor=0d1117)
+![Chunk Muxer](https://img.shields.io/badge/Chunk_Muxer-f59e0b?style=flat-square&labelColor=0d1117)
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[BlockVerify](https://github.com/Suvesh108/BlockVerify)**&ensp;`Solidity · NFC`
+
+Blockchain provenance system using NFC & QR tags with on-chain Merkle proofs to prevent counterfeits and trace product origin.
+
+![Solidity](https://img.shields.io/badge/Solidity-94A3B8?style=flat-square&logo=solidity&logoColor=white&labelColor=0d1117)
+![NFC](https://img.shields.io/badge/NFC_Telemetry-30363d?style=flat-square&labelColor=0d1117)
+![Merkle Tree](https://img.shields.io/badge/Merkle_Tree-22c55e?style=flat-square&labelColor=0d1117)
+![Crypto Proofs](https://img.shields.io/badge/Crypto_Proofs-f59e0b?style=flat-square&labelColor=0d1117)
+
+</td>
+<td width="50%" valign="top">
+
+**[EDM](https://github.com/Suvesh108/EDM)**&ensp;`Rust · CLI`
+
+Low-latency Edge Download Manager with resumable parallel chunk fetching, minimal CLI interface, and zero-dependency Rust core.
+
+![Rust](https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white&labelColor=0d1117)
+![Parallel IO](https://img.shields.io/badge/Parallel_IO-30363d?style=flat-square&labelColor=0d1117)
+![Resumable](https://img.shields.io/badge/Resumable_Downloads-f59e0b?style=flat-square&labelColor=0d1117)
+![Zero Deps](https://img.shields.io/badge/Zero_Dependencies-22c55e?style=flat-square&labelColor=0d1117)
 
 </td>
 </tr>
@@ -208,38 +209,33 @@ Product verification app using secure NFC & QR tags to prevent counterfeits and 
 
 ---
 
-<div align="center">
-
-## 📋 Logs
-
-</div>
+## Recent Releases
 
 ```
-┌──────────────────────────────────────────────────────────────────────────────┐
-│  suvesh@desktop:~/github$ gh release list --limit 10 --repo Suvesh108         │
-│  [SYSTEM] Initialized release journal · 10 release artifacts synchronized    │
-│                                                                              │
-│  01. 🚀  EDM v0.0.1 — Edge Download Manager        Suvesh108/EDM       [latest]    │
-│  02. 🚀  EDM v0.0.1 — Edge Download Manager        Suvesh108/EDM       [tag:v0.0.1]│
-│  03. 🚀  Universal Shared v0.2.4                   Suvesh108/Universal-Shared [pkg:core]│
-│  04. 🚀  UnitWise v0.0.8 — Dual-Mode Wi-Fi & BLE  Suvesh108/UnitWise   [iot:ble]  │
-│  05. 🚀  UnitWise v0.0.7 — Vampire Load Disagg.   Suvesh108/UnitWise   [telemetry]│
-│  06. 🚀  UnitWise v0.0.6 — Real IoT Discovery     Suvesh108/UnitWise   [runtime]  │
-│  07. 🚀  UnitWise v0.0.5 — Multi-Property & OTA   Suvesh108/UnitWise   [ota:live] │
-│  08. 🚀  UnitWise v0.0.4 — Minimalist UI/UX       Suvesh108/UnitWise   [ui:v2]    │
-│  09. 🚀  UnitWise v0.0.3 — Dual-Mode Auto-Scanner Suvesh108/UnitWise   [scanner]  │
-│  10. 🚀  UnitWise v0.0.1 — Prototype Release      Suvesh108/UnitWise   [initial]  │
-└──────────────────────────────────────────────────────────────────────────────┘
+  suvesh@desktop:~/github$ gh release list --limit 10 --repo Suvesh108
+  ────────────────────────────────────────────────────────────────────
+  [SYSTEM] 10 release artifacts synchronized
+
+  01  🚀  EDM v0.0.1 — Edge Download Manager                   [latest]
+  02  🚀  EDM v0.0.1 — Edge Download Manager                   [tag:v0.0.1]
+  03  🚀  Universal-Shared v0.2.4                              [pkg:core]
+  04  🚀  UnitWise v0.0.8 — Dual-Mode Wi-Fi & BLE Discovery    [iot:ble]
+  05  🚀  UnitWise v0.0.7 — Vampire Load Disaggregation        [telemetry]
+  06  🚀  UnitWise v0.0.6 — Real IoT Discovery & Fluid Motion  [runtime]
+  07  🚀  UnitWise v0.0.5 — Multi-Property & Live OTA          [ota:live]
+  08  🚀  UnitWise v0.0.4 — Minimalist UI/UX Overhaul          [ui:v2]
+  09  🚀  UnitWise v0.0.3 — Dual-Mode Auto-Discovery Scanner   [scanner]
+  10  🚀  UnitWise v0.0.1 — Prototype Release                  [initial]
+
+  suvesh@desktop:~/github$ █
 ```
 
 ---
 
 <div align="center">
 
-![Footer](https://img.shields.io/badge/29%20public%20repositories%20·%20Tested%20%26%20Secure%20·%20Edge%20Infrastructure-09090b?style=flat-square&labelColor=09090b&color=27272a)
+<img src="https://capsule-render.vercel.app/api?type=waving&color=f59e0b&height=80&section=footer" width="100%"/>
 
-**Suvesh Kumar · Senior Distributed Systems & Full Stack Architect**
-
-[![Visit Portfolio](https://img.shields.io/badge/Visit%20Portfolio-suvesh.io-f59e0b?style=for-the-badge&logo=safari&logoColor=f59e0b&labelColor=09090b)](https://suvesh.io)
+*Suvesh Kumar · Senior Distributed Systems & Full Stack Architect*
 
 </div>
