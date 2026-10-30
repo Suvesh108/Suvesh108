@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 240" width="100%" height="100%">
+  <!-- Card Background -->
+  <rect width="476" height="236" x="2" y="2" fill="#121217" rx="12" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
+  <rect width="476" height="236" x="2" y="2" fill="none" rx="12" stroke="#0ea5e9" stroke-width="1" stroke-opacity="0.25" />
+
+  <!-- Top Title -->
+  <text x="24" y="32" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" font-weight="700" fill="#a1a1aa" letter-spacing="0.8">TOP REPOSITORIES</text>
+
+  <!-- Treemap Grid Simulation -->
+  <!-- Tile 1: NetPulse (Lead) -->
+  <g transform="translate(24, 52)">
+    <rect width="210" height="164" fill="#0ea5e9" rx="8" />
+    <text x="14" y="24" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="13" font-weight="700" fill="#032538">NetPulse</text>
+    <text x="14" y="60" font-family="ui-monospace, SFMono-Regular, monospace" font-size="28" font-weight="800" fill="#032538">34%</text>
+    <text x="14" y="146" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11" font-weight="600" fill="#032538">Edge Telemetry &amp; Latency</text>
+  </g>
+
+  <!-- Tile 2: jobscrap -->
+  <g transform="translate(244, 52)">
+    <rect width="212" height="76" fill="#6366f1" rx="8" />
+    <text x="14" y="22" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="12" font-weight="700" fill="#ffffff">jobscrap</text>
+    <text x="14" y="52" font-family="ui-monospace, SFMono-Regular, monospace" font-size="22" font-weight="800" fill="#ffffff">26%</text>
+    <text x="100" y="50" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10" font-weight="500" fill="#e0e7ff">Scraping Core</text>
+  </g>
+
+  <!-- Tile 3: vortex -->
+  <g transform="translate(244, 138)">
+    <rect width="100" height="78" fill="#f59e0b" rx="8" />
+    <text x="10" y="22" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" font-weight="700" fill="#2b1800">vortex</text>
+    <text x="10" y="50" font-family="ui-monospace, SFMono-Regular, monospace" font-size="20" font-weight="800" fill="#2b1800">18%</text>
+    <text x="10" y="68" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#2b1800">Media Muxer</text>
+  </g>
+
+  <!-- Tile 4: BlockVerify -->
+  <g transform="translate(352, 138)">
+    <rect width="104" height="78" fill="#14b8a6" rx="8" />
+    <text x="10" y="22" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" font-weight="700" fill="#032b26">BlockVerify</text>
+    <text x="10" y="50" font-family="ui-monospace, SFMono-Regular, monospace" font-size="20" font-weight="800" fill="#032b26">14%</text>
+    <text x="10" y="68" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="9" font-weight="600" fill="#032b26">Contracts</text>
+  </g>
+</svg>

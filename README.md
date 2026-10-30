@@ -2,9 +2,10 @@
   <h1>Suvesh Kumar</h1>
   <p><b>Senior Full Stack &amp; Systems Engineer</b></p>
   <p>
-    <img src="https://img.shields.io/badge/Status-Building%20Cloud%20Systems-F59E0B?style=flat-square&labelColor=09090B" alt="Status"/>
-    <img src="https://img.shields.io/badge/Focus-Go%20%7C%20Rust%20%7C%20TypeScript-F59E0B?style=flat-square&labelColor=09090B" alt="Focus"/>
-    <img src="https://komarev.com/ghpvc/?username=suvesh108&label=Profile+Views&color=F59E0B&style=flat-square&labelColor=09090B" alt="Views"/>
+    <img src="https://img.shields.io/badge/Edge%20Infrastructure-F59E0B?style=flat-square&labelColor=09090B" alt="Edge Infrastructure"/>
+    <img src="https://img.shields.io/badge/Go%20%7C%20Rust%20%7C%20TypeScript%20%7C%20Python-F59E0B?style=flat-square&labelColor=09090B" alt="Languages"/>
+    <img src="https://img.shields.io/badge/29%20Public%20Repositories-F59E0B?style=flat-square&labelColor=09090B" alt="29 Public Repos"/>
+    <img src="https://img.shields.io/badge/Quality-Tested%20%26%20Secure-F59E0B?style=flat-square&labelColor=09090B" alt="Quality"/>
   </p>
   <p>
     <a href="https://suvesh.io"><img src="https://img.shields.io/badge/Portfolio-09090B?style=for-the-badge&logo=safari&logoColor=F59E0B"/></a>
@@ -16,7 +17,25 @@
 
 ---
 
-### 📊 Contribution Skyline
+<div align="center">
+  <h2>⊞ Git Analytics</h2>
+</div>
+
+<p align="center">
+  <img src="./analytics-commit-activity.svg" width="49%" alt="Commit Activity" />
+  <img src="./analytics-daily-habits.svg" width="49%" alt="Daily Coding Habits" />
+</p>
+
+<p align="center">
+  <img src="./analytics-top-repos.svg" width="49%" alt="Top Repositories" />
+  <img src="./analytics-languages-skills.svg" width="49%" alt="Languages and Skills" />
+</p>
+
+---
+
+<div align="center">
+  <h2>📊 Contribution Skyline</h2>
+</div>
 
 <div align="center">
   <img src="./profile-3d-contrib/profile-night-view.svg" alt="Contribution Skyline" width="100%"/>
@@ -28,7 +47,9 @@
 
 ---
 
-### 🛠️ My Core Tech
+<div align="center">
+  <h2>🛠️ My Core Tech</h2>
+</div>
 
 <div align="center">
   <p>
@@ -43,7 +64,9 @@
 
 ---
 
-### 📂 My Projects
+<div align="center">
+  <h2>📂 My Projects</h2>
+</div>
 
 #### ⚡ [jobscrap](https://github.com/Suvesh108/jobscrap)
 > Fast, automated job search tool that collects and cleans listings across LinkedIn, Indeed, Naukri, Glassdoor, and Internshala into one dashboard.
@@ -67,7 +90,13 @@
 
 ---
 
-### 📰 Logs
+<div align="center">
+  <h2>📰 Logs</h2>
+</div>
+
+<div align="center">
+  <img src="./terminal-logs.svg" alt="Terminal Release Journal" width="100%" />
+</div>
 
 #### Technical Writing
 <!-- BLOG-POST-LIST:START -->
