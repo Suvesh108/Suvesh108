@@ -436,223 +436,83 @@ h2 svg { width: 17px; height: 17px; stroke: var(--accent); fill: none; }
    2. 3D ISOMETRIC CONTRIBUTION SKYLINE (Interactive Canvas Engine)
    ============================================================= */
 
+
 /* =============================================================
-   2. CONTRIBUTION SKYLINE (from Desktop/contribution-skyline.html)
+   2. CONTRIBUTION SKYLINE (Exact Component Implementation)
    ============================================================= */
+
+  :root{color-scheme:light dark;--bg:#fff;--fg:#171717;--muted:#737373;--border:#e5e5e5;--accent:#196127}
+  @media(prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--muted:#8b949e;--border:#30363d;--accent:#39d353}}
+  *{box-sizing:border-box}
+  body{margin:0;padding:24px;background:var(--bg);color:var(--fg);font:14px/1.45 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+  .skyline{width:100%;max-width:1100px;margin:auto;border:1px solid var(--border);border-radius:14px;padding:18px;background:var(--bg)}
+  .head{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:12px}
+  .heading{font-size:15px;margin:0;font-weight:400}.heading strong{font-weight:650;font-variant-numeric:tabular-nums}
+  .toggle{display:flex;gap:3px;padding:3px;border:1px solid var(--border);border-radius:7px}
+  .toggle button{width:34px;height:30px;border:0;border-radius:5px;background:transparent;color:var(--muted);cursor:pointer;display:grid;place-items:center}
+  .toggle button[aria-pressed=true]{background:var(--fg);color:var(--bg)}
+  .toggle svg{width:15px;height:15px}
+  .panel{border:1px solid var(--border);border-radius:10px;overflow:hidden}
+  .stage-wrap{position:relative;padding:14px 14px 0}
+  .stage{position:relative;width:100%;min-height:180px;overflow:hidden}
+  canvas{position:absolute;inset:0;display:block;outline:0;max-width:none;touch-action:pan-y}
+  .tooltip{position:absolute;z-index:4;top:10px;left:10px;padding:7px 10px;border-radius:6px;background:var(--fg);color:var(--bg);font-size:12px;white-space:nowrap;pointer-events:none;opacity:0;transform:translate(-50%,-100%);transition:opacity .12s;box-shadow:0 4px 15px #0002}
+  .tooltip:after{content:"";position:absolute;top:100%;left:var(--arrow,50%);margin-left:-5px;border:5px solid transparent;border-top-color:var(--fg);border-bottom:0}
+  .stats{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:16px;padding:16px 16px 8px}
+  .stat-label{color:var(--muted);font-size:12px}.stat-value{font-size:26px;font-weight:650;letter-spacing:-.03em;line-height:1.15;margin-top:3px;font-variant-numeric:tabular-nums}.stat-sub{font-size:11px;color:var(--muted);margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .footer{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;padding:13px 14px;color:var(--muted);font-size:12px}
+  .legend{display:flex;align-items:center;gap:5px}.swatch{width:12px;height:12px;padding:0;border:0;border-radius:2px;cursor:pointer;box-shadow:inset 0 0 0 1px #7f7f7f20}.swatch[aria-pressed=true]{outline:2px solid var(--fg);outline-offset:2px}
+  .corner{position:absolute;z-index:2;pointer-events:none;display:flex;flex-direction:column;gap:20px;transition:opacity .4s}
+  .corner.top{right:8px;top:8px;align-items:flex-end;text-align:right}.corner.bottom{left:8px;bottom:8px}
+  .corner .stat-value{font-size:clamp(28px,5vw,48px)}.corner .stat-sub{max-width:180px}
+  .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+  @media(max-width:650px){body{padding:10px}.skyline{padding:12px}.stats{grid-template-columns:repeat(2,minmax(0,1fr))}.corner .stat-value{font-size:25px}.corner .stat-sub{max-width:120px}}
+  @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;transition:none!important}}
+
+
+/* Obsidian Theme Adaptations for Contribution Skyline */
 .skyline {
-  width: 100%;
-  margin: auto;
-  border: 1px solid var(--border-subtle);
-  border-radius: var(--radius-card);
-  padding: 20px;
-  background: var(--bg-surface);
-  box-shadow: var(--shadow-card);
-  position: relative;
-}
-.head {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 16px;
-  flex-wrap: wrap;
-  margin-bottom: 14px;
+  background: var(--bg-surface) !important;
+  border: 1px solid var(--border-subtle) !important;
+  border-radius: var(--radius-card) !important;
+  box-shadow: var(--shadow-card) !important;
 }
 .heading {
-  font-size: 15px;
-  margin: 0;
-  font-weight: 400;
-  color: var(--text-primary);
-}
-.heading strong {
-  font-weight: 700;
-  font-variant-numeric: tabular-nums;
-  color: var(--text-primary);
+  color: var(--text-primary) !important;
 }
 .toggle {
-  display: flex;
-  gap: 3px;
-  padding: 3px;
-  border: 1px solid var(--border-subtle);
-  border-radius: 8px;
-  background: var(--bg-subpanel);
+  background: var(--bg-subpanel) !important;
+  border-color: var(--border-subtle) !important;
 }
 .toggle button {
-  width: 34px;
-  height: 30px;
-  border: 0;
-  border-radius: 6px;
-  background: transparent;
-  color: var(--text-secondary);
-  cursor: pointer;
-  display: grid;
-  place-items: center;
-  transition: all 180ms ease;
+  color: var(--text-secondary) !important;
 }
 .toggle button[aria-pressed=true] {
-  background: var(--accent);
-  color: #121217;
-}
-.toggle svg {
-  width: 15px;
-  height: 15px;
+  background: var(--accent) !important;
+  color: #121217 !important;
 }
 .panel {
-  border: 1px solid var(--border-rim);
-  border-radius: 10px;
-  overflow: hidden;
-  background: #04060a;
-}
-.stage-wrap {
-  position: relative;
-  padding: 14px 14px 0;
-}
-.stage {
-  position: relative;
-  width: 100%;
-  min-height: 140px;
-  overflow: hidden;
-}
-.stage canvas {
-  position: absolute;
-  inset: 0;
-  display: block;
-  outline: 0;
-  max-width: none;
-  touch-action: pan-y;
-  cursor: grab;
-}
-.stage canvas:active {
-  cursor: grabbing;
-}
-.tooltip {
-  position: absolute;
-  z-index: 20;
-  top: 10px;
-  left: 10px;
-  padding: 7px 11px;
-  border-radius: 6px;
-  background: var(--bg-subpanel);
-  color: var(--text-primary);
-  font-size: 12px;
-  white-space: nowrap;
-  pointer-events: none;
-  opacity: 0;
-  transform: translate(-50%, -100%);
-  transition: opacity .12s;
-  box-shadow: 0 10px 25px rgba(0,0,0,0.6), 0 0 0 1px rgba(255,255,255,0.12);
-}
-.tooltip:after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: var(--arrow, 50%);
-  margin-left: -5px;
-  border: 5px solid transparent;
-  border-top-color: var(--bg-subpanel);
-  border-bottom: 0;
+  background: #04060a !important;
+  border-color: var(--border-rim) !important;
 }
 .stats {
-  display: grid;
-  grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 16px;
-  padding: 16px 16px 12px;
-  border-top: 1px solid var(--border-rim);
-}
-.stat-label {
-  color: var(--text-tertiary);
-  font-size: 11px;
-  text-transform: uppercase;
-  font-weight: 700;
-  letter-spacing: 0.5px;
+  border-top-color: var(--border-rim) !important;
 }
 .stat-value {
-  font-size: 26px;
-  font-weight: 750;
-  letter-spacing: -.03em;
-  line-height: 1.15;
-  margin-top: 3px;
-  font-variant-numeric: tabular-nums;
-  font-family: var(--font-mono);
-  color: var(--accent);
-}
-.stat-sub {
-  font-size: 11px;
-  color: var(--text-secondary);
-  margin-top: 3px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  color: var(--accent) !important;
+  font-family: var(--font-mono) !important;
 }
 .footer {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 14px;
-  flex-wrap: wrap;
-  padding: 12px 16px;
-  color: var(--text-secondary);
-  font-size: 11.5px;
-  border-top: 1px solid var(--border-rim);
+  border-top-color: var(--border-rim) !important;
+  color: var(--text-secondary) !important;
 }
-.legend {
-  display: flex;
-  align-items: center;
-  gap: 5px;
+.tooltip {
+  background: var(--bg-subpanel) !important;
+  color: var(--text-primary) !important;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.7), 0 0 0 1px rgba(255,255,255,0.12) !important;
 }
-.swatch {
-  width: 12px;
-  height: 12px;
-  padding: 0;
-  border: 0;
-  border-radius: 2px;
-  cursor: pointer;
-  box-shadow: inset 0 0 0 1px rgba(255,255,255,0.12);
-  transition: transform 150ms ease;
-}
-.swatch[aria-pressed=true] {
-  outline: 2px solid var(--accent);
-  outline-offset: 2px;
-}
-.corner {
-  position: absolute;
-  z-index: 2;
-  pointer-events: none;
-  display: flex;
-  flex-direction: column;
-  gap: 18px;
-  transition: opacity .4s;
-}
-.corner.top {
-  right: 14px;
-  top: 14px;
-  align-items: flex-end;
-  text-align: right;
-}
-.corner.bottom {
-  left: 14px;
-  bottom: 14px;
-}
-.corner .stat-value {
-  font-size: clamp(26px, 4.5vw, 42px);
-}
-.corner .stat-sub {
-  max-width: 180px;
-}
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0,0,0,0);
-  white-space: nowrap;
-  border: 0;
-}
-@media(max-width:650px){
-  .stats { grid-template-columns: repeat(2, minmax(0,1fr)); }
-  .corner .stat-value { font-size: 24px; }
-  .corner .stat-sub { max-width: 120px; }
+.tooltip:after {
+  border-top-color: var(--bg-subpanel) !important;
 }
 
 /* =============================================================
@@ -1976,6 +1836,9 @@ body {
     <!-- =============================================================
        2. CONTRIBUTION SKYLINE (Direct Desktop/contribution-skyline.html Replacement)
        ============================================================= -->
+    <!-- =============================================================
+       2. CONTRIBUTION SKYLINE (Fully Functional Interactive Component)
+       ============================================================= -->
   <section id="skyline-section">
     <div class="section-header">
       <div>
@@ -2007,6 +1870,7 @@ body {
   </div>
   <p class="sr-only" aria-live="polite" id="announce"></p>
 </section>
+  </section>
   </section>
 
   <!-- =============================================================
@@ -2657,7 +2521,7 @@ function switchTechView(view) {
 }
 
 // ==========================================================================
-// 4. CONTRIBUTION SKYLINE (Direct Desktop/contribution-skyline.html Engine)
+// 4. CONTRIBUTION SKYLINE (Exact Component Implementation with Real Data)
 // ==========================================================================
 
 /* Standalone Contribution Skyline — no React, dependencies, build step, or external assets.
@@ -2666,7 +2530,7 @@ function switchTechView(view) {
 (() => {
 "use strict";
 const CONFIG = {
-  data: window.CONTRIBUTION_DATA || null,
+  data: [{"date":"2025-10-25","count":0},{"date":"2025-10-26","count":0},{"date":"2025-10-27","count":0},{"date":"2025-10-28","count":0},{"date":"2025-10-29","count":0},{"date":"2025-10-30","count":0},{"date":"2025-10-31","count":0},{"date":"2025-11-01","count":0},{"date":"2025-11-02","count":0},{"date":"2025-11-03","count":0},{"date":"2025-11-04","count":0},{"date":"2025-11-05","count":0},{"date":"2025-11-06","count":0},{"date":"2025-11-07","count":0},{"date":"2025-11-08","count":0},{"date":"2025-11-09","count":0},{"date":"2025-11-10","count":0},{"date":"2025-11-11","count":0},{"date":"2025-11-12","count":0},{"date":"2025-11-13","count":0},{"date":"2025-11-14","count":0},{"date":"2025-11-15","count":0},{"date":"2025-11-16","count":0},{"date":"2025-11-17","count":0},{"date":"2025-11-18","count":0},{"date":"2025-11-19","count":0},{"date":"2025-11-20","count":0},{"date":"2025-11-21","count":0},{"date":"2025-11-22","count":0},{"date":"2025-11-23","count":0},{"date":"2025-11-24","count":15},{"date":"2025-11-25","count":5},{"date":"2025-11-26","count":1},{"date":"2025-11-27","count":0},{"date":"2025-11-28","count":0},{"date":"2025-11-29","count":0},{"date":"2025-11-30","count":0},{"date":"2025-12-01","count":0},{"date":"2025-12-02","count":0},{"date":"2025-12-03","count":0},{"date":"2025-12-04","count":0},{"date":"2025-12-05","count":0},{"date":"2025-12-06","count":0},{"date":"2025-12-07","count":0},{"date":"2025-12-08","count":0},{"date":"2025-12-09","count":0},{"date":"2025-12-10","count":4},{"date":"2025-12-11","count":3},{"date":"2025-12-12","count":13},{"date":"2025-12-13","count":0},{"date":"2025-12-14","count":0},{"date":"2025-12-15","count":0},{"date":"2025-12-16","count":0},{"date":"2025-12-17","count":0},{"date":"2025-12-18","count":0},{"date":"2025-12-19","count":0},{"date":"2025-12-20","count":0},{"date":"2025-12-21","count":0},{"date":"2025-12-22","count":0},{"date":"2025-12-23","count":0},{"date":"2025-12-24","count":0},{"date":"2025-12-25","count":0},{"date":"2025-12-26","count":0},{"date":"2025-12-27","count":0},{"date":"2025-12-28","count":0},{"date":"2025-12-29","count":0},{"date":"2025-12-30","count":0},{"date":"2025-12-31","count":0},{"date":"2026-01-01","count":0},{"date":"2026-01-02","count":0},{"date":"2026-01-03","count":0},{"date":"2026-01-04","count":0},{"date":"2026-01-05","count":0},{"date":"2026-01-06","count":0},{"date":"2026-01-07","count":0},{"date":"2026-01-08","count":0},{"date":"2026-01-09","count":0},{"date":"2026-01-10","count":0},{"date":"2026-01-11","count":0},{"date":"2026-01-12","count":0},{"date":"2026-01-13","count":0},{"date":"2026-01-14","count":0},{"date":"2026-01-15","count":0},{"date":"2026-01-16","count":0},{"date":"2026-01-17","count":0},{"date":"2026-01-18","count":0},{"date":"2026-01-19","count":0},{"date":"2026-01-20","count":0},{"date":"2026-01-21","count":0},{"date":"2026-01-22","count":0},{"date":"2026-01-23","count":0},{"date":"2026-01-24","count":0},{"date":"2026-01-25","count":0},{"date":"2026-01-26","count":0},{"date":"2026-01-27","count":0},{"date":"2026-01-28","count":0},{"date":"2026-01-29","count":0},{"date":"2026-01-30","count":0},{"date":"2026-01-31","count":0},{"date":"2026-02-01","count":0},{"date":"2026-02-02","count":0},{"date":"2026-02-03","count":0},{"date":"2026-02-04","count":0},{"date":"2026-02-05","count":0},{"date":"2026-02-06","count":0},{"date":"2026-02-07","count":0},{"date":"2026-02-08","count":0},{"date":"2026-02-09","count":0},{"date":"2026-02-10","count":0},{"date":"2026-02-11","count":0},{"date":"2026-02-12","count":0},{"date":"2026-02-13","count":0},{"date":"2026-02-14","count":0},{"date":"2026-02-15","count":0},{"date":"2026-02-16","count":0},{"date":"2026-02-17","count":0},{"date":"2026-02-18","count":0},{"date":"2026-02-19","count":0},{"date":"2026-02-20","count":0},{"date":"2026-02-21","count":0},{"date":"2026-02-22","count":0},{"date":"2026-02-23","count":0},{"date":"2026-02-24","count":0},{"date":"2026-02-25","count":0},{"date":"2026-02-26","count":0},{"date":"2026-02-27","count":3},{"date":"2026-02-28","count":0},{"date":"2026-03-01","count":0},{"date":"2026-03-02","count":0},{"date":"2026-03-03","count":0},{"date":"2026-03-04","count":0},{"date":"2026-03-05","count":0},{"date":"2026-03-06","count":0},{"date":"2026-03-07","count":0},{"date":"2026-03-08","count":0},{"date":"2026-03-09","count":0},{"date":"2026-03-10","count":0},{"date":"2026-03-11","count":0},{"date":"2026-03-12","count":0},{"date":"2026-03-13","count":0},{"date":"2026-03-14","count":0},{"date":"2026-03-15","count":0},{"date":"2026-03-16","count":0},{"date":"2026-03-17","count":0},{"date":"2026-03-18","count":0},{"date":"2026-03-19","count":0},{"date":"2026-03-20","count":0},{"date":"2026-03-21","count":0},{"date":"2026-03-22","count":0},{"date":"2026-03-23","count":2},{"date":"2026-03-24","count":0},{"date":"2026-03-25","count":0},{"date":"2026-03-26","count":0},{"date":"2026-03-27","count":0},{"date":"2026-03-28","count":0},{"date":"2026-03-29","count":0},{"date":"2026-03-30","count":0},{"date":"2026-03-31","count":0},{"date":"2026-04-01","count":0},{"date":"2026-04-02","count":0},{"date":"2026-04-03","count":0},{"date":"2026-04-04","count":0},{"date":"2026-04-05","count":0},{"date":"2026-04-06","count":0},{"date":"2026-04-07","count":0},{"date":"2026-04-08","count":0},{"date":"2026-04-09","count":0},{"date":"2026-04-10","count":0},{"date":"2026-04-11","count":0},{"date":"2026-04-12","count":0},{"date":"2026-04-13","count":0},{"date":"2026-04-14","count":0},{"date":"2026-04-15","count":0},{"date":"2026-04-16","count":0},{"date":"2026-04-17","count":0},{"date":"2026-04-18","count":0},{"date":"2026-04-19","count":0},{"date":"2026-04-20","count":0},{"date":"2026-04-21","count":0},{"date":"2026-04-22","count":0},{"date":"2026-04-23","count":0},{"date":"2026-04-24","count":0},{"date":"2026-04-25","count":0},{"date":"2026-04-26","count":0},{"date":"2026-04-27","count":0},{"date":"2026-04-28","count":0},{"date":"2026-04-29","count":0},{"date":"2026-04-30","count":0},{"date":"2026-05-01","count":0},{"date":"2026-05-02","count":0},{"date":"2026-05-03","count":0},{"date":"2026-05-04","count":0},{"date":"2026-05-05","count":0},{"date":"2026-05-06","count":0},{"date":"2026-05-07","count":0},{"date":"2026-05-08","count":0},{"date":"2026-05-09","count":0},{"date":"2026-05-10","count":0},{"date":"2026-05-11","count":0},{"date":"2026-05-12","count":0},{"date":"2026-05-13","count":0},{"date":"2026-05-14","count":0},{"date":"2026-05-15","count":0},{"date":"2026-05-16","count":0},{"date":"2026-05-17","count":0},{"date":"2026-05-18","count":0},{"date":"2026-05-19","count":0},{"date":"2026-05-20","count":0},{"date":"2026-05-21","count":3},{"date":"2026-05-22","count":0},{"date":"2026-05-23","count":0},{"date":"2026-05-24","count":0},{"date":"2026-05-25","count":0},{"date":"2026-05-26","count":0},{"date":"2026-05-27","count":2},{"date":"2026-05-28","count":0},{"date":"2026-05-29","count":0},{"date":"2026-05-30","count":0},{"date":"2026-05-31","count":0},{"date":"2026-06-01","count":0},{"date":"2026-06-02","count":0},{"date":"2026-06-03","count":0},{"date":"2026-06-04","count":0},{"date":"2026-06-05","count":0},{"date":"2026-06-06","count":0},{"date":"2026-06-07","count":0},{"date":"2026-06-08","count":0},{"date":"2026-06-09","count":0},{"date":"2026-06-10","count":0},{"date":"2026-06-11","count":0},{"date":"2026-06-12","count":0},{"date":"2026-06-13","count":0},{"date":"2026-06-14","count":3},{"date":"2026-06-15","count":0},{"date":"2026-06-16","count":0},{"date":"2026-06-17","count":1},{"date":"2026-06-18","count":1},{"date":"2026-06-19","count":0},{"date":"2026-06-20","count":2},{"date":"2026-06-21","count":0},{"date":"2026-06-22","count":0},{"date":"2026-06-23","count":0},{"date":"2026-06-24","count":0},{"date":"2026-06-25","count":0},{"date":"2026-06-26","count":0},{"date":"2026-06-27","count":0},{"date":"2026-06-28","count":0},{"date":"2026-06-29","count":0},{"date":"2026-06-30","count":0},{"date":"2026-07-01","count":0},{"date":"2026-07-02","count":0},{"date":"2026-07-03","count":0},{"date":"2026-07-04","count":0},{"date":"2026-07-05","count":0},{"date":"2026-07-06","count":0},{"date":"2026-07-07","count":0},{"date":"2026-07-08","count":0},{"date":"2026-07-09","count":0},{"date":"2026-07-10","count":0},{"date":"2026-07-11","count":0},{"date":"2026-07-12","count":0},{"date":"2026-07-13","count":0},{"date":"2026-07-14","count":0},{"date":"2026-07-15","count":1},{"date":"2026-07-16","count":0},{"date":"2026-07-17","count":3},{"date":"2026-07-18","count":40},{"date":"2026-07-19","count":7},{"date":"2026-07-20","count":1},{"date":"2026-07-21","count":0},{"date":"2026-07-22","count":0},{"date":"2026-07-23","count":22},{"date":"2026-07-24","count":6},{"date":"2026-07-25","count":0},{"date":"2026-07-26","count":0},{"date":"2026-07-27","count":0},{"date":"2026-07-28","count":0},{"date":"2026-07-29","count":0},{"date":"2026-07-30","count":0},{"date":"2026-07-31","count":0},{"date":"2026-08-01","count":0},{"date":"2026-08-02","count":0},{"date":"2026-08-03","count":0},{"date":"2026-08-04","count":0},{"date":"2026-08-05","count":0},{"date":"2026-08-06","count":0},{"date":"2026-08-07","count":0},{"date":"2026-08-08","count":0},{"date":"2026-08-09","count":0},{"date":"2026-08-10","count":0},{"date":"2026-08-11","count":0},{"date":"2026-08-12","count":0},{"date":"2026-08-13","count":14},{"date":"2026-08-14","count":0},{"date":"2026-08-15","count":1},{"date":"2026-08-16","count":4},{"date":"2026-08-17","count":8},{"date":"2026-08-18","count":3},{"date":"2026-08-19","count":0},{"date":"2026-08-20","count":0},{"date":"2026-08-21","count":0},{"date":"2026-08-22","count":0},{"date":"2026-08-23","count":0},{"date":"2026-08-24","count":0},{"date":"2026-08-25","count":0},{"date":"2026-08-26","count":0},{"date":"2026-08-27","count":0},{"date":"2026-08-28","count":0},{"date":"2026-08-29","count":0},{"date":"2026-08-30","count":0},{"date":"2026-08-31","count":56},{"date":"2026-09-01","count":0},{"date":"2026-09-02","count":0},{"date":"2026-09-03","count":13},{"date":"2026-09-04","count":0},{"date":"2026-09-05","count":0},{"date":"2026-09-06","count":6},{"date":"2026-09-07","count":4},{"date":"2026-09-08","count":1},{"date":"2026-09-09","count":8},{"date":"2026-09-10","count":0},{"date":"2026-09-11","count":0},{"date":"2026-09-12","count":0},{"date":"2026-09-13","count":1},{"date":"2026-09-14","count":0},{"date":"2026-09-15","count":0},{"date":"2026-09-16","count":0},{"date":"2026-09-17","count":0},{"date":"2026-09-18","count":0},{"date":"2026-09-19","count":0},{"date":"2026-09-20","count":0},{"date":"2026-09-21","count":0},{"date":"2026-09-22","count":0},{"date":"2026-09-23","count":0},{"date":"2026-09-24","count":0},{"date":"2026-09-25","count":0},{"date":"2026-09-26","count":0},{"date":"2026-09-27","count":0},{"date":"2026-09-28","count":0},{"date":"2026-09-29","count":1},{"date":"2026-09-30","count":0},{"date":"2026-10-01","count":0},{"date":"2026-10-02","count":7},{"date":"2026-10-03","count":0},{"date":"2026-10-04","count":0},{"date":"2026-10-05","count":1},{"date":"2026-10-06","count":0},{"date":"2026-10-07","count":0},{"date":"2026-10-08","count":14},{"date":"2026-10-09","count":12},{"date":"2026-10-10","count":0},{"date":"2026-10-11","count":0},{"date":"2026-10-12","count":6},{"date":"2026-10-13","count":0},{"date":"2026-10-14","count":10},{"date":"2026-10-15","count":0},{"date":"2026-10-16","count":4},{"date":"2026-10-17","count":1},{"date":"2026-10-18","count":16},{"date":"2026-10-19","count":24},{"date":"2026-10-20","count":0},{"date":"2026-10-21","count":0},{"date":"2026-10-22","count":0},{"date":"2026-10-23","count":0},{"date":"2026-10-24","count":0},{"date":"2026-10-25","count":2},{"date":"2026-10-26","count":0},{"date":"2026-10-27","count":0},{"date":"2026-10-28","count":0},{"date":"2026-10-29","count":0},{"date":"2026-10-30","count":0}],
   endDate: null,                 // "YYYY-MM-DD" or null for latest data / today
   defaultView: "3d",
   palette: "amber",             // github, halloween, ocean, ember, grape, mono
