@@ -88,50 +88,7 @@
 
 ## 🏔️ Contribution Skyline
 
-<!-- Panel header row: title + 2d/3d toggle represented as badges -->
-![355 contributions in the last year](https://img.shields.io/badge/355_contributions_in_the_last_year-21262d?style=flat-square&labelColor=21262d&color=21262d)&nbsp;&nbsp;
-![2D](https://img.shields.io/badge/2D-30363d?style=flat-square&labelColor=30363d&color=30363d)&nbsp;
-![3D](https://img.shields.io/badge/3D-f59e0b?style=flat-square&labelColor=f59e0b&color=f59e0b)
-
-<!-- Canvas / stage — the 3D skyline SVG is the direct visual equivalent -->
-![Contribution Skyline 3D](./contribution-skyline-3d.svg)
-
-<!-- Stats row — mirrors the 4-stat grid from the HTML panel -->
-<table>
-<tr>
-<td align="center" width="25%">
-<sub>1 YEAR TOTAL</sub><br>
-<strong>355</strong><br>
-<sub>contributions</sub><br>
-<sub>Oct 2025 — Oct 2026</sub>
-</td>
-<td align="center" width="25%">
-<sub>BUSIEST DAY</sub><br>
-<strong>56</strong><br>
-<sub>contributions</sub><br>
-<sub>Aug 31</sub>
-</td>
-<td align="center" width="25%">
-<sub>LONGEST STREAK</sub><br>
-<strong>4</strong><br>
-<sub>days</sub><br>
-<sub>Jul 17 — Jul 20</sub>
-</td>
-<td align="center" width="25%">
-<sub>CURRENT STREAK</sub><br>
-<strong>1</strong><br>
-<sub>day</sub><br>
-<sub>Oct 30</sub>
-</td>
-</tr>
-</table>
-
-<!-- Footer row: hint + legend -->
-![Less](https://img.shields.io/badge/Less-0e4429?style=flat-square&labelColor=0e4429&color=0e4429)&nbsp;
-![·](https://img.shields.io/badge/-006d32?style=flat-square&labelColor=006d32&color=006d32)&nbsp;
-![·](https://img.shields.io/badge/-26a641?style=flat-square&labelColor=26a641&color=26a641)&nbsp;
-![·](https://img.shields.io/badge/-39d353?style=flat-square&labelColor=39d353&color=39d353)&nbsp;
-![More](https://img.shields.io/badge/More-39d353?style=flat-square&labelColor=39d353&color=39d353)
+![Contribution Skyline](./profile-3d-contrib/profile-night-green.svg)
 
 </div>
 
