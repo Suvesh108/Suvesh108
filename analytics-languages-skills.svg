@@ -41,7 +41,7 @@
     </g>
     <g transform="translate(225, 170)">
       <circle cx="5" cy="5" r="4" fill="#818cf8" />
-      <text x="16" y="8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" font-weight="500" fill="#e2e8f0">Go & Kotlin</text>
+      <text x="16" y="8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" font-weight="500" fill="#e2e8f0">Go &amp; Kotlin</text>
       <text x="210" y="8" font-family="ui-monospace, SFMono-Regular, monospace" font-size="11.5" font-weight="700" fill="#fafafa" text-anchor="end">7%</text>
     </g>
     <g transform="translate(225, 197)">

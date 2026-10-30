@@ -13,7 +13,7 @@
   <rect width="476" height="236" x="2" y="2" fill="#121217" rx="12" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
   <rect width="476" height="236" x="2" y="2" fill="none" rx="12" stroke="#818cf8" stroke-width="1" stroke-opacity="0.25" />
 
-  <!-- Top Title & Badge -->
+  <!-- Top Title &amp; Badge -->
   <text x="24" y="32" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" font-weight="700" fill="#a1a1aa" letter-spacing="0.8">DAILY CODING HABITS</text>
   
   <g transform="translate(366, 18)">
@@ -21,7 +21,7 @@
     <text x="45" y="14" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#818cf8" text-anchor="middle">Active Builder</text>
   </g>
 
-  <!-- Stat Number & Subtext -->
+  <!-- Stat Number &amp; Subtext -->
   <text x="24" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="30" font-weight="800" fill="#fafafa" letter-spacing="-0.03em">32<tspan font-size="12" font-weight="500" fill="#71717a"> Pull Requests Merged</tspan></text>
   <text x="24" y="86" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" fill="#a1a1aa">Clean merge history across 29 active projects</text>
 

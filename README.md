@@ -38,7 +38,7 @@
 </div>
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-view.svg" alt="Contribution Skyline" width="100%"/>
+  <img src="./contribution-skyline-3d.svg" alt="Contribution Skyline" width="100%"/>
 </div>
 
 <p align="center">
