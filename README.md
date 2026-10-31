@@ -74,32 +74,23 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
     <td width="50%" valign="top">
       <h4>
         <a href="https://github.com/Suvesh108/jobscrap">
-          <img src="https://img.shields.io/badge/jobscrap-21262d?style=for-the-badge&logo=github&logoColor=white" alt="jobscrap" />
+          <img src="https://img.shields.io/badge/jobscrap-Python_·_Fast-f59e0b?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="jobscrap" />
         </a>
-        &nbsp;
-        <img src="https://img.shields.io/badge/Python_·_Fast-f59e0b?style=flat-square&labelColor=121217" alt="Badge" />
       </h4>
       <p>A fast job finder that collects and organizes job posts from LinkedIn, Indeed, Naukri, Glassdoor, and Internshala into one clean dashboard.</p>
       <p>
-        <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=121217" alt="Python" />
-        <img src="https://img.shields.io/badge/Web_Scraper-f59e0b?style=flat-square&labelColor=121217" alt="Scraper" />
-        <img src="https://img.shields.io/badge/REST_API-009688?style=flat-square&labelColor=121217" alt="REST" />
+        <img src="https://skillicons.dev/icons?i=py,fastapi&theme=dark" height="28" alt="Tech" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>
         <a href="https://github.com/Suvesh108/NetPulse">
-          <img src="https://img.shields.io/badge/NetPulse-21262d?style=for-the-badge&logo=github&logoColor=white" alt="NetPulse" />
+          <img src="https://img.shields.io/badge/NetPulse-TypeScript_·_Web-0ea5e9?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="NetPulse" />
         </a>
-        &nbsp;
-        <img src="https://img.shields.io/badge/TypeScript_·_Web-0ea5e9?style=flat-square&labelColor=121217" alt="Badge" />
       </h4>
       <p>A live internet speed and ping checker that tests your network latency in real time using Cloudflare edge servers.</p>
       <p>
-        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=121217" alt="React" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=121217" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=121217" alt="Cloudflare" />
-        <img src="https://img.shields.io/badge/Speed_Test-f59e0b?style=flat-square&labelColor=121217" alt="Speed Test" />
+        <img src="https://skillicons.dev/icons?i=react,ts,cloudflare&theme=dark" height="28" alt="Tech" />
       </p>
     </td>
   </tr>
@@ -107,33 +98,23 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
     <td width="50%" valign="top">
       <h4>
         <a href="https://github.com/Suvesh108/UnitWise">
-          <img src="https://img.shields.io/badge/UnitWise-21262d?style=for-the-badge&logo=github&logoColor=white" alt="UnitWise" />
+          <img src="https://img.shields.io/badge/UnitWise-Dart_·_IoT-00ADD8?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="UnitWise" />
         </a>
-        &nbsp;
-        <img src="https://img.shields.io/badge/Dart_·_IoT-00ADD8?style=flat-square&labelColor=121217" alt="Badge" />
       </h4>
       <p>A smart home dashboard that automatically finds nearby Wi-Fi and Bluetooth devices, tracks power usage, and sends wireless updates.</p>
       <p>
-        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white&labelColor=121217" alt="Dart" />
-        <img src="https://img.shields.io/badge/Bluetooth-0082FC?style=flat-square&logo=bluetooth&logoColor=white&labelColor=121217" alt="Bluetooth" />
-        <img src="https://img.shields.io/badge/Wi--Fi_Scanner-30363d?style=flat-square&labelColor=121217" alt="WiFi" />
-        <img src="https://img.shields.io/badge/Smart_Home-22c55e?style=flat-square&labelColor=121217" alt="Smart Home" />
+        <img src="https://skillicons.dev/icons?i=dart,flutter&theme=dark" height="28" alt="Tech" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>
         <a href="https://github.com/Suvesh108/Universal-Shared">
-          <img src="https://img.shields.io/badge/Universal--Shared-21262d?style=for-the-badge&logo=github&logoColor=white" alt="Universal-Shared" />
+          <img src="https://img.shields.io/badge/Universal--Shared-JavaScript_·_Sync-eab308?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="Universal-Shared" />
         </a>
-        &nbsp;
-        <img src="https://img.shields.io/badge/JavaScript_·_Sync-eab308?style=flat-square&labelColor=121217" alt="Badge" />
       </h4>
       <p>A private local clipboard sync tool that lets you seamlessly share text, links, and files across all your devices on the same Wi-Fi.</p>
       <p>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=121217" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/Local_Sync-30363d?style=flat-square&labelColor=121217" alt="Local Sync" />
-        <img src="https://img.shields.io/badge/Cross_Device-f59e0b?style=flat-square&labelColor=121217" alt="Cross Device" />
-        <img src="https://img.shields.io/badge/Private_%26_Local-22c55e?style=flat-square&labelColor=121217" alt="Private" />
+        <img src="https://skillicons.dev/icons?i=js,nodejs&theme=dark" height="28" alt="Tech" />
       </p>
     </td>
   </tr>
@@ -141,33 +122,23 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
     <td width="50%" valign="top">
       <h4>
         <a href="https://github.com/Suvesh108/BlockVerify">
-          <img src="https://img.shields.io/badge/BlockVerify-21262d?style=for-the-badge&logo=github&logoColor=white" alt="BlockVerify" />
+          <img src="https://img.shields.io/badge/BlockVerify-Smart_Contracts-14b8a6?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="BlockVerify" />
         </a>
-        &nbsp;
-        <img src="https://img.shields.io/badge/Smart_Contracts-14b8a6?style=flat-square&labelColor=121217" alt="Badge" />
       </h4>
       <p>An anti-fake product checker that uses NFC and QR tags with smart contracts so buyers can verify real items in seconds.</p>
       <p>
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=121217" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/NFC_Tags-30363d?style=flat-square&labelColor=121217" alt="NFC" />
-        <img src="https://img.shields.io/badge/Anti--Fake-22c55e?style=flat-square&labelColor=121217" alt="Anti Fake" />
-        <img src="https://img.shields.io/badge/Security-f59e0b?style=flat-square&labelColor=121217" alt="Security" />
+        <img src="https://skillicons.dev/icons?i=solidity,js&theme=dark" height="28" alt="Tech" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>
         <a href="https://github.com/Suvesh108/EDM">
-          <img src="https://img.shields.io/badge/EDM-21262d?style=for-the-badge&logo=github&logoColor=white" alt="EDM" />
+          <img src="https://img.shields.io/badge/EDM-Rust_·_Fast-CE422B?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="EDM" />
         </a>
-        &nbsp;
-        <img src="https://img.shields.io/badge/Rust_·_Fast-CE422B?style=flat-square&labelColor=121217" alt="Badge" />
       </h4>
       <p>A lightweight download manager built with Rust & Tauri with parallel downloads, live speed tracking, and pause/resume support.</p>
       <p>
-        <img src="https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white&labelColor=121217" alt="Rust" />
-        <img src="https://img.shields.io/badge/Fast_Parallel-30363d?style=flat-square&labelColor=121217" alt="Parallel" />
-        <img src="https://img.shields.io/badge/Pause_&_Resume-f59e0b?style=flat-square&labelColor=121217" alt="Resume" />
-        <img src="https://img.shields.io/badge/Lightweight-22c55e?style=flat-square&labelColor=121217" alt="Lightweight" />
+        <img src="https://skillicons.dev/icons?i=rust,tauri&theme=dark" height="28" alt="Tech" />
       </p>
     </td>
   </tr>
