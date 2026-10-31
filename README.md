@@ -42,29 +42,6 @@ Building resilient, high-performance software at the intersection of distributed
 
 ---
 
-### 📊 Git Analytics
-
-<table width="100%">
-  <tr>
-    <td width="50%" align="center">
-      <img src="./analytics-commit-activity.svg" width="100%" alt="Commit Activity" />
-    </td>
-    <td width="50%" align="center">
-      <img src="./analytics-daily-habits.svg" width="100%" alt="Daily Coding Habits" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" align="center">
-      <img src="./analytics-top-repos.svg" width="100%" alt="Top Repositories" />
-    </td>
-    <td width="50%" align="center">
-      <img src="./analytics-languages-skills.svg" width="100%" alt="Languages & Skills" />
-    </td>
-  </tr>
-</table>
-
----
-
 ### 🏔️ Contribution Skyline
 
 <div align="center">
