@@ -290,12 +290,7 @@ async function renderSkylineSvg() {
   <!-- Container (.skyline) -->
   <rect x="1" y="1" width="1098" height="478" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1" />
 
-  <!-- Header (.head) -->
-  <g transform="translate(18, 32)">
-    <text x="0" y="0" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" fill="#e6edf3">
-      <tspan font-weight="650">${totalStr}</tspan> <tspan font-weight="400">contributions in the last year</tspan>
-    </text>
-  </g>
+  <!-- Header (.head) - Headline removed completely -->
 
   <!-- Toggle Buttons (.toggle) -->
   <g transform="translate(1008, 14)">
