@@ -66,8 +66,6 @@ async function fetchContributionData() {
           console.log(`Fetched ${list.length} live contribution days (total: ${cal.totalContributions}).`);
           return list;
         }
-      } else {
-        console.warn(`GraphQL response error: ${res.status} ${res.statusText}`);
       }
     } catch (err) {
       console.warn("Could not fetch live GraphQL data, falling back to local json:", err.message);
@@ -147,7 +145,7 @@ function monthLabels(cells, weeks) {
   return out;
 }
 
-const barHeight = (count, max, scale = 1.05) =>
+const barHeight = (count, max, scale = 1.0) =>
   count > 0 && max > 0 ? 0.4 + Math.pow(count / max, 0.85) * 7.2 * scale : 0.2;
 
 const YAW_3D = Math.PI / 4;
@@ -178,16 +176,18 @@ async function renderSkylineSvg() {
   const n = grid.cells.length;
   const cam = camera();
 
-  const w = 0.88;
+  const w = 0.9;
   const off = (1 - w) / 2;
 
-  // Amber Obsidian theme palette matching index.html
+  // Exact GitHub Green Palette from user's original code:
+  // dark: ["#0e4429","#006d32","#26a641","#39d353"]
+  // empty: "#24292f"
   const colors = [
-    { top: "#181820", left: "#121217", right: "#0e0e13", border: "rgba(255,255,255,0.06)" }, // Level 0
-    { top: "#5c2409", left: "#451a06", right: "#301204", border: "rgba(245,158,11,0.15)" }, // Level 1
-    { top: "#8f3a09", left: "#702c06", right: "#522004", border: "rgba(245,158,11,0.25)" }, // Level 2
-    { top: "#c25e08", left: "#9c4906", right: "#753604", border: "rgba(245,158,11,0.35)" }, // Level 3
-    { top: "#f59e0b", left: "#d97706", right: "#b45309", border: "rgba(255,255,255,0.4)" }   // Level 4
+    { top: "#24292f", left: "#1b2025", right: "#161b22", border: "rgba(255,255,255,0.06)" }, // Level 0 (Empty)
+    { top: "#0e4429", left: "#0c3922", right: "#092e1b", border: "rgba(255,255,255,0.08)" }, // Level 1
+    { top: "#006d32", left: "#005c2a", right: "#004a22", border: "rgba(255,255,255,0.10)" }, // Level 2
+    { top: "#26a641", left: "#208b37", right: "#1a712c", border: "rgba(255,255,255,0.15)" }, // Level 3
+    { top: "#39d353", left: "#30b146", right: "#279039", border: "rgba(255,255,255,0.25)" }  // Level 4
   ];
 
   let minx = Infinity, maxx = -Infinity, miny = Infinity, maxy = -Infinity;
@@ -214,9 +214,9 @@ async function renderSkylineSvg() {
     add(x0 + w, y0, 0);
   }
 
-  const W = 1060;
+  const W = 1100;
   const H = 400;
-  const pad = 28;
+  const pad = 20;
   const aw = W - pad * 2;
   const ah = H - pad * 2;
   const bw = maxx - minx;
@@ -266,113 +266,106 @@ async function renderSkylineSvg() {
   // Month labels
   let monthXml = '';
   months.forEach(m => {
-    const mx = px(m.week + 0.5, 7.4).toFixed(1);
-    const my = (py(m.week + 0.5, 7.4, 0) + 4).toFixed(1);
-    monthXml += `  <text x="${mx}" y="${my}" fill="#71717a" font-size="9.5" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" text-anchor="middle">${m.label}</text>\n`;
+    const mx = px(m.week + 0.5, 7.3).toFixed(1);
+    const my = (py(m.week + 0.5, 7.3, 0) + 4).toFixed(1);
+    monthXml += `  <text x="${mx}" y="${my}" fill="#8b949e" font-size="10" font-family="Inter,ui-sans-serif,system-ui,-apple-system,sans-serif" text-anchor="middle">${m.label}</text>\n`;
   });
 
   const df = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", timeZone: "UTC" });
-  const dfy = new Intl.DateTimeFormat("en-US", { month: "short", year: "numeric", timeZone: "UTC" });
+  const dfy = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
   const nf = new Intl.NumberFormat();
 
   const totalStr = nf.format(stats.total);
   const busiestCountStr = nf.format(stats.busiest.count);
   const busiestDateStr = stats.busiest.date ? df.format(dayMs(stats.busiest.date)) : "—";
-  const dateRangeStr = `${dfy.format(dayMs(stats.first))} — ${dfy.format(dayMs(stats.last))}`;
-  const longestStr = `${stats.longest.days} ${stats.longest.days === 1 ? 'day' : 'days'}`;
-  const currentStr = `${stats.current.days} ${stats.current.days === 1 ? 'day' : 'days'}`;
+  const dateRangeStr = stats.first && stats.last ? `${dfy.format(dayMs(stats.first))} — ${dfy.format(dayMs(stats.last))}` : "—";
+  const longestStr = `${stats.longest.days}`;
+  const longestSub = stats.longest.start && stats.longest.end ? `${df.format(dayMs(stats.longest.start))} — ${df.format(dayMs(stats.longest.end))}` : "—";
+  const currentStr = `${stats.current.days}`;
+  const currentSub = stats.current.start && stats.current.end ? `${df.format(dayMs(stats.current.start))} — ${df.format(dayMs(stats.current.end))}` : "—";
 
-  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1060 480" width="100%" height="100%">
-  <defs>
-    <radialGradient id="skylineGlow" cx="50%" cy="0%" r="85%">
-      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.09" />
-      <stop offset="60%" stop-color="#121217" stop-opacity="0.02" />
-      <stop offset="100%" stop-color="#09090b" stop-opacity="0" />
-    </radialGradient>
-    <linearGradient id="cardBorder" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="rgba(245,158,11,0.35)" />
-      <stop offset="50%" stop-color="rgba(255,255,255,0.08)" />
-      <stop offset="100%" stop-color="rgba(245,158,11,0.15)" />
-    </linearGradient>
-  </defs>
+  // Exact styling matching user's original CSS:
+  // :root { --bg:#0d1117; --fg:#e6edf3; --muted:#8b949e; --border:#30363d; --accent:#39d353 }
+  const svg = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1100 480" width="100%" height="100%">
+  <!-- Container (.skyline) -->
+  <rect x="1" y="1" width="1098" height="478" rx="14" fill="#0d1117" stroke="#30363d" stroke-width="1" />
 
-  <!-- Card Surface -->
-  <rect x="2" y="2" width="1056" height="476" rx="14" fill="#0c0d12" stroke="url(#cardBorder)" stroke-width="1.2" />
-  <rect x="2" y="2" width="1056" height="476" rx="14" fill="url(#skylineGlow)" />
-
-  <!-- Inner Stage Frame -->
-  <rect x="18" y="58" width="1024" height="376" rx="10" fill="#05070c" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
-
-  <!-- Header -->
-  <g transform="translate(24, 37)">
-    <text x="0" y="0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="14.5" fill="#fafafa">
-      <tspan font-weight="700" fill="#f59e0b">${totalStr}</tspan> <tspan fill="#a1a1aa">contributions in the last year</tspan>
+  <!-- Header (.head) -->
+  <g transform="translate(18, 32)">
+    <text x="0" y="0" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="15" fill="#e6edf3">
+      <tspan font-weight="650">${totalStr}</tspan> <tspan font-weight="400">contributions in the last year</tspan>
     </text>
   </g>
 
-  <!-- Toggle Buttons Indicator -->
-  <g transform="translate(966, 20)">
-    <rect width="76" height="28" rx="6" fill="#181820" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
-    <!-- 2D inactive -->
-    <rect x="3" y="3" width="34" height="22" rx="4" fill="transparent" />
-    <rect x="12" y="7" width="5" height="5" rx="1" fill="#71717a" />
-    <rect x="19" y="7" width="5" height="5" rx="1" fill="#71717a" />
-    <rect x="12" y="14" width="5" height="5" rx="1" fill="#71717a" />
-    <rect x="19" y="14" width="5" height="5" rx="1" fill="#71717a" />
-    <!-- 3D active -->
-    <rect x="39" y="3" width="34" height="22" rx="4" fill="#f59e0b" />
-    <path d="M56 6.5 L63 10.3 v7 L56 21.1 L49 17.3 v-7 Z" fill="none" stroke="#121217" stroke-width="1.3" stroke-linejoin="round" />
-    <path d="M49 10.3 L56 14.1 L63 10.3 M56 14.1 v7" fill="none" stroke="#121217" stroke-width="1.3" stroke-linejoin="round" />
+  <!-- Toggle Buttons (.toggle) -->
+  <g transform="translate(1008, 14)">
+    <rect width="74" height="30" rx="7" fill="transparent" stroke="#30363d" stroke-width="1" />
+    
+    <!-- 2D button (inactive) -->
+    <rect x="2" y="2" width="34" height="26" rx="5" fill="transparent" />
+    <rect x="11.5" y="7.5" width="5.5" height="5.5" rx="1" fill="#8b949e" />
+    <rect x="19" y="7.5" width="5.5" height="5.5" rx="1" fill="#8b949e" />
+    <rect x="11.5" y="15" width="5.5" height="5.5" rx="1" fill="#8b949e" />
+    <rect x="19" y="15" width="5.5" height="5.5" rx="1" fill="#8b949e" />
+
+    <!-- 3D button (active: background var(--fg): #e6edf3, color var(--bg): #0d1117) -->
+    <rect x="38" y="2" width="34" height="26" rx="5" fill="#e6edf3" />
+    <path d="M55 5.2 L61.2 8.6 v6.8 L55 18.8 L48.8 15.4 V8.6 Z" fill="none" stroke="#0d1117" stroke-width="1.5" stroke-linejoin="round" />
+    <path d="M48.8 8.6 L55 12 L61.2 8.6 M55 12 v6.8" fill="none" stroke="#0d1117" stroke-width="1.5" stroke-linejoin="round" />
   </g>
 
-  <!-- Top-Right Stats -->
-  <g transform="translate(1018, 86)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" text-anchor="end">
-    <text x="0" y="0" font-size="9.5" font-weight="700" fill="#71717a" letter-spacing="0.5">1 YEAR TOTAL</text>
-    <text x="0" y="24" font-family="ui-monospace, SFMono-Regular, monospace" font-size="24" font-weight="800" fill="#f59e0b">${totalStr}</text>
-    <text x="0" y="38" font-size="9" fill="#a1a1aa">contributions · ${dateRangeStr}</text>
+  <!-- Stage Panel (.panel) -->
+  <rect x="18" y="52" width="1064" height="376" rx="10" fill="#0d1117" stroke="#30363d" stroke-width="1" />
 
-    <text x="0" y="72" font-size="9.5" font-weight="700" fill="#71717a" letter-spacing="0.5">BUSIEST DAY</text>
-    <text x="0" y="96" font-family="ui-monospace, SFMono-Regular, monospace" font-size="24" font-weight="800" fill="#f59e0b">${busiestCountStr}</text>
-    <text x="0" y="110" font-size="9" fill="#a1a1aa">contributions · ${busiestDateStr}</text>
+  <!-- Top-Right Stats (.corner.top) -->
+  <g transform="translate(1066, 76)" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" text-anchor="end">
+    <text x="0" y="0" font-size="12" fill="#8b949e">1 year total</text>
+    <text x="0" y="32" font-size="34" font-weight="650" letter-spacing="-0.03em" fill="#e6edf3">${totalStr}</text>
+    <text x="0" y="48" font-size="11" fill="#8b949e">contributions · ${dateRangeStr}</text>
+
+    <text x="0" y="88" font-size="12" fill="#8b949e">Busiest day</text>
+    <text x="0" y="120" font-size="34" font-weight="650" letter-spacing="-0.03em" fill="#e6edf3">${busiestCountStr}</text>
+    <text x="0" y="136" font-size="11" fill="#8b949e">contributions · ${busiestDateStr}</text>
   </g>
 
-  <!-- Bottom-Left Stats -->
-  <g transform="translate(36, 310)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif">
-    <text x="0" y="0" font-size="9.5" font-weight="700" fill="#71717a" letter-spacing="0.5">LONGEST STREAK</text>
-    <text x="0" y="24" font-family="ui-monospace, SFMono-Regular, monospace" font-size="24" font-weight="800" fill="#f59e0b">${longestStr}</text>
-    <text x="0" y="38" font-size="9" fill="#a1a1aa">consecutive days</text>
+  <!-- Bottom-Left Stats (.corner.bottom) -->
+  <g transform="translate(32, 290)" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif">
+    <text x="0" y="0" font-size="12" fill="#8b949e">Longest streak</text>
+    <text x="0" y="32" font-size="34" font-weight="650" letter-spacing="-0.03em" fill="#e6edf3">${longestStr}</text>
+    <text x="0" y="48" font-size="11" fill="#8b949e">days · ${longestSub}</text>
 
-    <text x="0" y="72" font-size="9.5" font-weight="700" fill="#71717a" letter-spacing="0.5">CURRENT STREAK</text>
-    <text x="0" y="96" font-family="ui-monospace, SFMono-Regular, monospace" font-size="24" font-weight="800" fill="#f59e0b">${currentStr}</text>
-    <text x="0" y="110" font-size="9" fill="#a1a1aa">active streak</text>
+    <text x="0" y="88" font-size="12" fill="#8b949e">Current streak</text>
+    <text x="0" y="120" font-size="34" font-weight="650" letter-spacing="-0.03em" fill="#e6edf3">${currentStr}</text>
+    <text x="0" y="136" font-size="11" fill="#8b949e">days · ${currentSub}</text>
   </g>
 
-  <!-- Isometric 3D Skyline Polygons -->
+  <!-- Isometric 3D Skyline Polygons Group -->
   <g transform="translate(0, 10)">
 ${polys}  </g>
 
-  <!-- Months along axis -->
+  <!-- Month Labels along stage axis -->
   <g transform="translate(0, 10)">
 ${monthXml}  </g>
 
-  <!-- Footer -->
-  <g transform="translate(26, 456)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" fill="#71717a">
-    <text x="0" y="0">Live synced contribution activity</text>
+  <!-- Footer (.footer) -->
+  <g transform="translate(32, 456)" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#8b949e">
+    <text x="0" y="0">Hover a day for details · arrow keys to explore</text>
   </g>
 
-  <g transform="translate(900, 456)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" fill="#71717a">
-    <text x="-34" y="0">Less</text>
-    <rect x="0" y="-10" width="11" height="11" rx="2" fill="#181820" stroke="rgba(255,255,255,0.06)" />
-    <rect x="15" y="-10" width="11" height="11" rx="2" fill="#5c2409" />
-    <rect x="30" y="-10" width="11" height="11" rx="2" fill="#8f3a09" />
-    <rect x="45" y="-10" width="11" height="11" rx="2" fill="#c25e08" />
-    <rect x="60" y="-10" width="11" height="11" rx="2" fill="#f59e0b" />
-    <text x="80" y="0">More</text>
+  <!-- Swatch Legend (.legend) -->
+  <g transform="translate(942, 456)" font-family="Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" fill="#8b949e">
+    <text x="-32" y="0">Less</text>
+    <rect x="0" y="-10" width="12" height="12" rx="2" fill="#24292f" stroke="#7f7f7f20" stroke-width="1" />
+    <rect x="17" y="-10" width="12" height="12" rx="2" fill="#0e4429" stroke="#7f7f7f20" stroke-width="1" />
+    <rect x="34" y="-10" width="12" height="12" rx="2" fill="#006d32" stroke="#7f7f7f20" stroke-width="1" />
+    <rect x="51" y="-10" width="12" height="12" rx="2" fill="#26a641" stroke="#7f7f7f20" stroke-width="1" />
+    <rect x="68" y="-10" width="12" height="12" rx="2" fill="#39d353" stroke="#7f7f7f20" stroke-width="1" />
+    <text x="88" y="0">More</text>
   </g>
 </svg>`;
 
   fs.writeFileSync(outputFile, svg);
-  console.log(`Generated ${outputFile} successfully!`);
+  console.log(`Generated ${outputFile} successfully with original colors & layout!`);
 }
 
 renderSkylineSvg().catch(err => {

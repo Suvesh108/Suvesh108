@@ -33,7 +33,9 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
 ---
 
 <div align="center">
-  <img src="./contribution-skyline-3d.svg" width="100%" alt="Contribution Skyline" />
+  <a href="https://suvesh108.github.io/Suvesh108/" target="_blank" title="Click to open live interactive 3D / 2D skyline">
+    <img src="./contribution-skyline-3d.svg" width="100%" alt="Contribution Skyline" />
+  </a>
 </div>
 
 ---
