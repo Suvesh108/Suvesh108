@@ -26,12 +26,12 @@
 
 <table width="100%">
   <tr>
-    <td colspan="2">
+    <td>
       I build fast web apps, cloud services, and developer tools. I love creating smooth user interfaces, reliable backend APIs, and lightweight programs that get the job done. I have <b>29+ open source projects</b> on GitHub — from smart home dashboards to web scrapers and download managers.
     </td>
   </tr>
   <tr>
-    <td width="50%" valign="top">
+    <td valign="top">
       <b>🔭 Current Project</b>
       <br/><br/>
       <a href="https://github.com/Suvesh108/EDM">
@@ -39,11 +39,6 @@
       </a>
       <br/><br/>
       A lightweight download manager with low memory usage and fast multi-threaded parallel downloads.
-    </td>
-    <td width="50%" valign="top">
-      <b>🛠️ Favorite Stack</b>
-      <br/><br/>
-      <img src="https://skillicons.dev/icons?i=go,rust,ts,py,react,docker&theme=dark" alt="Favorite Stack" />
     </td>
   </tr>
 </table>
