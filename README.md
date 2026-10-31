@@ -2,10 +2,10 @@
 
 # Suvesh Kumar
 
-### `Senior Full Stack & Systems Engineer`
+### `Full Stack Developer & Systems Builder`
 
 <p align="center">
-  <em>Distributed Systems &nbsp;·&nbsp; Edge Infrastructure &nbsp;·&nbsp; Async Pipelines &nbsp;·&nbsp; High Concurrency</em>
+  <em>Fast Web Apps &nbsp;·&nbsp; Cloud Services &nbsp;·&nbsp; Backend APIs &nbsp;·&nbsp; Clean Code</em>
 </p>
 
 <p align="center">
@@ -19,26 +19,26 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Edge_Infrastructure-f59e0b?style=flat-square&labelColor=121217" alt="Focus" />
+  <img src="https://img.shields.io/badge/Focus-Cloud_%26_Web_Apps-f59e0b?style=flat-square&labelColor=121217" alt="Focus" />
   &nbsp;
   <img src="https://img.shields.io/badge/Stack-Go_·_Rust_·_TypeScript_·_Python-a1a1aa?style=flat-square&labelColor=121217" alt="Stack" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Projects-29_Public_Repositories-a1a1aa?style=flat-square&labelColor=121217" alt="Repos" />
+  <img src="https://img.shields.io/badge/Projects-29_Public_Repos-a1a1aa?style=flat-square&labelColor=121217" alt="Repos" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Standard-Tested_%26_Secure-22c55e?style=flat-square&labelColor=121217" alt="Quality" />
+  <img src="https://img.shields.io/badge/Code-Clean_%26_Tested-22c55e?style=flat-square&labelColor=121217" alt="Quality" />
 </p>
 
 </div>
 
 ---
 
-### ⚡ About
+### ⚡ About Me
 
-Building resilient, high-performance software at the intersection of distributed infrastructure and modern full-stack systems. Shipping production-grade code across **29+ public repositories** — from low-latency edge telemetry platforms to high-throughput data pipelines and blockchain provenance tools.
+I build fast web apps, cloud services, and developer tools. I love creating smooth user interfaces, reliable backend APIs, and lightweight programs that get the job done. I have **29+ open source projects** on GitHub — from smart home dashboards to web scrapers and download managers.
 
-- 🔭 **Currently Building:** [UnitWise](https://github.com/Suvesh108/UnitWise) — Sense-grade IoT multi-property telemetry platform with live Wi-Fi & Bluetooth LE signal analysis
-- 🛠️ **Core Focus:** Distributed edge nodes, lock-free concurrency, asynchronous pipelines, low-latency streaming
-- 🔒 **Engineering Invariants:** 100% schema validation, zero-trust perimeter, parameterized queries, deterministic builds
+- 🔭 **Current Project:** [UnitWise](https://github.com/Suvesh108/UnitWise) — A smart home dashboard to find and manage connected devices via Wi-Fi and Bluetooth
+- 🛠️ **Favorite Stack:** Go, Rust, TypeScript, Python, React, and Docker
+- 💬 **Ask Me About:** Web development, fast APIs, cloud servers, and clean code
 
 ---
 
@@ -56,7 +56,7 @@ Building resilient, high-performance software at the intersection of distributed
 
 ---
 
-### 🛠️ Core Tech Arsenal
+### 🛠️ Tech & Tools
 
 <table width="100%">
   <tr>
@@ -85,7 +85,7 @@ Building resilient, high-performance software at the intersection of distributed
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>&nbsp;Storage & Messaging</h4>
+      <h4>&nbsp;Databases & Storage</h4>
       <p>
         <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=121217" alt="PostgreSQL" />
         <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white&labelColor=121217" alt="Redis" />
@@ -94,9 +94,9 @@ Building resilient, high-performance software at the intersection of distributed
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>&nbsp;Cloud & Infrastructure</h4>
+      <h4>&nbsp;Cloud & Tools</h4>
       <p>
-        <img src="https://img.shields.io/badge/Cloudflare_Edge-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=121217" alt="Cloudflare" />
+        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=121217" alt="Cloudflare" />
         <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=121217" alt="AWS" />
         <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=121217" alt="Docker" />
         <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white&labelColor=121217" alt="Kubernetes" />
@@ -108,72 +108,71 @@ Building resilient, high-performance software at the intersection of distributed
 
 ---
 
-### 🚀 Featured Systems
+### 🚀 Projects
 
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/Suvesh108/jobscrap">jobscrap</a> <img src="https://img.shields.io/badge/Python_·_AsyncIO-f59e0b?style=flat-square&labelColor=121217" alt="Badge" /></h4>
-      <p>High-throughput automated job search engine that aggregates and normalizes listings across LinkedIn, Indeed, Naukri, Glassdoor, and Internshala into a unified dashboard.</p>
+      <h4><a href="https://github.com/Suvesh108/jobscrap">jobscrap</a> <img src="https://img.shields.io/badge/Python_·_Fast-f59e0b?style=flat-square&labelColor=121217" alt="Badge" /></h4>
+      <p>A fast job finder that collects and organizes job posts from LinkedIn, Indeed, Naukri, Glassdoor, and Internshala into one clean dashboard.</p>
       <p>
         <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=121217" alt="Python" />
-        <img src="https://img.shields.io/badge/AsyncIO-f59e0b?style=flat-square&labelColor=121217" alt="AsyncIO" />
-        <img src="https://img.shields.io/badge/TLS_Camouflage-30363d?style=flat-square&labelColor=121217" alt="TLS" />
+        <img src="https://img.shields.io/badge/Web_Scraper-f59e0b?style=flat-square&labelColor=121217" alt="Scraper" />
         <img src="https://img.shields.io/badge/REST_API-009688?style=flat-square&labelColor=121217" alt="REST" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/Suvesh108/NetPulse">NetPulse</a> <img src="https://img.shields.io/badge/TypeScript_·_Edge-0ea5e9?style=flat-square&labelColor=121217" alt="Badge" /></h4>
-      <p>Real-time network speed and latency diagnostic platform powered by globally distributed Cloudflare Edge Workers with sub-5ms ping and jitter tracking.</p>
+      <h4><a href="https://github.com/Suvesh108/NetPulse">NetPulse</a> <img src="https://img.shields.io/badge/TypeScript_·_Web-0ea5e9?style=flat-square&labelColor=121217" alt="Badge" /></h4>
+      <p>A live internet speed and ping checker that tests your network latency in real time using Cloudflare edge servers.</p>
       <p>
         <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=121217" alt="React" />
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=121217" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Cloudflare_Edge-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=121217" alt="Cloudflare" />
-        <img src="https://img.shields.io/badge/Telemetry-f59e0b?style=flat-square&labelColor=121217" alt="Telemetry" />
+        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=121217" alt="Cloudflare" />
+        <img src="https://img.shields.io/badge/Speed_Test-f59e0b?style=flat-square&labelColor=121217" alt="Speed Test" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Suvesh108/UnitWise">UnitWise</a> <img src="https://img.shields.io/badge/Go_·_IoT-00ADD8?style=flat-square&labelColor=121217" alt="Badge" /></h4>
-      <p>Sense-grade multi-property IoT platform with dual-mode Wi-Fi & Bluetooth LE auto-discovery, vampire load disaggregation, and synchronized OTA firmware delivery.</p>
+      <p>A smart home dashboard that automatically finds nearby Wi-Fi and Bluetooth devices, tracks power usage, and sends wireless updates.</p>
       <p>
         <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=121217" alt="Go" />
-        <img src="https://img.shields.io/badge/Bluetooth_LE-0082FC?style=flat-square&logo=bluetooth&logoColor=white&labelColor=121217" alt="BLE" />
+        <img src="https://img.shields.io/badge/Bluetooth-0082FC?style=flat-square&logo=bluetooth&logoColor=white&labelColor=121217" alt="Bluetooth" />
         <img src="https://img.shields.io/badge/Wi--Fi_Scanner-30363d?style=flat-square&labelColor=121217" alt="WiFi" />
-        <img src="https://img.shields.io/badge/Live_OTA-22c55e?style=flat-square&labelColor=121217" alt="OTA" />
+        <img src="https://img.shields.io/badge/Smart_Home-22c55e?style=flat-square&labelColor=121217" alt="Smart Home" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Suvesh108/vortex">vortex</a> <img src="https://img.shields.io/badge/Node.js_·_CLI-eab308?style=flat-square&labelColor=121217" alt="Badge" /></h4>
-      <p>High-throughput CLI media streaming downloader built with parallel chunk retrieval, backpressure stream pipes, and seamless audio/video multiplexing.</p>
+      <p>A fast command-line tool that downloads videos in parallel pieces and smoothly joins video and audio files together.</p>
       <p>
         <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=121217" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Stream_Pipes-30363d?style=flat-square&labelColor=121217" alt="Streams" />
+        <img src="https://img.shields.io/badge/CLI_Tool-30363d?style=flat-square&labelColor=121217" alt="CLI" />
         <img src="https://img.shields.io/badge/FFmpeg-007808?style=flat-square&logo=ffmpeg&logoColor=white&labelColor=121217" alt="FFmpeg" />
-        <img src="https://img.shields.io/badge/Chunk_Muxer-f59e0b?style=flat-square&labelColor=121217" alt="Muxer" />
+        <img src="https://img.shields.io/badge/Fast_Download-f59e0b?style=flat-square&labelColor=121217" alt="Fast" />
       </p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/Suvesh108/BlockVerify">BlockVerify</a> <img src="https://img.shields.io/badge/Solidity_·_NFC-14b8a6?style=flat-square&labelColor=121217" alt="Badge" /></h4>
-      <p>Cryptographic anti-counterfeit product verification using secure physical NFC/QR tags backed by on-chain smart contracts and cryptographic Merkle proofs.</p>
+      <h4><a href="https://github.com/Suvesh108/BlockVerify">BlockVerify</a> <img src="https://img.shields.io/badge/Smart_Contracts-14b8a6?style=flat-square&labelColor=121217" alt="Badge" /></h4>
+      <p>An anti-fake product checker that uses NFC and QR tags with smart contracts so buyers can verify real items in seconds.</p>
       <p>
         <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=121217" alt="Solidity" />
-        <img src="https://img.shields.io/badge/NFC_Hardware-30363d?style=flat-square&labelColor=121217" alt="NFC" />
-        <img src="https://img.shields.io/badge/Merkle_Tree-22c55e?style=flat-square&labelColor=121217" alt="Merkle" />
-        <img src="https://img.shields.io/badge/Crypto_Proofs-f59e0b?style=flat-square&labelColor=121217" alt="Proofs" />
+        <img src="https://img.shields.io/badge/NFC_Tags-30363d?style=flat-square&labelColor=121217" alt="NFC" />
+        <img src="https://img.shields.io/badge/Anti--Fake-22c55e?style=flat-square&labelColor=121217" alt="Anti Fake" />
+        <img src="https://img.shields.io/badge/Security-f59e0b?style=flat-square&labelColor=121217" alt="Security" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h4><a href="https://github.com/Suvesh108/EDM">EDM</a> <img src="https://img.shields.io/badge/Rust_·_CLI-CE422B?style=flat-square&labelColor=121217" alt="Badge" /></h4>
-      <p>Low-latency Edge Download Manager written in Rust featuring resumable parallel multipart byte range downloads with zero external runtime dependencies.</p>
+      <p>A lightweight download tool built in Rust that can pause, resume, and split downloads into pieces for maximum speed.</p>
       <p>
         <img src="https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white&labelColor=121217" alt="Rust" />
-        <img src="https://img.shields.io/badge/Parallel_IO-30363d?style=flat-square&labelColor=121217" alt="Parallel IO" />
-        <img src="https://img.shields.io/badge/Resumable-f59e0b?style=flat-square&labelColor=121217" alt="Resumable" />
-        <img src="https://img.shields.io/badge/Zero_Deps-22c55e?style=flat-square&labelColor=121217" alt="Zero Deps" />
+        <img src="https://img.shields.io/badge/Fast_Parallel-30363d?style=flat-square&labelColor=121217" alt="Parallel" />
+        <img src="https://img.shields.io/badge/Pause_&_Resume-f59e0b?style=flat-square&labelColor=121217" alt="Resume" />
+        <img src="https://img.shields.io/badge/Lightweight-22c55e?style=flat-square&labelColor=121217" alt="Lightweight" />
       </p>
     </td>
   </tr>
@@ -181,40 +180,49 @@ Building resilient, high-performance software at the intersection of distributed
 
 ---
 
-### 🛡️ Engineering Invariants
+### 💡 How I Build
 
 <table width="100%">
   <tr>
     <td width="25%" align="left">
-      <b>🔒 Zero Trust & Defense</b>
+      <b>🔒 Safe & Secure</b>
       <br/>
-      <sub>Strict schema validation (Zod/Pydantic) on 100% of external boundaries & parameterized storage.</sub>
+      <sub>Always validate data and sanitize inputs so user information stays secure.</sub>
     </td>
     <td width="25%" align="left">
-      <b>⚡ Sub-5ms Edge Latency</b>
+      <b>⚡ Fast & Light</b>
       <br/>
-      <sub>Distributed Cloudflare Workers, edge compute caching, and minimized protocol round-trips.</sub>
+      <sub>Optimize server responses and avoid heavy packages so apps load fast.</sub>
     </td>
     <td width="25%" align="left">
-      <b>🔄 High Concurrency</b>
+      <b>🔄 Smooth Multitasking</b>
       <br/>
-      <sub>Lock-free patterns, non-blocking asynchronous event loops, and parallel backpressured streams.</sub>
+      <sub>Use non-blocking async code so apps never freeze under heavy traffic.</sub>
     </td>
     <td width="25%" align="left">
-      <b>📦 Deterministic Releases</b>
+      <b>📦 Easy to Ship</b>
       <br/>
-      <sub>Containerized multi-stage builds, rigorous unit/integration suites, and zero-downtime releases.</sub>
+      <sub>Use Docker and automated tests so new updates release smoothly with zero downtime.</sub>
     </td>
   </tr>
 </table>
 
 ---
 
-### 📋 Release Journal
+### 📋 Recent Releases
 
-<div align="center">
-  <img src="./terminal-logs.svg" width="100%" alt="Release Logs Terminal" />
-</div>
+```console
+suvesh@desktop:~/github$ gh release list --limit 8 --repo Suvesh108
+
+01. 🚀  EDM v0.0.1           Edge Download Manager                  [latest]
+02. 🚀  Universal-Shared     Core Shared Library v0.2.4             [pkg:core]
+03. 🚀  UnitWise v0.0.8      Wi-Fi & Bluetooth Device Discovery     [iot:ble]
+04. 🚀  UnitWise v0.0.7      Live Energy Tracking & Power Flow      [telemetry]
+05. 🚀  UnitWise v0.0.6      Smooth IoT Discovery & Motion          [runtime]
+06. 🚀  UnitWise v0.0.5      Multi-Home Setup & Wireless Updates    [ota:live]
+07. 🚀  UnitWise v0.0.4      Clean New Design & Power Chart         [ui:v2]
+08. 🚀  UnitWise v0.0.3      Auto-Scanner & Device Sync             [scanner]
+```
 
 ---
 
@@ -228,6 +236,6 @@ Building resilient, high-performance software at the intersection of distributed
   <a href="https://github.com/Suvesh108?tab=repositories"><b>29 Public Repositories</b></a>
 </p>
 
-<sub>Crafted with engineering discipline & precision · Suvesh Kumar</sub>
+<sub>Built by Suvesh Kumar</sub>
 
 </div>
