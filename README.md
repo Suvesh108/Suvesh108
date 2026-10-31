@@ -24,11 +24,30 @@
 
 ### ⚡ About Me
 
-I build fast web apps, cloud services, and developer tools. I love creating smooth user interfaces, reliable backend APIs, and lightweight programs that get the job done. I have **29+ open source projects** on GitHub — from smart home dashboards to web scrapers and download managers.
-
-- 🔭 **Current Project:** [UnitWise](https://github.com/Suvesh108/UnitWise) — A smart home dashboard to find and manage connected devices via Wi-Fi and Bluetooth
-- 🛠️ **Favorite Stack:** Go, Rust, TypeScript, Python, React, and Docker
-- 💬 **Ask Me About:** Web development, fast APIs, cloud servers, and clean code
+<table width="100%">
+  <tr>
+    <td colspan="3">
+      I build fast web apps, cloud services, and developer tools. I love creating smooth user interfaces, reliable backend APIs, and lightweight programs that get the job done. I have <b>29+ open source projects</b> on GitHub — from smart home dashboards to web scrapers and download managers.
+    </td>
+  </tr>
+  <tr>
+    <td width="33%" valign="top">
+      <b>🔭 Current Project</b>
+      <br/>
+      <a href="https://github.com/Suvesh108/UnitWise"><b>UnitWise</b></a> — A smart home dashboard to find and manage connected devices via Wi-Fi and Bluetooth
+    </td>
+    <td width="33%" valign="top">
+      <b>🛠️ Favorite Stack</b>
+      <br/>
+      Go, Rust, TypeScript, Python, React, and Docker
+    </td>
+    <td width="33%" valign="top">
+      <b>💬 Ask Me About</b>
+      <br/>
+      Web development, fast APIs, cloud servers, and clean code
+    </td>
+  </tr>
+</table>
 
 ---
 
