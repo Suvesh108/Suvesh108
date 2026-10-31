@@ -28,10 +28,12 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
 
 <table width="100%">
   <tr>
-    <td valign="top">
-      <b>🔭 Current Project:</b>&nbsp;
-      <a href="https://github.com/Suvesh108/EDM"><img src="https://img.shields.io/badge/EDM-Rust_·_Fast-CE422B?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="EDM" align="center" /></a>
+    <td width="240" valign="top">
+      <sub>🔭 CURRENT PROJECT</sub>
       <br/><br/>
+      <a href="https://github.com/Suvesh108/EDM"><img src="https://img.shields.io/badge/EDM-Rust_·_Fast-CE422B?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="EDM" /></a>
+    </td>
+    <td valign="middle">
       A lightweight download manager with low memory usage and fast multi-threaded parallel downloads.
     </td>
   </tr>
