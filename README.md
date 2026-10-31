@@ -33,8 +33,12 @@
   <tr>
     <td width="33%" valign="top">
       <b>🔭 Current Project</b>
-      <br/>
-      <a href="https://github.com/Suvesh108/UnitWise"><b>UnitWise</b></a> — A smart home dashboard to find and manage connected devices via Wi-Fi and Bluetooth
+      <br/><br/>
+      <a href="https://github.com/Suvesh108/EDM">
+        <img src="https://img.shields.io/badge/EDM-Rust_·_Fast-CE422B?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="EDM" />
+      </a>
+      <br/><br/>
+      A lightweight download manager built with Rust &amp; Tauri with parallel downloads, live speed tracking, and pause/resume support.
     </td>
     <td width="33%" valign="top">
       <b>🛠️ Favorite Stack</b>
