@@ -42,8 +42,6 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
 
 ---
 
-### 🏔️ Contribution Skyline
-
 <div align="center">
   <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Contribution Graph" />
 </div>
