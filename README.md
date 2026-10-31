@@ -189,19 +189,3 @@ suvesh@desktop:~/github$ gh release list --limit 8 --repo Suvesh108
 07. 🚀  UnitWise v0.0.4      Clean New Design & Power Chart         [ui:v2]
 08. 🚀  UnitWise v0.0.3      Auto-Scanner & Device Sync             [scanner]
 ```
-
----
-
-<div align="center">
-
-<p>
-  <img src="https://komarev.com/ghpvc/?username=Suvesh108&style=flat-square&color=f59e0b&label=Profile+Views" alt="Views" />
-  &nbsp;·&nbsp;
-  <a href="https://suvesh.io"><b>suvesh.io</b></a>
-  &nbsp;·&nbsp;
-  <a href="https://github.com/Suvesh108?tab=repositories"><b>29 Public Repositories</b></a>
-</p>
-
-<sub>Built by Suvesh Kumar</sub>
-
-</div>
