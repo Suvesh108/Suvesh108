@@ -17,7 +17,7 @@
   <rect width="476" height="236" x="2" y="2" fill="#121217" rx="12" stroke="rgba(255,255,255,0.08)" stroke-width="1" />
   <rect width="476" height="236" x="2" y="2" fill="none" rx="12" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.25" />
 
-  <!-- Top Title &amp; Badge -->
+  <!-- Top Title & Badge -->
   <text x="24" y="32" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" font-weight="700" fill="#a1a1aa" letter-spacing="0.8">COMMIT ACTIVITY</text>
   
   <g transform="translate(376, 18)">
@@ -25,7 +25,7 @@
     <text x="40" y="14" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="10" font-weight="700" fill="#f59e0b" text-anchor="middle">↗ 24.8% More</text>
   </g>
 
-  <!-- Stat Number &amp; Subtext -->
+  <!-- Stat Number & Subtext -->
   <text x="24" y="66" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="30" font-weight="800" fill="#fafafa" letter-spacing="-0.03em">486<tspan font-size="12" font-weight="500" fill="#71717a"> Commits (12m)</tspan></text>
   <text x="24" y="86" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="11.5" fill="#a1a1aa">Consistent concurrent code delivery across all repositories</text>
 
@@ -34,7 +34,7 @@
   <line x1="24" y1="165" x2="456" y2="165" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
   <line x1="24" y1="200" x2="456" y2="200" stroke="rgba(255,255,255,0.05)" stroke-width="1" />
 
-  <!-- Curve Fill &amp; Line -->
+  <!-- Curve Fill & Line -->
   <path d="M 24.0 193.1 C 33.4 193.1, 33.4 190.1, 42.8 190.1 C 52.2 190.1, 52.2 190.9, 61.6 190.9 C 71.0 190.9, 71.0 184.8, 80.3 184.8 C 89.7 184.8, 89.7 187.0, 99.1 187.0 C 108.5 187.0, 108.5 177.9, 117.9 177.9 C 127.3 177.9, 127.3 180.2, 136.7 180.2 C 146.1 180.2, 146.1 172.6, 155.5 172.6 C 164.9 172.6, 164.9 175.6, 174.3 175.6 C 183.7 175.6, 183.7 168.8, 193.0 168.8 C 202.4 168.8, 202.4 162.7, 211.8 162.7 C 221.2 162.7, 221.2 165.7, 230.6 165.7 C 240.0 165.7, 240.0 156.2, 249.4 156.2 C 258.8 156.2, 258.8 161.1, 268.2 161.1 C 277.6 161.1, 277.6 150.5, 287.0 150.5 C 296.3 150.5, 296.3 154.3, 305.7 154.3 C 315.1 154.3, 315.1 142.9, 324.5 142.9 C 333.9 142.9, 333.9 147.4, 343.3 147.4 C 352.7 147.4, 352.7 136.0, 362.1 136.0 C 371.5 136.0, 371.5 141.0, 380.9 141.0 C 390.3 141.0, 390.3 129.5, 399.7 129.5 C 409.0 129.5, 409.0 134.5, 418.4 134.5 C 427.8 134.5, 427.8 124.6, 437.2 124.6 C 446.6 124.6, 446.6 127.6, 456.0 127.6 L 456 200 L 24 200 Z" fill="url(#curveGrad)" />
   <path d="M 24.0 193.1 C 33.4 193.1, 33.4 190.1, 42.8 190.1 C 52.2 190.1, 52.2 190.9, 61.6 190.9 C 71.0 190.9, 71.0 184.8, 80.3 184.8 C 89.7 184.8, 89.7 187.0, 99.1 187.0 C 108.5 187.0, 108.5 177.9, 117.9 177.9 C 127.3 177.9, 127.3 180.2, 136.7 180.2 C 146.1 180.2, 146.1 172.6, 155.5 172.6 C 164.9 172.6, 164.9 175.6, 174.3 175.6 C 183.7 175.6, 183.7 168.8, 193.0 168.8 C 202.4 168.8, 202.4 162.7, 211.8 162.7 C 221.2 162.7, 221.2 165.7, 230.6 165.7 C 240.0 165.7, 240.0 156.2, 249.4 156.2 C 258.8 156.2, 258.8 161.1, 268.2 161.1 C 277.6 161.1, 277.6 150.5, 287.0 150.5 C 296.3 150.5, 296.3 154.3, 305.7 154.3 C 315.1 154.3, 315.1 142.9, 324.5 142.9 C 333.9 142.9, 333.9 147.4, 343.3 147.4 C 352.7 147.4, 352.7 136.0, 362.1 136.0 C 371.5 136.0, 371.5 141.0, 380.9 141.0 C 390.3 141.0, 390.3 129.5, 399.7 129.5 C 409.0 129.5, 409.0 134.5, 418.4 134.5 C 427.8 134.5, 427.8 124.6, 437.2 124.6 C 446.6 124.6, 446.6 127.6, 456.0 127.6" fill="none" stroke="#f59e0b" stroke-width="2.4" stroke-linecap="round" filter="url(#amberGlow)" />
 
