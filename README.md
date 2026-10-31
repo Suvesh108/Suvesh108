@@ -33,7 +33,7 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
 ---
 
 <div align="center">
-  <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Contribution Graph" />
+  <img src="./contribution-skyline-3d.svg" width="100%" alt="Contribution Skyline" />
 </div>
 
 ---
