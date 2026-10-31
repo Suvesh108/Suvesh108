@@ -36,12 +36,6 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
   <img src="./profile-3d-contrib/profile-night-green.svg" width="100%" alt="3D Contribution Graph" />
 </div>
 
-<br/>
-
-<div align="center">
-  <img src="./snake.svg" width="100%" alt="Contribution Snake" />
-</div>
-
 ---
 
 ### 🛠️ Tech & Tools
