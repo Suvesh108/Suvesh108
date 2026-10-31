@@ -200,15 +200,17 @@
 
 ### 📋 Recent Releases
 
+<!-- RECENT_RELEASES_START -->
 ```console
 suvesh@desktop:~/github$ gh release list --limit 8 --repo Suvesh108
 
-01. 🚀  EDM v0.0.1           Edge Download Manager                  [latest]
-02. 🚀  Universal-Shared     Core Shared Library v0.2.4             [pkg:core]
-03. 🚀  UnitWise v0.0.8      Wi-Fi & Bluetooth Device Discovery     [iot:ble]
-04. 🚀  UnitWise v0.0.7      Live Energy Tracking & Power Flow      [telemetry]
-05. 🚀  UnitWise v0.0.6      Smooth IoT Discovery & Motion          [runtime]
-06. 🚀  UnitWise v0.0.5      Multi-Home Setup & Wireless Updates    [ota:live]
-07. 🚀  UnitWise v0.0.4      Clean New Design & Power Chart         [ui:v2]
-08. 🚀  UnitWise v0.0.3      Auto-Scanner & Device Sync             [scanner]
+01. 🚀  EDM v0.0.5              Edge Download Manager                 [latest]
+02. 🚀  EDM v0.0.4              Edge Download Manager                 [latest]
+03. 🚀  Universal-Shared v0.2.4 Core Shared Library                   [pkg:core]
+04. 🚀  NetPulse v1.2           Real-Time Network Speed & Latency     [edge:v1.2]
+05. 🚀  NetPulse v1.1           Real-Time Network Speed & Latency     [edge:v1.2]
+06. 🚀  Settlr v0.0.9           Android Financial Settlement Engine   [app:v0.9]
+07. 🚀  UnitWise v0.0.8         Wi-Fi & Bluetooth Device Discovery    [iot:ble]
+08. 🚀  UnitWise v0.0.7         Wi-Fi & Bluetooth Device Discovery    [iot:ble]
 ```
+<!-- RECENT_RELEASES_END -->

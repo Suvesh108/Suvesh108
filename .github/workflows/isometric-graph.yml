@@ -26,15 +26,21 @@ jobs:
         run: |
           node scripts/generate-stats.js ${{ github.repository_owner }}
 
+      - name: Sync Recent Releases
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          node scripts/update-releases.js ${{ github.repository_owner }}
+
       - name: Commit and Push
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
-          git add github-stats.svg top-languages.svg github-achievements.svg
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add github-stats.svg top-languages.svg github-achievements.svg README.md index.html
           if ! git diff --quiet --cached; then
-            git commit -m "⚡ Update GitHub stats cards"
+            git commit -m "⚡ Update GitHub stats cards & sync latest releases"
             git pull --rebase origin main
             git push origin main
           else
-            echo "No changes to stats. Skipping push."
+            echo "No changes to stats or releases. Skipping push."
           fi

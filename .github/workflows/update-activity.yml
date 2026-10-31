@@ -1,21 +1,46 @@
-name: Update Recent Activity
+name: Update Recent Releases and Activity
 
 on:
   schedule:
     - cron: "0 */6 * * *"
   workflow_dispatch:
+  push:
+    branches:
+      - main
+    paths:
+      - '.github/workflows/update-activity.yml'
+      - 'scripts/update-releases.js'
+
+permissions:
+  contents: write
 
 jobs:
-  update:
+  update-releases:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v4
 
-      - uses: jamesgeorge007/github-activity-readme@master
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Update Live Releases in README and Companion App
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        with:
-          COMMIT_MSG: "⚡ Update recent activity"
-          MAX_LINES: 10
+        run: |
+          node scripts/update-releases.js ${{ github.repository_owner }}
+
+      - name: Commit and Push if updated
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md index.html
+          if ! git diff --quiet --cached; then
+            git commit -m "⚡ Sync latest releases from GitHub activity"
+            git pull --rebase origin main
+            git push origin main
+          else
+            echo "Releases are already up to date. Skipping push."
+          fi
