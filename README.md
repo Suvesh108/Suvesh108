@@ -24,20 +24,16 @@
 
 ### ⚡ About Me
 
+I build fast web apps, cloud services, and developer tools. I love creating smooth user interfaces, reliable backend APIs, and lightweight programs that get the job done. I have **29+ open source projects** on GitHub — from smart home dashboards to web scrapers and download managers.
+
 <table width="100%">
   <tr>
     <td>
-      I build fast web apps, cloud services, and developer tools. I love creating smooth user interfaces, reliable backend APIs, and lightweight programs that get the job done. I have <b>29+ open source projects</b> on GitHub — from smart home dashboards to web scrapers and download managers.
-    </td>
-  </tr>
-  <tr>
-    <td valign="top">
-      <b>🔭 Current Project</b>
-      <br/><br/>
+      <b>🔭 Current Project:</b> &nbsp;
       <a href="https://github.com/Suvesh108/EDM">
         <img src="https://img.shields.io/badge/EDM-Rust_·_Fast-CE422B?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="EDM" />
       </a>
-      <br/><br/>
+      &nbsp;&nbsp;·&nbsp;&nbsp;
       A lightweight download manager with low memory usage and fast multi-threaded parallel downloads.
     </td>
   </tr>
