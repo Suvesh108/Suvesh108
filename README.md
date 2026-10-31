@@ -37,13 +37,13 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4>&nbsp;Languages</h4>
+      <h4>Languages</h4>
       <p>
         <img src="https://skillicons.dev/icons?i=ts,js,py,rust,go,dart,kotlin,solidity&theme=dark" alt="Languages" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>&nbsp;Frontend & APIs</h4>
+      <h4>Frontend & APIs</h4>
       <p>
         <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,graphql,postman&theme=dark" alt="Frontend & APIs" />
       </p>
@@ -51,13 +51,13 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4>&nbsp;Databases & Storage</h4>
+      <h4>Databases & Storage</h4>
       <p>
         <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,kafka&theme=dark" alt="Databases & Storage" />
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4>&nbsp;Cloud & Tools</h4>
+      <h4>Cloud & Tools</h4>
       <p>
         <img src="https://skillicons.dev/icons?i=cloudflare,aws,docker,kubernetes,linux&theme=dark" alt="Cloud & Tools" />
       </p>

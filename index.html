@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Suvesh Kumar — Distributed Systems &amp; Full Stack Architect</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
 /* ==========================================================================
    DESIGN TOKENS & PALETTES (Enforcing /taste & /impeccable standards)
@@ -29,7 +32,8 @@
   --radius-card: 14px;
   --radius-inner: 10px;
   --radius-chip: 6px;
-  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Geist Mono", monospace;
+  --font-sans: 'Geist', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-mono: 'Geist Mono', ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
   --ease-spring: cubic-bezier(0.16, 1, 0.3, 1);
 }
 
@@ -42,7 +46,7 @@ body {
   margin: 0;
   background-color: var(--bg-page);
   color: var(--text-primary);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Geist", Roboto, Helvetica, Arial, sans-serif;
+  font-family: var(--font-sans);
   font-size: 13.5px;
   line-height: 1.55;
   letter-spacing: -0.015em;
@@ -1795,16 +1799,15 @@ body {
         <div>
           <div class="system-top">
             <span class="system-title"><a href="https://github.com/Suvesh108/jobscrap" target="_blank" rel="noreferrer">jobscrap</a></span>
-            <span class="system-badge">Python · AsyncIO</span>
+            <span class="system-badge">Python · Fast</span>
           </div>
           <p class="system-desc">
-            Fast, automated job search tool that collects and cleans listings across LinkedIn, Indeed, Naukri, Glassdoor, and Internshala into one dashboard.
+            A fast job finder that collects and organizes job posts from LinkedIn, Indeed, Naukri, Glassdoor, and Internshala into one clean dashboard.
           </p>
         </div>
         <div class="system-tags">
           <span class="system-tag">Python 3.12</span>
-          <span class="system-tag">AsyncIO</span>
-          <span class="system-tag">TLS Camouflage</span>
+          <span class="system-tag">Web Scraper</span>
           <span class="system-tag">REST API</span>
         </div>
       </article>
@@ -1814,40 +1817,59 @@ body {
         <div>
           <div class="system-top">
             <span class="system-title"><a href="https://github.com/Suvesh108/NetPulse" target="_blank" rel="noreferrer">NetPulse</a></span>
-            <span class="system-badge">TypeScript · Edge</span>
+            <span class="system-badge">TypeScript · Web</span>
           </div>
           <p class="system-desc">
-            Real-time network speed and latency tester powered by Cloudflare Edge with instant ping and jitter tracking.
+            A live internet speed and ping checker that tests your network latency in real time using Cloudflare edge servers.
           </p>
         </div>
         <div class="system-tags">
           <span class="system-tag">React 19</span>
           <span class="system-tag">TypeScript</span>
           <span class="system-tag">Cloudflare Edge</span>
-          <span class="system-tag">Sub-5ms Telemetry</span>
+          <span class="system-tag">Speed Test</span>
         </div>
       </article>
 
-      <!-- 3: vortex -->
+      <!-- 3: UnitWise -->
       <article class="system-card">
         <div>
           <div class="system-top">
-            <span class="system-title"><a href="https://github.com/Suvesh108/vortex" target="_blank" rel="noreferrer">vortex</a></span>
-            <span class="system-badge">Node.js · CLI</span>
+            <span class="system-title"><a href="https://github.com/Suvesh108/UnitWise" target="_blank" rel="noreferrer">UnitWise</a></span>
+            <span class="system-badge">Dart · IoT</span>
           </div>
           <p class="system-desc">
-            High-speed media downloader that downloads parallel chunks and cleanly combines video and audio files.
+            A smart home dashboard that automatically finds nearby Wi-Fi and Bluetooth devices, tracks power usage, and sends wireless updates.
           </p>
         </div>
         <div class="system-tags">
-          <span class="system-tag">TypeScript</span>
-          <span class="system-tag">Stream Pipes</span>
-          <span class="system-tag">FFmpeg Bindings</span>
-          <span class="system-tag">Chunk Muxer</span>
+          <span class="system-tag">Dart</span>
+          <span class="system-tag">Bluetooth LE</span>
+          <span class="system-tag">Wi-Fi Scanner</span>
+          <span class="system-tag">Smart Home</span>
         </div>
       </article>
 
-      <!-- 4: BlockVerify -->
+      <!-- 4: Universal-Shared -->
+      <article class="system-card">
+        <div>
+          <div class="system-top">
+            <span class="system-title"><a href="https://github.com/Suvesh108/Universal-Shared" target="_blank" rel="noreferrer">Universal-Shared</a></span>
+            <span class="system-badge">JavaScript · Sync</span>
+          </div>
+          <p class="system-desc">
+            A private local clipboard sync tool that lets you seamlessly share text, links, and files across all your devices on the same Wi-Fi.
+          </p>
+        </div>
+        <div class="system-tags">
+          <span class="system-tag">JavaScript</span>
+          <span class="system-tag">Node.js</span>
+          <span class="system-tag">Local Sync</span>
+          <span class="system-tag">P2P Network</span>
+        </div>
+      </article>
+
+      <!-- 5: BlockVerify -->
       <article class="system-card">
         <div>
           <div class="system-top">
@@ -1855,14 +1877,33 @@ body {
             <span class="system-badge">Smart Contracts</span>
           </div>
           <p class="system-desc">
-            Product verification app using secure NFC &amp; QR tags to prevent counterfeits and trace product origin.
+            An anti-fake product checker that uses NFC and QR tags with smart contracts so buyers can verify real items in seconds.
           </p>
         </div>
         <div class="system-tags">
-          <span class="system-tag">JavaScript / Sol</span>
-          <span class="system-tag">NFC Telemetry</span>
-          <span class="system-tag">Cryptographic Proofs</span>
-          <span class="system-tag">Merkle Tree</span>
+          <span class="system-tag">Solidity</span>
+          <span class="system-tag">JavaScript</span>
+          <span class="system-tag">NFC Tags</span>
+          <span class="system-tag">Anti-Fake</span>
+        </div>
+      </article>
+
+      <!-- 6: EDM -->
+      <article class="system-card">
+        <div>
+          <div class="system-top">
+            <span class="system-title"><a href="https://github.com/Suvesh108/EDM" target="_blank" rel="noreferrer">EDM</a></span>
+            <span class="system-badge">Rust · Fast</span>
+          </div>
+          <p class="system-desc">
+            A lightweight download manager built with Rust &amp; Tauri with parallel downloads, live speed tracking, and pause/resume support.
+          </p>
+        </div>
+        <div class="system-tags">
+          <span class="system-tag">Rust</span>
+          <span class="system-tag">Tauri</span>
+          <span class="system-tag">Fast Parallel</span>
+          <span class="system-tag">Pause &amp; Resume</span>
         </div>
       </article>
     </div>
