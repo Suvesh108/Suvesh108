@@ -8,15 +8,6 @@
   <em>Fast Web Apps &nbsp;·&nbsp; Cloud Services &nbsp;·&nbsp; Backend APIs &nbsp;·&nbsp; Clean Code</em>
 </p>
 
-<p align="center">
-  <a href="https://suvesh.io"><img src="https://img.shields.io/badge/Portfolio-suvesh.io-f59e0b?style=for-the-badge&logo=safari&logoColor=09090b&labelColor=18181b" alt="Portfolio" /></a>
-  &nbsp;
-  <a href="https://linkedin.com/in/suvesh108"><img src="https://img.shields.io/badge/LinkedIn-suvesh108-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white&labelColor=18181b" alt="LinkedIn" /></a>
-  &nbsp;
-  <a href="mailto:suvesh108@email.com"><img src="https://img.shields.io/badge/Email-Say%20Hello-EA4335?style=for-the-badge&logo=gmail&logoColor=white&labelColor=18181b" alt="Email" /></a>
-  &nbsp;
-  <a href="https://x.com/suvesh108"><img src="https://img.shields.io/badge/X-@suvesh108-ffffff?style=for-the-badge&logo=x&logoColor=09090b&labelColor=18181b" alt="X" /></a>
-</p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-Cloud_%26_Web_Apps-f59e0b?style=flat-square&labelColor=121217" alt="Focus" />
