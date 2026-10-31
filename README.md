@@ -32,14 +32,6 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
 
 ---
 
-<div align="center">
-  <a href="https://suvesh108.github.io/Suvesh108/" target="_blank" title="Click to open live interactive 3D / 2D skyline">
-    <img src="./contribution-skyline-3d.svg" width="100%" alt="Contribution Skyline" />
-  </a>
-</div>
-
----
-
 ### 🛠️ Tech & Tools
 
 <table width="100%">
@@ -47,24 +39,13 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
     <td width="50%" valign="top">
       <h4>&nbsp;Languages</h4>
       <p>
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white&labelColor=121217" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=121217" alt="JavaScript" />
-        <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=121217" alt="Python" />
-        <img src="https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white&labelColor=121217" alt="Rust" />
-        <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white&labelColor=121217" alt="Go" />
-        <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white&labelColor=121217" alt="Dart" />
-        <img src="https://img.shields.io/badge/Kotlin-7F52FF?style=flat-square&logo=kotlin&logoColor=white&labelColor=121217" alt="Kotlin" />
-        <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white&labelColor=121217" alt="Solidity" />
+        <img src="https://skillicons.dev/icons?i=ts,js,py,rust,go,dart,kotlin,solidity&theme=dark" alt="Languages" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>&nbsp;Frontend & APIs</h4>
       <p>
-        <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=121217" alt="React" />
-        <img src="https://img.shields.io/badge/Next.js-ffffff?style=flat-square&logo=nextdotjs&logoColor=black&labelColor=121217" alt="Next.js" />
-        <img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white&labelColor=121217" alt="Node.js" />
-        <img src="https://img.shields.io/badge/GraphQL-E10098?style=flat-square&logo=graphql&logoColor=white&labelColor=121217" alt="GraphQL" />
-        <img src="https://img.shields.io/badge/REST_API-009688?style=flat-square&logo=fastapi&logoColor=white&labelColor=121217" alt="REST API" />
+        <img src="https://skillicons.dev/icons?i=react,nextjs,nodejs,graphql,postman&theme=dark" alt="Frontend & APIs" />
       </p>
     </td>
   </tr>
@@ -72,20 +53,13 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
     <td width="50%" valign="top">
       <h4>&nbsp;Databases & Storage</h4>
       <p>
-        <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white&labelColor=121217" alt="PostgreSQL" />
-        <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white&labelColor=121217" alt="Redis" />
-        <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat-square&logo=mongodb&logoColor=white&labelColor=121217" alt="MongoDB" />
-        <img src="https://img.shields.io/badge/Kafka-231F20?style=flat-square&logo=apachekafka&logoColor=white&labelColor=121217" alt="Kafka" />
+        <img src="https://skillicons.dev/icons?i=postgres,redis,mongodb,kafka&theme=dark" alt="Databases & Storage" />
       </p>
     </td>
     <td width="50%" valign="top">
       <h4>&nbsp;Cloud & Tools</h4>
       <p>
-        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white&labelColor=121217" alt="Cloudflare" />
-        <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white&labelColor=121217" alt="AWS" />
-        <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white&labelColor=121217" alt="Docker" />
-        <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white&labelColor=121217" alt="Kubernetes" />
-        <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black&labelColor=121217" alt="Linux" />
+        <img src="https://skillicons.dev/icons?i=cloudflare,aws,docker,kubernetes,linux&theme=dark" alt="Cloud & Tools" />
       </p>
     </td>
   </tr>
@@ -98,7 +72,13 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/Suvesh108/jobscrap">jobscrap</a> <img src="https://img.shields.io/badge/Python_·_Fast-f59e0b?style=flat-square&labelColor=121217" alt="Badge" /></h4>
+      <h4>
+        <a href="https://github.com/Suvesh108/jobscrap">
+          <img src="https://img.shields.io/badge/jobscrap-21262d?style=for-the-badge&logo=github&logoColor=white" alt="jobscrap" />
+        </a>
+        &nbsp;
+        <img src="https://img.shields.io/badge/Python_·_Fast-f59e0b?style=flat-square&labelColor=121217" alt="Badge" />
+      </h4>
       <p>A fast job finder that collects and organizes job posts from LinkedIn, Indeed, Naukri, Glassdoor, and Internshala into one clean dashboard.</p>
       <p>
         <img src="https://img.shields.io/badge/Python_3.12-3776AB?style=flat-square&logo=python&logoColor=white&labelColor=121217" alt="Python" />
@@ -107,7 +87,13 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/Suvesh108/NetPulse">NetPulse</a> <img src="https://img.shields.io/badge/TypeScript_·_Web-0ea5e9?style=flat-square&labelColor=121217" alt="Badge" /></h4>
+      <h4>
+        <a href="https://github.com/Suvesh108/NetPulse">
+          <img src="https://img.shields.io/badge/NetPulse-21262d?style=for-the-badge&logo=github&logoColor=white" alt="NetPulse" />
+        </a>
+        &nbsp;
+        <img src="https://img.shields.io/badge/TypeScript_·_Web-0ea5e9?style=flat-square&labelColor=121217" alt="Badge" />
+      </h4>
       <p>A live internet speed and ping checker that tests your network latency in real time using Cloudflare edge servers.</p>
       <p>
         <img src="https://img.shields.io/badge/React_19-61DAFB?style=flat-square&logo=react&logoColor=black&labelColor=121217" alt="React" />
@@ -119,7 +105,13 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/Suvesh108/UnitWise">UnitWise</a> <img src="https://img.shields.io/badge/Dart_·_IoT-00ADD8?style=flat-square&labelColor=121217" alt="Badge" /></h4>
+      <h4>
+        <a href="https://github.com/Suvesh108/UnitWise">
+          <img src="https://img.shields.io/badge/UnitWise-21262d?style=for-the-badge&logo=github&logoColor=white" alt="UnitWise" />
+        </a>
+        &nbsp;
+        <img src="https://img.shields.io/badge/Dart_·_IoT-00ADD8?style=flat-square&labelColor=121217" alt="Badge" />
+      </h4>
       <p>A smart home dashboard that automatically finds nearby Wi-Fi and Bluetooth devices, tracks power usage, and sends wireless updates.</p>
       <p>
         <img src="https://img.shields.io/badge/Dart-0175C2?style=flat-square&logo=dart&logoColor=white&labelColor=121217" alt="Dart" />
@@ -129,7 +121,13 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/Suvesh108/Universal-Shared">Universal-Shared</a> <img src="https://img.shields.io/badge/JavaScript_·_Sync-eab308?style=flat-square&labelColor=121217" alt="Badge" /></h4>
+      <h4>
+        <a href="https://github.com/Suvesh108/Universal-Shared">
+          <img src="https://img.shields.io/badge/Universal--Shared-21262d?style=for-the-badge&logo=github&logoColor=white" alt="Universal-Shared" />
+        </a>
+        &nbsp;
+        <img src="https://img.shields.io/badge/JavaScript_·_Sync-eab308?style=flat-square&labelColor=121217" alt="Badge" />
+      </h4>
       <p>A private local clipboard sync tool that lets you seamlessly share text, links, and files across all your devices on the same Wi-Fi.</p>
       <p>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=121217" alt="JavaScript" />
@@ -141,7 +139,13 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/Suvesh108/BlockVerify">BlockVerify</a> <img src="https://img.shields.io/badge/Smart_Contracts-14b8a6?style=flat-square&labelColor=121217" alt="Badge" /></h4>
+      <h4>
+        <a href="https://github.com/Suvesh108/BlockVerify">
+          <img src="https://img.shields.io/badge/BlockVerify-21262d?style=for-the-badge&logo=github&logoColor=white" alt="BlockVerify" />
+        </a>
+        &nbsp;
+        <img src="https://img.shields.io/badge/Smart_Contracts-14b8a6?style=flat-square&labelColor=121217" alt="Badge" />
+      </h4>
       <p>An anti-fake product checker that uses NFC and QR tags with smart contracts so buyers can verify real items in seconds.</p>
       <p>
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black&labelColor=121217" alt="JavaScript" />
@@ -151,7 +155,13 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4><a href="https://github.com/Suvesh108/EDM">EDM</a> <img src="https://img.shields.io/badge/Rust_·_Fast-CE422B?style=flat-square&labelColor=121217" alt="Badge" /></h4>
+      <h4>
+        <a href="https://github.com/Suvesh108/EDM">
+          <img src="https://img.shields.io/badge/EDM-21262d?style=for-the-badge&logo=github&logoColor=white" alt="EDM" />
+        </a>
+        &nbsp;
+        <img src="https://img.shields.io/badge/Rust_·_Fast-CE422B?style=flat-square&labelColor=121217" alt="Badge" />
+      </h4>
       <p>A lightweight download manager built with Rust & Tauri with parallel downloads, live speed tracking, and pause/resume support.</p>
       <p>
         <img src="https://img.shields.io/badge/Rust-CE422B?style=flat-square&logo=rust&logoColor=white&labelColor=121217" alt="Rust" />
