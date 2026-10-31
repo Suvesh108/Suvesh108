@@ -2,20 +2,20 @@
 
 # Suvesh Kumar
 
-### `Full Stack Developer & Systems Builder`
+### Full Stack Developer & Systems Builder
 
 <p align="center">
-  <em>Fast Web Apps &nbsp;·&nbsp; Cloud Services &nbsp;·&nbsp; Backend APIs &nbsp;·&nbsp; Clean Code</em>
+  <b>Fast Web Apps</b> &nbsp;·&nbsp; <b>Cloud Services</b> &nbsp;·&nbsp; <b>Backend APIs</b> &nbsp;·&nbsp; <b>Clean Code</b>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Focus-Cloud_%26_Web_Apps-f59e0b?style=flat-square&labelColor=121217" alt="Focus" />
+  <img src="https://img.shields.io/badge/Focus-Cloud_%26_Web_Apps-f59e0b?style=flat-square&labelColor=18181b" alt="Focus" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Stack-Go_·_Rust_·_TypeScript_·_Python-a1a1aa?style=flat-square&labelColor=121217" alt="Stack" />
+  <img src="https://img.shields.io/badge/Stack-Go_·_Rust_·_TypeScript_·_Python-0ea5e9?style=flat-square&labelColor=18181b" alt="Stack" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Projects-29_Public_Repos-a1a1aa?style=flat-square&labelColor=121217" alt="Repos" />
+  <img src="https://img.shields.io/badge/Projects-29_Public_Repos-a1a1aa?style=flat-square&labelColor=18181b" alt="Repos" />
   &nbsp;
-  <img src="https://img.shields.io/badge/Code-Clean_%26_Tested-22c55e?style=flat-square&labelColor=121217" alt="Quality" />
+  <img src="https://img.shields.io/badge/Code-Clean_%26_Tested-22c55e?style=flat-square&labelColor=18181b" alt="Quality" />
 </p>
 
 </div>
