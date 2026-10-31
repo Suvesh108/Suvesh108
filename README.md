@@ -26,29 +26,24 @@
 
 <table width="100%">
   <tr>
-    <td colspan="3">
+    <td colspan="2">
       I build fast web apps, cloud services, and developer tools. I love creating smooth user interfaces, reliable backend APIs, and lightweight programs that get the job done. I have <b>29+ open source projects</b> on GitHub — from smart home dashboards to web scrapers and download managers.
     </td>
   </tr>
   <tr>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <b>🔭 Current Project</b>
       <br/><br/>
       <a href="https://github.com/Suvesh108/EDM">
         <img src="https://img.shields.io/badge/EDM-Rust_·_Fast-CE422B?style=for-the-badge&logo=github&logoColor=white&labelColor=18181b" alt="EDM" />
       </a>
       <br/><br/>
-      A lightweight download manager built with Rust &amp; Tauri with parallel downloads, live speed tracking, and pause/resume support.
+      A lightweight download manager with low memory usage and fast multi-threaded parallel downloads.
     </td>
-    <td width="33%" valign="top">
+    <td width="50%" valign="top">
       <b>🛠️ Favorite Stack</b>
-      <br/>
-      Go, Rust, TypeScript, Python, React, and Docker
-    </td>
-    <td width="33%" valign="top">
-      <b>💬 Ask Me About</b>
-      <br/>
-      Web development, fast APIs, cloud servers, and clean code
+      <br/><br/>
+      <img src="https://skillicons.dev/icons?i=go,rust,ts,py,react,docker&theme=dark" alt="Favorite Stack" />
     </td>
   </tr>
 </table>
