@@ -190,8 +190,8 @@ I build fast web apps, cloud services, and developer tools. I love creating smoo
 ```console
 suvesh@desktop:~/github$ gh release list --limit 8 --repo Suvesh108
 
-01. 🚀  EDM v0.0.7              Edge Download Manager                 [latest]
-02. 🚀  EDM v0.0.6              Edge Download Manager                 [latest]
+01. 🚀  EDM v0.0.8              Edge Download Manager                 [latest]
+02. 🚀  EDM v0.0.7              Edge Download Manager                 [latest]
 03. 🚀  Universal-Shared v0.2.4 Core Shared Library                   [pkg:core]
 04. 🚀  NetPulse v1.2           Real-Time Network Speed & Latency     [edge:v1.2]
 05. 🚀  NetPulse v1.1           Real-Time Network Speed & Latency     [edge:v1.2]
